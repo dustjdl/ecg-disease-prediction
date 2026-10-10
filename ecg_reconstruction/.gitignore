@@ -1,0 +1,63 @@
+# Local environments and Python/tool caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+htmlcov/
+.coverage*
+
+# Raw/processed ECGs, checkpoints, generated examples and repeated runs
+/data/
+/checkpoints/
+/results/
+/examples/
+/output/
+/outputs/
+/ecg_12lead.png
+*.npy
+*.npz
+*.dat
+*.hea
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pkl
+*.pickle
+*.zip
+*.tar
+*.gz
+*.part
+*.tmp
+*.log
+
+# Secrets and machine-specific settings
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials
+credentials.json
+secrets.json
+.aws/
+.ssh/
+.codex/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# reports/representative/ contains selected CSV/JSON/PNG copies for sharing.
+# /results/ above is root-anchored; archived reports/representative/results/ is included.

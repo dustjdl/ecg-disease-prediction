@@ -1,0 +1,3033 @@
+{
+  "run_id": "run_20261011_010820_9c3607152b144c24b82e590f7c67f94a",
+  "split": "test",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "models": [
+    {
+      "seed": 42,
+      "model": "baseline",
+      "checkpoint": {
+        "path": "checkpoints\\baseline_1000\\run_20261010_230450_b4bed3d513ff42ddba68f2d7a6647034\\best_model.pth",
+        "sha256": "4d601e90c2225ca18f8a9a6e2f25ce5273c4e52bd9337e998bf872db4319de79",
+        "run_id": "run_20261010_230450_b4bed3d513ff42ddba68f2d7a6647034"
+      },
+      "epoch": 16,
+      "validation_loss": 0.0394510305672884,
+      "settings": {
+        "seed": 42,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "epochs": 30,
+        "optimizer": "Adam",
+        "loss": "MSELoss",
+        "loss_reduction": "mean",
+        "checkpoint_selection": "strictly lowest validation MSE",
+        "epoch_aggregation": "sum(batch_mean_loss * batch_records) / total_records",
+        "train_shuffle": true,
+        "validation_shuffle": false,
+        "num_workers": 0,
+        "drop_last": false,
+        "scheduler": null,
+        "early_stopping": false
+      },
+      "training_protocol": "legacy_seed42",
+      "saved_structure": {
+        "class": "model.ECGModel",
+        "representation": "ECGModel(\n  (network): Sequential(\n    (0): Conv1d(1, 32, kernel_size=(7,), stride=(1,), padding=(3,))\n    (1): ReLU()\n    (2): Conv1d(32, 64, kernel_size=(5,), stride=(1,), padding=(2,))\n    (3): ReLU()\n    (4): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(2,))\n    (5): ReLU()\n    (6): Conv1d(64, 11, kernel_size=(1,), stride=(1,))\n  )\n)",
+        "state_shapes": {
+          "network.0.weight": [
+            32,
+            1,
+            7
+          ],
+          "network.0.bias": [
+            32
+          ],
+          "network.2.weight": [
+            64,
+            32,
+            5
+          ],
+          "network.2.bias": [
+            64
+          ],
+          "network.4.weight": [
+            64,
+            64,
+            5
+          ],
+          "network.4.bias": [
+            64
+          ],
+          "network.6.weight": [
+            11,
+            64,
+            1
+          ],
+          "network.6.bias": [
+            11
+          ]
+        },
+        "parameter_count": 31819,
+        "model_source_sha256": "1c9da7a5c1ab60f4b4bd936bf450dda1fba43f6c2f38fca384d68c8d85d436be"
+      },
+      "actual_structure": {
+        "class": "model.ECGModel",
+        "representation": "ECGModel(\n  (network): Sequential(\n    (0): Conv1d(1, 32, kernel_size=(7,), stride=(1,), padding=(3,))\n    (1): ReLU()\n    (2): Conv1d(32, 64, kernel_size=(5,), stride=(1,), padding=(2,))\n    (3): ReLU()\n    (4): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(2,))\n    (5): ReLU()\n    (6): Conv1d(64, 11, kernel_size=(1,), stride=(1,))\n  )\n)",
+        "model_source_sha256": "1c9da7a5c1ab60f4b4bd936bf450dda1fba43f6c2f38fca384d68c8d85d436be",
+        "state_shapes": {
+          "network.0.weight": [
+            32,
+            1,
+            7
+          ],
+          "network.0.bias": [
+            32
+          ],
+          "network.2.weight": [
+            64,
+            32,
+            5
+          ],
+          "network.2.bias": [
+            64
+          ],
+          "network.4.weight": [
+            64,
+            64,
+            5
+          ],
+          "network.4.bias": [
+            64
+          ],
+          "network.6.weight": [
+            11,
+            64,
+            1
+          ],
+          "network.6.bias": [
+            11
+          ]
+        },
+        "parameter_count": 31819,
+        "layers": [
+          {
+            "name": "0",
+            "type": "Conv1d",
+            "in_channels": 1,
+            "out_channels": 32,
+            "kernel_size": [
+              7
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              3
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "1",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "2",
+            "type": "Conv1d",
+            "in_channels": 32,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              2
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "3",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "4",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              2
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "5",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "6",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 11,
+            "kernel_size": [
+              1
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              0
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          }
+        ],
+        "receptive_field_samples": 15,
+        "receptive_field_ms_at_100hz": 150,
+        "first_to_last_sample_ms_at_100hz": 140
+      },
+      "best_history": {
+        "path": "results\\baseline_1000\\run_20261010_230450_b4bed3d513ff42ddba68f2d7a6647034\\training_history.csv",
+        "sha256": "d58cb4f0377aadc667d20986dc43472640dbb748b0d21c04310caaae5a0c939d",
+        "best_epoch": 16,
+        "best_validation_loss": 0.0394510305672884,
+        "verified": true
+      },
+      "training_source_sha256": {
+        "train_1000.py": "b8a7ada6adf2feb43823349198698cdb71d3d5415985d6f52b36d984906257d5",
+        "train.py": "179c554baad3c077056f4092c4aa156b0b6f6dbf9f5fc774041c25e3ab1296d7",
+        "evaluate.py": "dd68aaa456bd5fe77106d6008c946d017531e829a8e79b56f6283d9f52522b14"
+      },
+      "training_environment": {
+        "python": "3.14.8",
+        "pytorch": "2.13.0+cu130",
+        "numpy": "2.5.3",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "device": "cuda",
+        "device_name": "NVIDIA GeForce RTX 5070",
+        "cuda_version": "13.0",
+        "cudnn_version": 92000
+      },
+      "baseline_reference": null,
+      "test_ecg_ids": [
+        9,
+        38,
+        40,
+        57,
+        59,
+        63,
+        65,
+        75,
+        76,
+        79,
+        93,
+        100,
+        112,
+        115,
+        116,
+        117,
+        128,
+        129,
+        157,
+        160,
+        162,
+        167,
+        172,
+        175,
+        180,
+        201,
+        203,
+        208,
+        210,
+        218,
+        240,
+        241,
+        243,
+        245,
+        252,
+        271,
+        274,
+        299,
+        318,
+        334,
+        361,
+        364,
+        377,
+        382,
+        388,
+        397,
+        400,
+        405,
+        417,
+        427,
+        430,
+        440,
+        448,
+        449,
+        452,
+        472,
+        473,
+        478,
+        499,
+        504,
+        512,
+        514,
+        516,
+        526,
+        527,
+        534,
+        559,
+        564,
+        569,
+        570,
+        573,
+        581,
+        584,
+        611,
+        618,
+        619,
+        658,
+        685,
+        687,
+        694,
+        696,
+        707,
+        723,
+        726,
+        732,
+        751,
+        756,
+        764,
+        765,
+        775,
+        779,
+        789,
+        795,
+        799,
+        805,
+        806,
+        821,
+        848,
+        854,
+        861
+      ],
+      "dataset_sha256": "2828f1949a6c5205de243cf304afc47faabc52d55021c7b9120f19d6309662d6"
+    },
+    {
+      "seed": 42,
+      "model": "candidate",
+      "checkpoint": {
+        "path": "checkpoints\\dilated_1000\\run_20261010_234519_9f46beb7d33c40ed8124dc08ffabb636\\best_model.pth",
+        "sha256": "e6cfd066ab8c88f1e37d5635beff7df2c3606509d0e1455392dab6642d8c6a64",
+        "run_id": "run_20261010_234519_9f46beb7d33c40ed8124dc08ffabb636"
+      },
+      "epoch": 28,
+      "validation_loss": 0.03842036746442318,
+      "settings": {
+        "seed": 42,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "epochs": 30,
+        "optimizer": "Adam",
+        "loss": "MSELoss",
+        "loss_reduction": "mean",
+        "checkpoint_selection": "strictly lowest validation MSE",
+        "epoch_aggregation": "sum(batch_mean_loss * batch_records) / total_records",
+        "train_shuffle": true,
+        "validation_shuffle": false,
+        "num_workers": 0,
+        "drop_last": false,
+        "scheduler": null,
+        "early_stopping": false
+      },
+      "training_protocol": "legacy_seed42",
+      "saved_structure": {
+        "class": "model_dilated.ECGDilatedModel",
+        "representation": "ECGDilatedModel(\n  (network): Sequential(\n    (0): Conv1d(1, 32, kernel_size=(7,), stride=(1,), padding=(3,))\n    (1): ReLU()\n    (2): Conv1d(32, 64, kernel_size=(5,), stride=(1,), padding=(4,), dilation=(2,))\n    (3): ReLU()\n    (4): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(8,), dilation=(4,))\n    (5): ReLU()\n    (6): Conv1d(64, 11, kernel_size=(1,), stride=(1,))\n  )\n)",
+        "model_source_sha256": "7bf38d264a8196bae019a2d7e037a7dbedbd0efa54527e3c1b2bb5ad11a09009",
+        "state_shapes": {
+          "network.0.weight": [
+            32,
+            1,
+            7
+          ],
+          "network.0.bias": [
+            32
+          ],
+          "network.2.weight": [
+            64,
+            32,
+            5
+          ],
+          "network.2.bias": [
+            64
+          ],
+          "network.4.weight": [
+            64,
+            64,
+            5
+          ],
+          "network.4.bias": [
+            64
+          ],
+          "network.6.weight": [
+            11,
+            64,
+            1
+          ],
+          "network.6.bias": [
+            11
+          ]
+        },
+        "parameter_count": 31819,
+        "layers": [
+          {
+            "name": "0",
+            "type": "Conv1d",
+            "in_channels": 1,
+            "out_channels": 32,
+            "kernel_size": [
+              7
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              3
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "1",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "2",
+            "type": "Conv1d",
+            "in_channels": 32,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              2
+            ],
+            "padding": [
+              4
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "3",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "4",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              4
+            ],
+            "padding": [
+              8
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "5",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "6",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 11,
+            "kernel_size": [
+              1
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              0
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          }
+        ],
+        "receptive_field_samples": 31,
+        "receptive_field_ms_at_100hz": 310,
+        "first_to_last_sample_ms_at_100hz": 300
+      },
+      "actual_structure": {
+        "class": "model_dilated.ECGDilatedModel",
+        "representation": "ECGDilatedModel(\n  (network): Sequential(\n    (0): Conv1d(1, 32, kernel_size=(7,), stride=(1,), padding=(3,))\n    (1): ReLU()\n    (2): Conv1d(32, 64, kernel_size=(5,), stride=(1,), padding=(4,), dilation=(2,))\n    (3): ReLU()\n    (4): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(8,), dilation=(4,))\n    (5): ReLU()\n    (6): Conv1d(64, 11, kernel_size=(1,), stride=(1,))\n  )\n)",
+        "model_source_sha256": "7bf38d264a8196bae019a2d7e037a7dbedbd0efa54527e3c1b2bb5ad11a09009",
+        "state_shapes": {
+          "network.0.weight": [
+            32,
+            1,
+            7
+          ],
+          "network.0.bias": [
+            32
+          ],
+          "network.2.weight": [
+            64,
+            32,
+            5
+          ],
+          "network.2.bias": [
+            64
+          ],
+          "network.4.weight": [
+            64,
+            64,
+            5
+          ],
+          "network.4.bias": [
+            64
+          ],
+          "network.6.weight": [
+            11,
+            64,
+            1
+          ],
+          "network.6.bias": [
+            11
+          ]
+        },
+        "parameter_count": 31819,
+        "layers": [
+          {
+            "name": "0",
+            "type": "Conv1d",
+            "in_channels": 1,
+            "out_channels": 32,
+            "kernel_size": [
+              7
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              3
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "1",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "2",
+            "type": "Conv1d",
+            "in_channels": 32,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              2
+            ],
+            "padding": [
+              4
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "3",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "4",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              4
+            ],
+            "padding": [
+              8
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "5",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "6",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 11,
+            "kernel_size": [
+              1
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              0
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          }
+        ],
+        "receptive_field_samples": 31,
+        "receptive_field_ms_at_100hz": 310,
+        "first_to_last_sample_ms_at_100hz": 300
+      },
+      "best_history": {
+        "path": "results\\dilated_1000\\run_20261010_234519_9f46beb7d33c40ed8124dc08ffabb636\\training_history.csv",
+        "sha256": "5706bc7510596dda932d3a50882df10d7b0e26ccbbff5efacc455a47692b3222",
+        "best_epoch": 28,
+        "best_validation_loss": 0.03842036746442318,
+        "verified": true
+      },
+      "training_source_sha256": {
+        "model_dilated.py": "7bf38d264a8196bae019a2d7e037a7dbedbd0efa54527e3c1b2bb5ad11a09009",
+        "train_dilated_1000.py": "81f2762dda44294309385eeb22db8ae5d599431b8237a9e9a49043ddb1d02204",
+        "train_1000.py": "b8a7ada6adf2feb43823349198698cdb71d3d5415985d6f52b36d984906257d5",
+        "train.py": "179c554baad3c077056f4092c4aa156b0b6f6dbf9f5fc774041c25e3ab1296d7"
+      },
+      "training_environment": {
+        "python": "3.14.8",
+        "pytorch": "2.13.0+cu130",
+        "numpy": "2.5.3",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "device": "cuda",
+        "device_name": "NVIDIA GeForce RTX 5070",
+        "cuda_version": "13.0",
+        "cudnn_version": 92000
+      },
+      "baseline_reference": {
+        "path": "checkpoints\\baseline_1000\\run_20261010_230450_b4bed3d513ff42ddba68f2d7a6647034\\best_model.pth",
+        "sha256": "4d601e90c2225ca18f8a9a6e2f25ce5273c4e52bd9337e998bf872db4319de79",
+        "run_id": "run_20261010_230450_b4bed3d513ff42ddba68f2d7a6647034"
+      },
+      "test_ecg_ids": [
+        9,
+        38,
+        40,
+        57,
+        59,
+        63,
+        65,
+        75,
+        76,
+        79,
+        93,
+        100,
+        112,
+        115,
+        116,
+        117,
+        128,
+        129,
+        157,
+        160,
+        162,
+        167,
+        172,
+        175,
+        180,
+        201,
+        203,
+        208,
+        210,
+        218,
+        240,
+        241,
+        243,
+        245,
+        252,
+        271,
+        274,
+        299,
+        318,
+        334,
+        361,
+        364,
+        377,
+        382,
+        388,
+        397,
+        400,
+        405,
+        417,
+        427,
+        430,
+        440,
+        448,
+        449,
+        452,
+        472,
+        473,
+        478,
+        499,
+        504,
+        512,
+        514,
+        516,
+        526,
+        527,
+        534,
+        559,
+        564,
+        569,
+        570,
+        573,
+        581,
+        584,
+        611,
+        618,
+        619,
+        658,
+        685,
+        687,
+        694,
+        696,
+        707,
+        723,
+        726,
+        732,
+        751,
+        756,
+        764,
+        765,
+        775,
+        779,
+        789,
+        795,
+        799,
+        805,
+        806,
+        821,
+        848,
+        854,
+        861
+      ],
+      "dataset_sha256": "2828f1949a6c5205de243cf304afc47faabc52d55021c7b9120f19d6309662d6"
+    },
+    {
+      "seed": 43,
+      "model": "baseline",
+      "checkpoint": {
+        "path": "checkpoints\\baseline_multiseed\\run_20261011_002652_a8cd2ab69a3d479db661a33430b4ecf9\\best_model.pth",
+        "sha256": "966e50bd07ace25bf987104915d3197f6620c947470e03cd2235406975b97fd2",
+        "run_id": "run_20261011_002652_a8cd2ab69a3d479db661a33430b4ecf9"
+      },
+      "epoch": 22,
+      "validation_loss": 0.03944690197706222,
+      "settings": {
+        "seed": 43,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "epochs": 30,
+        "optimizer": "Adam",
+        "loss": "MSELoss",
+        "loss_reduction": "mean",
+        "checkpoint_selection": "strictly lowest validation MSE",
+        "epoch_aggregation": "sum(batch_mean_loss * batch_records) / total_records",
+        "train_shuffle": true,
+        "validation_shuffle": false,
+        "num_workers": 0,
+        "drop_last": false,
+        "scheduler": null,
+        "early_stopping": false
+      },
+      "training_protocol": "multiseed_v1",
+      "saved_structure": {
+        "class": "model.ECGModel",
+        "representation": "ECGModel(\n  (network): Sequential(\n    (0): Conv1d(1, 32, kernel_size=(7,), stride=(1,), padding=(3,))\n    (1): ReLU()\n    (2): Conv1d(32, 64, kernel_size=(5,), stride=(1,), padding=(2,))\n    (3): ReLU()\n    (4): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(2,))\n    (5): ReLU()\n    (6): Conv1d(64, 11, kernel_size=(1,), stride=(1,))\n  )\n)",
+        "model_source_sha256": "1c9da7a5c1ab60f4b4bd936bf450dda1fba43f6c2f38fca384d68c8d85d436be",
+        "state_shapes": {
+          "network.0.weight": [
+            32,
+            1,
+            7
+          ],
+          "network.0.bias": [
+            32
+          ],
+          "network.2.weight": [
+            64,
+            32,
+            5
+          ],
+          "network.2.bias": [
+            64
+          ],
+          "network.4.weight": [
+            64,
+            64,
+            5
+          ],
+          "network.4.bias": [
+            64
+          ],
+          "network.6.weight": [
+            11,
+            64,
+            1
+          ],
+          "network.6.bias": [
+            11
+          ]
+        },
+        "parameter_count": 31819,
+        "layers": [
+          {
+            "name": "0",
+            "type": "Conv1d",
+            "in_channels": 1,
+            "out_channels": 32,
+            "kernel_size": [
+              7
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              3
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "1",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "2",
+            "type": "Conv1d",
+            "in_channels": 32,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              2
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "3",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "4",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              2
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "5",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "6",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 11,
+            "kernel_size": [
+              1
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              0
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          }
+        ],
+        "receptive_field_samples": 15,
+        "receptive_field_ms_at_100hz": 150,
+        "first_to_last_sample_ms_at_100hz": 140
+      },
+      "actual_structure": {
+        "class": "model.ECGModel",
+        "representation": "ECGModel(\n  (network): Sequential(\n    (0): Conv1d(1, 32, kernel_size=(7,), stride=(1,), padding=(3,))\n    (1): ReLU()\n    (2): Conv1d(32, 64, kernel_size=(5,), stride=(1,), padding=(2,))\n    (3): ReLU()\n    (4): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(2,))\n    (5): ReLU()\n    (6): Conv1d(64, 11, kernel_size=(1,), stride=(1,))\n  )\n)",
+        "model_source_sha256": "1c9da7a5c1ab60f4b4bd936bf450dda1fba43f6c2f38fca384d68c8d85d436be",
+        "state_shapes": {
+          "network.0.weight": [
+            32,
+            1,
+            7
+          ],
+          "network.0.bias": [
+            32
+          ],
+          "network.2.weight": [
+            64,
+            32,
+            5
+          ],
+          "network.2.bias": [
+            64
+          ],
+          "network.4.weight": [
+            64,
+            64,
+            5
+          ],
+          "network.4.bias": [
+            64
+          ],
+          "network.6.weight": [
+            11,
+            64,
+            1
+          ],
+          "network.6.bias": [
+            11
+          ]
+        },
+        "parameter_count": 31819,
+        "layers": [
+          {
+            "name": "0",
+            "type": "Conv1d",
+            "in_channels": 1,
+            "out_channels": 32,
+            "kernel_size": [
+              7
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              3
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "1",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "2",
+            "type": "Conv1d",
+            "in_channels": 32,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              2
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "3",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "4",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              2
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "5",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "6",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 11,
+            "kernel_size": [
+              1
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              0
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          }
+        ],
+        "receptive_field_samples": 15,
+        "receptive_field_ms_at_100hz": 150,
+        "first_to_last_sample_ms_at_100hz": 140
+      },
+      "best_history": {
+        "path": "results\\baseline_multiseed\\run_20261011_002652_a8cd2ab69a3d479db661a33430b4ecf9\\training_history.csv",
+        "sha256": "c4204245f8630a2c6dd0dfcdbecc002fd811b9671f871949d6fe67bcbba9ad3f",
+        "best_epoch": 22,
+        "best_validation_loss": 0.03944690197706222,
+        "verified": true
+      },
+      "training_source_sha256": {
+        "multiseed_common.py": "ece05c4dad7b49d18588048d8c73624cc7f2f22c52026e4ee35cec0d05d5c5fc",
+        "train_baseline_multiseed.py": "a377a2a4347e3030b30ef4282447334fecf4316fcda70dc852a59d27bf06bc3b",
+        "train_dilated_multiseed.py": "c2921ce0af1bea3763e48786cc4fdd88bf9c6490e31a3eb14afea66e2238093d",
+        "compare_validation_multiseed.py": "254fe22379f57e2f1522cf7749857a1d5ea23d3a1dca2d0a6e5fe71f9deaa2ea",
+        "model.py": "1c9da7a5c1ab60f4b4bd936bf450dda1fba43f6c2f38fca384d68c8d85d436be",
+        "model_dilated.py": "7bf38d264a8196bae019a2d7e037a7dbedbd0efa54527e3c1b2bb5ad11a09009",
+        "train.py": "179c554baad3c077056f4092c4aa156b0b6f6dbf9f5fc774041c25e3ab1296d7",
+        "train_1000.py": "b8a7ada6adf2feb43823349198698cdb71d3d5415985d6f52b36d984906257d5",
+        "train_dilated_1000.py": "81f2762dda44294309385eeb22db8ae5d599431b8237a9e9a49043ddb1d02204",
+        "evaluate.py": "dd68aaa456bd5fe77106d6008c946d017531e829a8e79b56f6283d9f52522b14",
+        "evaluate_1000.py": "7bef33fafe988aa4dc4e2864ad3caa2e6fb92a6ea5c7dac3d5123fb50f0d3300",
+        "compare_validation_1000.py": "ce568da27a9e23f88747aa6167498f195984274ed0f97dd39b1d60ee45f18e56"
+      },
+      "training_environment": {
+        "python": "3.14.8",
+        "pytorch": "2.13.0+cu130",
+        "numpy": "2.5.3",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "device": "cuda",
+        "device_name": "NVIDIA GeForce RTX 5070",
+        "cuda_version": "13.0",
+        "cudnn_version": 92000
+      },
+      "baseline_reference": null,
+      "test_ecg_ids": [
+        9,
+        38,
+        40,
+        57,
+        59,
+        63,
+        65,
+        75,
+        76,
+        79,
+        93,
+        100,
+        112,
+        115,
+        116,
+        117,
+        128,
+        129,
+        157,
+        160,
+        162,
+        167,
+        172,
+        175,
+        180,
+        201,
+        203,
+        208,
+        210,
+        218,
+        240,
+        241,
+        243,
+        245,
+        252,
+        271,
+        274,
+        299,
+        318,
+        334,
+        361,
+        364,
+        377,
+        382,
+        388,
+        397,
+        400,
+        405,
+        417,
+        427,
+        430,
+        440,
+        448,
+        449,
+        452,
+        472,
+        473,
+        478,
+        499,
+        504,
+        512,
+        514,
+        516,
+        526,
+        527,
+        534,
+        559,
+        564,
+        569,
+        570,
+        573,
+        581,
+        584,
+        611,
+        618,
+        619,
+        658,
+        685,
+        687,
+        694,
+        696,
+        707,
+        723,
+        726,
+        732,
+        751,
+        756,
+        764,
+        765,
+        775,
+        779,
+        789,
+        795,
+        799,
+        805,
+        806,
+        821,
+        848,
+        854,
+        861
+      ],
+      "dataset_sha256": "2828f1949a6c5205de243cf304afc47faabc52d55021c7b9120f19d6309662d6"
+    },
+    {
+      "seed": 43,
+      "model": "candidate",
+      "checkpoint": {
+        "path": "checkpoints\\dilated_multiseed\\run_20261011_002749_0d998b6396074cfe8f18ad6df4d0cb5e\\best_model.pth",
+        "sha256": "f114c133ba7a13749676d109f413d807fac17175741aafa4854fc494f7620b87",
+        "run_id": "run_20261011_002749_0d998b6396074cfe8f18ad6df4d0cb5e"
+      },
+      "epoch": 23,
+      "validation_loss": 0.038434841558337214,
+      "settings": {
+        "seed": 43,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "epochs": 30,
+        "optimizer": "Adam",
+        "loss": "MSELoss",
+        "loss_reduction": "mean",
+        "checkpoint_selection": "strictly lowest validation MSE",
+        "epoch_aggregation": "sum(batch_mean_loss * batch_records) / total_records",
+        "train_shuffle": true,
+        "validation_shuffle": false,
+        "num_workers": 0,
+        "drop_last": false,
+        "scheduler": null,
+        "early_stopping": false
+      },
+      "training_protocol": "multiseed_v1",
+      "saved_structure": {
+        "class": "model_dilated.ECGDilatedModel",
+        "representation": "ECGDilatedModel(\n  (network): Sequential(\n    (0): Conv1d(1, 32, kernel_size=(7,), stride=(1,), padding=(3,))\n    (1): ReLU()\n    (2): Conv1d(32, 64, kernel_size=(5,), stride=(1,), padding=(4,), dilation=(2,))\n    (3): ReLU()\n    (4): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(8,), dilation=(4,))\n    (5): ReLU()\n    (6): Conv1d(64, 11, kernel_size=(1,), stride=(1,))\n  )\n)",
+        "model_source_sha256": "7bf38d264a8196bae019a2d7e037a7dbedbd0efa54527e3c1b2bb5ad11a09009",
+        "state_shapes": {
+          "network.0.weight": [
+            32,
+            1,
+            7
+          ],
+          "network.0.bias": [
+            32
+          ],
+          "network.2.weight": [
+            64,
+            32,
+            5
+          ],
+          "network.2.bias": [
+            64
+          ],
+          "network.4.weight": [
+            64,
+            64,
+            5
+          ],
+          "network.4.bias": [
+            64
+          ],
+          "network.6.weight": [
+            11,
+            64,
+            1
+          ],
+          "network.6.bias": [
+            11
+          ]
+        },
+        "parameter_count": 31819,
+        "layers": [
+          {
+            "name": "0",
+            "type": "Conv1d",
+            "in_channels": 1,
+            "out_channels": 32,
+            "kernel_size": [
+              7
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              3
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "1",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "2",
+            "type": "Conv1d",
+            "in_channels": 32,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              2
+            ],
+            "padding": [
+              4
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "3",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "4",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              4
+            ],
+            "padding": [
+              8
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "5",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "6",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 11,
+            "kernel_size": [
+              1
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              0
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          }
+        ],
+        "receptive_field_samples": 31,
+        "receptive_field_ms_at_100hz": 310,
+        "first_to_last_sample_ms_at_100hz": 300
+      },
+      "actual_structure": {
+        "class": "model_dilated.ECGDilatedModel",
+        "representation": "ECGDilatedModel(\n  (network): Sequential(\n    (0): Conv1d(1, 32, kernel_size=(7,), stride=(1,), padding=(3,))\n    (1): ReLU()\n    (2): Conv1d(32, 64, kernel_size=(5,), stride=(1,), padding=(4,), dilation=(2,))\n    (3): ReLU()\n    (4): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(8,), dilation=(4,))\n    (5): ReLU()\n    (6): Conv1d(64, 11, kernel_size=(1,), stride=(1,))\n  )\n)",
+        "model_source_sha256": "7bf38d264a8196bae019a2d7e037a7dbedbd0efa54527e3c1b2bb5ad11a09009",
+        "state_shapes": {
+          "network.0.weight": [
+            32,
+            1,
+            7
+          ],
+          "network.0.bias": [
+            32
+          ],
+          "network.2.weight": [
+            64,
+            32,
+            5
+          ],
+          "network.2.bias": [
+            64
+          ],
+          "network.4.weight": [
+            64,
+            64,
+            5
+          ],
+          "network.4.bias": [
+            64
+          ],
+          "network.6.weight": [
+            11,
+            64,
+            1
+          ],
+          "network.6.bias": [
+            11
+          ]
+        },
+        "parameter_count": 31819,
+        "layers": [
+          {
+            "name": "0",
+            "type": "Conv1d",
+            "in_channels": 1,
+            "out_channels": 32,
+            "kernel_size": [
+              7
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              3
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "1",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "2",
+            "type": "Conv1d",
+            "in_channels": 32,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              2
+            ],
+            "padding": [
+              4
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "3",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "4",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              4
+            ],
+            "padding": [
+              8
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "5",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "6",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 11,
+            "kernel_size": [
+              1
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              0
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          }
+        ],
+        "receptive_field_samples": 31,
+        "receptive_field_ms_at_100hz": 310,
+        "first_to_last_sample_ms_at_100hz": 300
+      },
+      "best_history": {
+        "path": "results\\dilated_multiseed\\run_20261011_002749_0d998b6396074cfe8f18ad6df4d0cb5e\\training_history.csv",
+        "sha256": "35f20bd53a2280fe2ac933b400c6a8edad0ff177a8e3eece13be61be2393b574",
+        "best_epoch": 23,
+        "best_validation_loss": 0.038434841558337214,
+        "verified": true
+      },
+      "training_source_sha256": {
+        "multiseed_common.py": "ece05c4dad7b49d18588048d8c73624cc7f2f22c52026e4ee35cec0d05d5c5fc",
+        "train_baseline_multiseed.py": "a377a2a4347e3030b30ef4282447334fecf4316fcda70dc852a59d27bf06bc3b",
+        "train_dilated_multiseed.py": "c2921ce0af1bea3763e48786cc4fdd88bf9c6490e31a3eb14afea66e2238093d",
+        "compare_validation_multiseed.py": "254fe22379f57e2f1522cf7749857a1d5ea23d3a1dca2d0a6e5fe71f9deaa2ea",
+        "model.py": "1c9da7a5c1ab60f4b4bd936bf450dda1fba43f6c2f38fca384d68c8d85d436be",
+        "model_dilated.py": "7bf38d264a8196bae019a2d7e037a7dbedbd0efa54527e3c1b2bb5ad11a09009",
+        "train.py": "179c554baad3c077056f4092c4aa156b0b6f6dbf9f5fc774041c25e3ab1296d7",
+        "train_1000.py": "b8a7ada6adf2feb43823349198698cdb71d3d5415985d6f52b36d984906257d5",
+        "train_dilated_1000.py": "81f2762dda44294309385eeb22db8ae5d599431b8237a9e9a49043ddb1d02204",
+        "evaluate.py": "dd68aaa456bd5fe77106d6008c946d017531e829a8e79b56f6283d9f52522b14",
+        "evaluate_1000.py": "7bef33fafe988aa4dc4e2864ad3caa2e6fb92a6ea5c7dac3d5123fb50f0d3300",
+        "compare_validation_1000.py": "ce568da27a9e23f88747aa6167498f195984274ed0f97dd39b1d60ee45f18e56"
+      },
+      "training_environment": {
+        "python": "3.14.8",
+        "pytorch": "2.13.0+cu130",
+        "numpy": "2.5.3",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "device": "cuda",
+        "device_name": "NVIDIA GeForce RTX 5070",
+        "cuda_version": "13.0",
+        "cudnn_version": 92000
+      },
+      "baseline_reference": {
+        "path": "checkpoints\\baseline_multiseed\\run_20261011_002652_a8cd2ab69a3d479db661a33430b4ecf9\\best_model.pth",
+        "sha256": "966e50bd07ace25bf987104915d3197f6620c947470e03cd2235406975b97fd2",
+        "run_id": "run_20261011_002652_a8cd2ab69a3d479db661a33430b4ecf9",
+        "seed": 43,
+        "actual_initial_state_sha256": "a1bb663874cb312aac22a8fec58dd31a3d83be78b7efbe7e4ecea04f1f9925a7"
+      },
+      "test_ecg_ids": [
+        9,
+        38,
+        40,
+        57,
+        59,
+        63,
+        65,
+        75,
+        76,
+        79,
+        93,
+        100,
+        112,
+        115,
+        116,
+        117,
+        128,
+        129,
+        157,
+        160,
+        162,
+        167,
+        172,
+        175,
+        180,
+        201,
+        203,
+        208,
+        210,
+        218,
+        240,
+        241,
+        243,
+        245,
+        252,
+        271,
+        274,
+        299,
+        318,
+        334,
+        361,
+        364,
+        377,
+        382,
+        388,
+        397,
+        400,
+        405,
+        417,
+        427,
+        430,
+        440,
+        448,
+        449,
+        452,
+        472,
+        473,
+        478,
+        499,
+        504,
+        512,
+        514,
+        516,
+        526,
+        527,
+        534,
+        559,
+        564,
+        569,
+        570,
+        573,
+        581,
+        584,
+        611,
+        618,
+        619,
+        658,
+        685,
+        687,
+        694,
+        696,
+        707,
+        723,
+        726,
+        732,
+        751,
+        756,
+        764,
+        765,
+        775,
+        779,
+        789,
+        795,
+        799,
+        805,
+        806,
+        821,
+        848,
+        854,
+        861
+      ],
+      "dataset_sha256": "2828f1949a6c5205de243cf304afc47faabc52d55021c7b9120f19d6309662d6"
+    },
+    {
+      "seed": 44,
+      "model": "baseline",
+      "checkpoint": {
+        "path": "checkpoints\\baseline_multiseed\\run_20261011_003041_c5722aac03554995923061bf4806a705\\best_model.pth",
+        "sha256": "484f89817affb57c96d93784b3e0847981fcf6b1b7e4220677615c968550df4f",
+        "run_id": "run_20261011_003041_c5722aac03554995923061bf4806a705"
+      },
+      "epoch": 24,
+      "validation_loss": 0.039226777702569965,
+      "settings": {
+        "seed": 44,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "epochs": 30,
+        "optimizer": "Adam",
+        "loss": "MSELoss",
+        "loss_reduction": "mean",
+        "checkpoint_selection": "strictly lowest validation MSE",
+        "epoch_aggregation": "sum(batch_mean_loss * batch_records) / total_records",
+        "train_shuffle": true,
+        "validation_shuffle": false,
+        "num_workers": 0,
+        "drop_last": false,
+        "scheduler": null,
+        "early_stopping": false
+      },
+      "training_protocol": "multiseed_v1",
+      "saved_structure": {
+        "class": "model.ECGModel",
+        "representation": "ECGModel(\n  (network): Sequential(\n    (0): Conv1d(1, 32, kernel_size=(7,), stride=(1,), padding=(3,))\n    (1): ReLU()\n    (2): Conv1d(32, 64, kernel_size=(5,), stride=(1,), padding=(2,))\n    (3): ReLU()\n    (4): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(2,))\n    (5): ReLU()\n    (6): Conv1d(64, 11, kernel_size=(1,), stride=(1,))\n  )\n)",
+        "model_source_sha256": "1c9da7a5c1ab60f4b4bd936bf450dda1fba43f6c2f38fca384d68c8d85d436be",
+        "state_shapes": {
+          "network.0.weight": [
+            32,
+            1,
+            7
+          ],
+          "network.0.bias": [
+            32
+          ],
+          "network.2.weight": [
+            64,
+            32,
+            5
+          ],
+          "network.2.bias": [
+            64
+          ],
+          "network.4.weight": [
+            64,
+            64,
+            5
+          ],
+          "network.4.bias": [
+            64
+          ],
+          "network.6.weight": [
+            11,
+            64,
+            1
+          ],
+          "network.6.bias": [
+            11
+          ]
+        },
+        "parameter_count": 31819,
+        "layers": [
+          {
+            "name": "0",
+            "type": "Conv1d",
+            "in_channels": 1,
+            "out_channels": 32,
+            "kernel_size": [
+              7
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              3
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "1",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "2",
+            "type": "Conv1d",
+            "in_channels": 32,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              2
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "3",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "4",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              2
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "5",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "6",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 11,
+            "kernel_size": [
+              1
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              0
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          }
+        ],
+        "receptive_field_samples": 15,
+        "receptive_field_ms_at_100hz": 150,
+        "first_to_last_sample_ms_at_100hz": 140
+      },
+      "actual_structure": {
+        "class": "model.ECGModel",
+        "representation": "ECGModel(\n  (network): Sequential(\n    (0): Conv1d(1, 32, kernel_size=(7,), stride=(1,), padding=(3,))\n    (1): ReLU()\n    (2): Conv1d(32, 64, kernel_size=(5,), stride=(1,), padding=(2,))\n    (3): ReLU()\n    (4): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(2,))\n    (5): ReLU()\n    (6): Conv1d(64, 11, kernel_size=(1,), stride=(1,))\n  )\n)",
+        "model_source_sha256": "1c9da7a5c1ab60f4b4bd936bf450dda1fba43f6c2f38fca384d68c8d85d436be",
+        "state_shapes": {
+          "network.0.weight": [
+            32,
+            1,
+            7
+          ],
+          "network.0.bias": [
+            32
+          ],
+          "network.2.weight": [
+            64,
+            32,
+            5
+          ],
+          "network.2.bias": [
+            64
+          ],
+          "network.4.weight": [
+            64,
+            64,
+            5
+          ],
+          "network.4.bias": [
+            64
+          ],
+          "network.6.weight": [
+            11,
+            64,
+            1
+          ],
+          "network.6.bias": [
+            11
+          ]
+        },
+        "parameter_count": 31819,
+        "layers": [
+          {
+            "name": "0",
+            "type": "Conv1d",
+            "in_channels": 1,
+            "out_channels": 32,
+            "kernel_size": [
+              7
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              3
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "1",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "2",
+            "type": "Conv1d",
+            "in_channels": 32,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              2
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "3",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "4",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              2
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "5",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "6",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 11,
+            "kernel_size": [
+              1
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              0
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          }
+        ],
+        "receptive_field_samples": 15,
+        "receptive_field_ms_at_100hz": 150,
+        "first_to_last_sample_ms_at_100hz": 140
+      },
+      "best_history": {
+        "path": "results\\baseline_multiseed\\run_20261011_003041_c5722aac03554995923061bf4806a705\\training_history.csv",
+        "sha256": "addbeddc310a7c09fec487a759a87f3c700cb7cff4113d59d6372b0fa7f7c160",
+        "best_epoch": 24,
+        "best_validation_loss": 0.039226777702569965,
+        "verified": true
+      },
+      "training_source_sha256": {
+        "multiseed_common.py": "ece05c4dad7b49d18588048d8c73624cc7f2f22c52026e4ee35cec0d05d5c5fc",
+        "train_baseline_multiseed.py": "a377a2a4347e3030b30ef4282447334fecf4316fcda70dc852a59d27bf06bc3b",
+        "train_dilated_multiseed.py": "c2921ce0af1bea3763e48786cc4fdd88bf9c6490e31a3eb14afea66e2238093d",
+        "compare_validation_multiseed.py": "254fe22379f57e2f1522cf7749857a1d5ea23d3a1dca2d0a6e5fe71f9deaa2ea",
+        "model.py": "1c9da7a5c1ab60f4b4bd936bf450dda1fba43f6c2f38fca384d68c8d85d436be",
+        "model_dilated.py": "7bf38d264a8196bae019a2d7e037a7dbedbd0efa54527e3c1b2bb5ad11a09009",
+        "train.py": "179c554baad3c077056f4092c4aa156b0b6f6dbf9f5fc774041c25e3ab1296d7",
+        "train_1000.py": "b8a7ada6adf2feb43823349198698cdb71d3d5415985d6f52b36d984906257d5",
+        "train_dilated_1000.py": "81f2762dda44294309385eeb22db8ae5d599431b8237a9e9a49043ddb1d02204",
+        "evaluate.py": "dd68aaa456bd5fe77106d6008c946d017531e829a8e79b56f6283d9f52522b14",
+        "evaluate_1000.py": "7bef33fafe988aa4dc4e2864ad3caa2e6fb92a6ea5c7dac3d5123fb50f0d3300",
+        "compare_validation_1000.py": "ce568da27a9e23f88747aa6167498f195984274ed0f97dd39b1d60ee45f18e56"
+      },
+      "training_environment": {
+        "python": "3.14.8",
+        "pytorch": "2.13.0+cu130",
+        "numpy": "2.5.3",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "device": "cuda",
+        "device_name": "NVIDIA GeForce RTX 5070",
+        "cuda_version": "13.0",
+        "cudnn_version": 92000
+      },
+      "baseline_reference": null,
+      "test_ecg_ids": [
+        9,
+        38,
+        40,
+        57,
+        59,
+        63,
+        65,
+        75,
+        76,
+        79,
+        93,
+        100,
+        112,
+        115,
+        116,
+        117,
+        128,
+        129,
+        157,
+        160,
+        162,
+        167,
+        172,
+        175,
+        180,
+        201,
+        203,
+        208,
+        210,
+        218,
+        240,
+        241,
+        243,
+        245,
+        252,
+        271,
+        274,
+        299,
+        318,
+        334,
+        361,
+        364,
+        377,
+        382,
+        388,
+        397,
+        400,
+        405,
+        417,
+        427,
+        430,
+        440,
+        448,
+        449,
+        452,
+        472,
+        473,
+        478,
+        499,
+        504,
+        512,
+        514,
+        516,
+        526,
+        527,
+        534,
+        559,
+        564,
+        569,
+        570,
+        573,
+        581,
+        584,
+        611,
+        618,
+        619,
+        658,
+        685,
+        687,
+        694,
+        696,
+        707,
+        723,
+        726,
+        732,
+        751,
+        756,
+        764,
+        765,
+        775,
+        779,
+        789,
+        795,
+        799,
+        805,
+        806,
+        821,
+        848,
+        854,
+        861
+      ],
+      "dataset_sha256": "2828f1949a6c5205de243cf304afc47faabc52d55021c7b9120f19d6309662d6"
+    },
+    {
+      "seed": 44,
+      "model": "candidate",
+      "checkpoint": {
+        "path": "checkpoints\\dilated_multiseed\\run_20261011_003125_fcf2094d5c794ae7a87618edaa16aafc\\best_model.pth",
+        "sha256": "e7eba253914d9b697e4bf316995a11f71d5fd8a964c7beaf058a0ec72d78e734",
+        "run_id": "run_20261011_003125_fcf2094d5c794ae7a87618edaa16aafc"
+      },
+      "epoch": 24,
+      "validation_loss": 0.038285325542092324,
+      "settings": {
+        "seed": 44,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "epochs": 30,
+        "optimizer": "Adam",
+        "loss": "MSELoss",
+        "loss_reduction": "mean",
+        "checkpoint_selection": "strictly lowest validation MSE",
+        "epoch_aggregation": "sum(batch_mean_loss * batch_records) / total_records",
+        "train_shuffle": true,
+        "validation_shuffle": false,
+        "num_workers": 0,
+        "drop_last": false,
+        "scheduler": null,
+        "early_stopping": false
+      },
+      "training_protocol": "multiseed_v1",
+      "saved_structure": {
+        "class": "model_dilated.ECGDilatedModel",
+        "representation": "ECGDilatedModel(\n  (network): Sequential(\n    (0): Conv1d(1, 32, kernel_size=(7,), stride=(1,), padding=(3,))\n    (1): ReLU()\n    (2): Conv1d(32, 64, kernel_size=(5,), stride=(1,), padding=(4,), dilation=(2,))\n    (3): ReLU()\n    (4): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(8,), dilation=(4,))\n    (5): ReLU()\n    (6): Conv1d(64, 11, kernel_size=(1,), stride=(1,))\n  )\n)",
+        "model_source_sha256": "7bf38d264a8196bae019a2d7e037a7dbedbd0efa54527e3c1b2bb5ad11a09009",
+        "state_shapes": {
+          "network.0.weight": [
+            32,
+            1,
+            7
+          ],
+          "network.0.bias": [
+            32
+          ],
+          "network.2.weight": [
+            64,
+            32,
+            5
+          ],
+          "network.2.bias": [
+            64
+          ],
+          "network.4.weight": [
+            64,
+            64,
+            5
+          ],
+          "network.4.bias": [
+            64
+          ],
+          "network.6.weight": [
+            11,
+            64,
+            1
+          ],
+          "network.6.bias": [
+            11
+          ]
+        },
+        "parameter_count": 31819,
+        "layers": [
+          {
+            "name": "0",
+            "type": "Conv1d",
+            "in_channels": 1,
+            "out_channels": 32,
+            "kernel_size": [
+              7
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              3
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "1",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "2",
+            "type": "Conv1d",
+            "in_channels": 32,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              2
+            ],
+            "padding": [
+              4
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "3",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "4",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              4
+            ],
+            "padding": [
+              8
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "5",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "6",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 11,
+            "kernel_size": [
+              1
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              0
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          }
+        ],
+        "receptive_field_samples": 31,
+        "receptive_field_ms_at_100hz": 310,
+        "first_to_last_sample_ms_at_100hz": 300
+      },
+      "actual_structure": {
+        "class": "model_dilated.ECGDilatedModel",
+        "representation": "ECGDilatedModel(\n  (network): Sequential(\n    (0): Conv1d(1, 32, kernel_size=(7,), stride=(1,), padding=(3,))\n    (1): ReLU()\n    (2): Conv1d(32, 64, kernel_size=(5,), stride=(1,), padding=(4,), dilation=(2,))\n    (3): ReLU()\n    (4): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(8,), dilation=(4,))\n    (5): ReLU()\n    (6): Conv1d(64, 11, kernel_size=(1,), stride=(1,))\n  )\n)",
+        "model_source_sha256": "7bf38d264a8196bae019a2d7e037a7dbedbd0efa54527e3c1b2bb5ad11a09009",
+        "state_shapes": {
+          "network.0.weight": [
+            32,
+            1,
+            7
+          ],
+          "network.0.bias": [
+            32
+          ],
+          "network.2.weight": [
+            64,
+            32,
+            5
+          ],
+          "network.2.bias": [
+            64
+          ],
+          "network.4.weight": [
+            64,
+            64,
+            5
+          ],
+          "network.4.bias": [
+            64
+          ],
+          "network.6.weight": [
+            11,
+            64,
+            1
+          ],
+          "network.6.bias": [
+            11
+          ]
+        },
+        "parameter_count": 31819,
+        "layers": [
+          {
+            "name": "0",
+            "type": "Conv1d",
+            "in_channels": 1,
+            "out_channels": 32,
+            "kernel_size": [
+              7
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              3
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "1",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "2",
+            "type": "Conv1d",
+            "in_channels": 32,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              2
+            ],
+            "padding": [
+              4
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "3",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "4",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 64,
+            "kernel_size": [
+              5
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              4
+            ],
+            "padding": [
+              8
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          },
+          {
+            "name": "5",
+            "type": "ReLU",
+            "inplace": false
+          },
+          {
+            "name": "6",
+            "type": "Conv1d",
+            "in_channels": 64,
+            "out_channels": 11,
+            "kernel_size": [
+              1
+            ],
+            "stride": [
+              1
+            ],
+            "dilation": [
+              1
+            ],
+            "padding": [
+              0
+            ],
+            "bias": true,
+            "groups": 1,
+            "padding_mode": "zeros"
+          }
+        ],
+        "receptive_field_samples": 31,
+        "receptive_field_ms_at_100hz": 310,
+        "first_to_last_sample_ms_at_100hz": 300
+      },
+      "best_history": {
+        "path": "results\\dilated_multiseed\\run_20261011_003125_fcf2094d5c794ae7a87618edaa16aafc\\training_history.csv",
+        "sha256": "f8f2d1f3166c2779d183f7e36becd4392dc8b44382352cd3d7a8c61572cd3338",
+        "best_epoch": 24,
+        "best_validation_loss": 0.038285325542092324,
+        "verified": true
+      },
+      "training_source_sha256": {
+        "multiseed_common.py": "ece05c4dad7b49d18588048d8c73624cc7f2f22c52026e4ee35cec0d05d5c5fc",
+        "train_baseline_multiseed.py": "a377a2a4347e3030b30ef4282447334fecf4316fcda70dc852a59d27bf06bc3b",
+        "train_dilated_multiseed.py": "c2921ce0af1bea3763e48786cc4fdd88bf9c6490e31a3eb14afea66e2238093d",
+        "compare_validation_multiseed.py": "254fe22379f57e2f1522cf7749857a1d5ea23d3a1dca2d0a6e5fe71f9deaa2ea",
+        "model.py": "1c9da7a5c1ab60f4b4bd936bf450dda1fba43f6c2f38fca384d68c8d85d436be",
+        "model_dilated.py": "7bf38d264a8196bae019a2d7e037a7dbedbd0efa54527e3c1b2bb5ad11a09009",
+        "train.py": "179c554baad3c077056f4092c4aa156b0b6f6dbf9f5fc774041c25e3ab1296d7",
+        "train_1000.py": "b8a7ada6adf2feb43823349198698cdb71d3d5415985d6f52b36d984906257d5",
+        "train_dilated_1000.py": "81f2762dda44294309385eeb22db8ae5d599431b8237a9e9a49043ddb1d02204",
+        "evaluate.py": "dd68aaa456bd5fe77106d6008c946d017531e829a8e79b56f6283d9f52522b14",
+        "evaluate_1000.py": "7bef33fafe988aa4dc4e2864ad3caa2e6fb92a6ea5c7dac3d5123fb50f0d3300",
+        "compare_validation_1000.py": "ce568da27a9e23f88747aa6167498f195984274ed0f97dd39b1d60ee45f18e56"
+      },
+      "training_environment": {
+        "python": "3.14.8",
+        "pytorch": "2.13.0+cu130",
+        "numpy": "2.5.3",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "device": "cuda",
+        "device_name": "NVIDIA GeForce RTX 5070",
+        "cuda_version": "13.0",
+        "cudnn_version": 92000
+      },
+      "baseline_reference": {
+        "path": "checkpoints\\baseline_multiseed\\run_20261011_003041_c5722aac03554995923061bf4806a705\\best_model.pth",
+        "sha256": "484f89817affb57c96d93784b3e0847981fcf6b1b7e4220677615c968550df4f",
+        "run_id": "run_20261011_003041_c5722aac03554995923061bf4806a705",
+        "seed": 44,
+        "actual_initial_state_sha256": "a93edcae130cca180f1234ce8e9e7db2bb23494f2fc25549d60adb98ac39877a"
+      },
+      "test_ecg_ids": [
+        9,
+        38,
+        40,
+        57,
+        59,
+        63,
+        65,
+        75,
+        76,
+        79,
+        93,
+        100,
+        112,
+        115,
+        116,
+        117,
+        128,
+        129,
+        157,
+        160,
+        162,
+        167,
+        172,
+        175,
+        180,
+        201,
+        203,
+        208,
+        210,
+        218,
+        240,
+        241,
+        243,
+        245,
+        252,
+        271,
+        274,
+        299,
+        318,
+        334,
+        361,
+        364,
+        377,
+        382,
+        388,
+        397,
+        400,
+        405,
+        417,
+        427,
+        430,
+        440,
+        448,
+        449,
+        452,
+        472,
+        473,
+        478,
+        499,
+        504,
+        512,
+        514,
+        516,
+        526,
+        527,
+        534,
+        559,
+        564,
+        569,
+        570,
+        573,
+        581,
+        584,
+        611,
+        618,
+        619,
+        658,
+        685,
+        687,
+        694,
+        696,
+        707,
+        723,
+        726,
+        732,
+        751,
+        756,
+        764,
+        765,
+        775,
+        779,
+        789,
+        795,
+        799,
+        805,
+        806,
+        821,
+        848,
+        854,
+        861
+      ],
+      "dataset_sha256": "2828f1949a6c5205de243cf304afc47faabc52d55021c7b9120f19d6309662d6"
+    }
+  ],
+  "dataset_path": "data\\processed\\ptbxl_100hz_1000records.npz",
+  "dataset_sha256": "2828f1949a6c5205de243cf304afc47faabc52d55021c7b9120f19d6309662d6",
+  "original_split_counts": {
+    "train": 800,
+    "validation": 100,
+    "test": 100
+  },
+  "used_split_counts": {
+    "train": 798,
+    "validation": 100,
+    "test": 100
+  },
+  "test_ecg_ids": [
+    9,
+    38,
+    40,
+    57,
+    59,
+    63,
+    65,
+    75,
+    76,
+    79,
+    93,
+    100,
+    112,
+    115,
+    116,
+    117,
+    128,
+    129,
+    157,
+    160,
+    162,
+    167,
+    172,
+    175,
+    180,
+    201,
+    203,
+    208,
+    210,
+    218,
+    240,
+    241,
+    243,
+    245,
+    252,
+    271,
+    274,
+    299,
+    318,
+    334,
+    361,
+    364,
+    377,
+    382,
+    388,
+    397,
+    400,
+    405,
+    417,
+    427,
+    430,
+    440,
+    448,
+    449,
+    452,
+    472,
+    473,
+    478,
+    499,
+    504,
+    512,
+    514,
+    516,
+    526,
+    527,
+    534,
+    559,
+    564,
+    569,
+    570,
+    573,
+    581,
+    584,
+    611,
+    618,
+    619,
+    658,
+    685,
+    687,
+    694,
+    696,
+    707,
+    723,
+    726,
+    732,
+    751,
+    756,
+    764,
+    765,
+    775,
+    779,
+    789,
+    795,
+    799,
+    805,
+    806,
+    821,
+    848,
+    854,
+    861
+  ],
+  "test_original_indices": [
+    900,
+    901,
+    902,
+    903,
+    904,
+    905,
+    906,
+    907,
+    908,
+    909,
+    910,
+    911,
+    912,
+    913,
+    914,
+    915,
+    916,
+    917,
+    918,
+    919,
+    920,
+    921,
+    922,
+    923,
+    924,
+    925,
+    926,
+    927,
+    928,
+    929,
+    930,
+    931,
+    932,
+    933,
+    934,
+    935,
+    936,
+    937,
+    938,
+    939,
+    940,
+    941,
+    942,
+    943,
+    944,
+    945,
+    946,
+    947,
+    948,
+    949,
+    950,
+    951,
+    952,
+    953,
+    954,
+    955,
+    956,
+    957,
+    958,
+    959,
+    960,
+    961,
+    962,
+    963,
+    964,
+    965,
+    966,
+    967,
+    968,
+    969,
+    970,
+    971,
+    972,
+    973,
+    974,
+    975,
+    976,
+    977,
+    978,
+    979,
+    980,
+    981,
+    982,
+    983,
+    984,
+    985,
+    986,
+    987,
+    988,
+    989,
+    990,
+    991,
+    992,
+    993,
+    994,
+    995,
+    996,
+    997,
+    998,
+    999
+  ],
+  "test_patient_ids": [
+    18792,
+    17076,
+    19501,
+    16063,
+    19475,
+    15265,
+    19170,
+    18502,
+    21214,
+    17529,
+    10029,
+    21404,
+    19832,
+    11591,
+    19695,
+    16747,
+    17735,
+    16463,
+    8131,
+    13470,
+    9780,
+    16774,
+    20766,
+    21114,
+    15592,
+    19208,
+    11070,
+    8309,
+    16062,
+    13925,
+    9601,
+    14702,
+    11567,
+    8294,
+    20848,
+    449,
+    5662,
+    7852,
+    2034,
+    2065,
+    13000,
+    15645,
+    11498,
+    10186,
+    16023,
+    15768,
+    10987,
+    18087,
+    4938,
+    6476,
+    1207,
+    2706,
+    12306,
+    20057,
+    13110,
+    1360,
+    2398,
+    6312,
+    2678,
+    3602,
+    16695,
+    12005,
+    13237,
+    13769,
+    15828,
+    20068,
+    12042,
+    16912,
+    2936,
+    7793,
+    5837,
+    583,
+    18236,
+    4083,
+    6417,
+    1240,
+    9050,
+    362,
+    7483,
+    4203,
+    7153,
+    962,
+    1290,
+    3280,
+    3289,
+    419,
+    4037,
+    7309,
+    3194,
+    20803,
+    20190,
+    8997,
+    20029,
+    18739,
+    14400,
+    16040,
+    21490,
+    7516,
+    4319,
+    1432
+  ],
+  "test_ecg_id_order_sha256": "d4a8af192416c659f6f7f8c5406d74c3df36de19ebd76087e83054417638505c",
+  "lead_names": [
+    "I",
+    "II",
+    "III",
+    "AVR",
+    "AVL",
+    "AVF",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "sampling_rate_hz": 100,
+  "voltage_unit": "mV",
+  "preprocessing": {
+    "normalization": "none",
+    "clipping": "none",
+    "filtering": "none",
+    "augmentation": "none",
+    "axis_conversion": "NTC -> NCT",
+    "voltage_unit": "mV"
+  },
+  "exclusion_policy": {
+    "scope": "train_only",
+    "selection": "explicit ECG IDs after manual waveform review",
+    "records": [
+      {
+        "ecg_id": 421,
+        "expected_index": 36,
+        "expected_patient_id": 2490,
+        "reason": "V4의 국소적인 큰 음의 돌출 및 기준선 변화. 로컬 WFDB 원본과 float32 기준으로 일치함. 수동 파형 검토 후 이번 실험의 학습에서만 제외하며 validation/test는 유지함."
+      },
+      {
+        "ecg_id": 710,
+        "expected_index": 249,
+        "expected_patient_id": 5542,
+        "reason": "V2 시작 구간의 큰 음의 편차 및 기준선 변화. 로컬 WFDB 원본과 float32 기준으로 일치함. 수동 파형 검토 후 이번 실험의 학습에서만 제외하며 validation/test는 유지함."
+      }
+    ]
+  },
+  "inference": {
+    "batch_size": 8,
+    "shuffle": false,
+    "drop_last": false,
+    "num_workers": 0,
+    "eval": true,
+    "inference_mode": true,
+    "device": "cpu"
+  },
+  "environment": {
+    "python": "3.14.8",
+    "pytorch": "2.13.0+cu130",
+    "numpy": "2.5.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "cpu",
+    "device_name": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "cuda_version": "13.0",
+    "cudnn_version": 92000
+  },
+  "policy": {
+    "checkpoint_selection": "Each explicit checkpoint was selected by lowest validation MSE, before this test evaluation.",
+    "test_selection": "No model, seed, checkpoint or waveform case is selected using these test results.",
+    "prior_test_exposure": "The existing seed-42 baseline test result was already inspected, as disclosed by the user; this is not a wholly unseen-test workflow.",
+    "seed_interpretation": "Three training seeds on the same data split and the same 100 test ECGs; not three independent test cohorts.",
+    "seed_mean_rmse": "Arithmetic mean of three seed-specific pooled RMSE values; SD uses ddof=1.",
+    "all_seed_pooled_rmse": "sqrt(total squared error / total elements across three seeds); repeats the same 100 ECGs three times and differs from mean seed RMSE.",
+    "aggregation": "Convert predictions and targets separately to float64 before subtraction; float64 sums; overall excludes observed Lead I; RMSE=sqrt(MSE)."
+  },
+  "prior_seed42_baseline_test_exposure": {
+    "already_inspected": true,
+    "basis": "User disclosure before final test evaluation",
+    "note": "The existing seed-42 baseline test result was already inspected, as disclosed by the user; this is not a wholly unseen-test workflow.",
+    "existing_result_files": [
+      {
+        "path": "results\\baseline_1000\\run_20261010_230450_b4bed3d513ff42ddba68f2d7a6647034\\evaluation_20261010_230604_099dc08d7724480ba219b86264ab3918\\test_metrics.csv",
+        "sha256": "59276151ddc4a7e4b96eb7a758b7da0ef9dbca33fb058234500e26363a9319cc"
+      }
+    ]
+  },
+  "source_sha256": {
+    "multiseed_common.py": "ece05c4dad7b49d18588048d8c73624cc7f2f22c52026e4ee35cec0d05d5c5fc",
+    "train_baseline_multiseed.py": "a377a2a4347e3030b30ef4282447334fecf4316fcda70dc852a59d27bf06bc3b",
+    "train_dilated_multiseed.py": "c2921ce0af1bea3763e48786cc4fdd88bf9c6490e31a3eb14afea66e2238093d",
+    "compare_validation_multiseed.py": "254fe22379f57e2f1522cf7749857a1d5ea23d3a1dca2d0a6e5fe71f9deaa2ea",
+    "model.py": "1c9da7a5c1ab60f4b4bd936bf450dda1fba43f6c2f38fca384d68c8d85d436be",
+    "model_dilated.py": "7bf38d264a8196bae019a2d7e037a7dbedbd0efa54527e3c1b2bb5ad11a09009",
+    "train.py": "179c554baad3c077056f4092c4aa156b0b6f6dbf9f5fc774041c25e3ab1296d7",
+    "train_1000.py": "b8a7ada6adf2feb43823349198698cdb71d3d5415985d6f52b36d984906257d5",
+    "train_dilated_1000.py": "81f2762dda44294309385eeb22db8ae5d599431b8237a9e9a49043ddb1d02204",
+    "evaluate.py": "dd68aaa456bd5fe77106d6008c946d017531e829a8e79b56f6283d9f52522b14",
+    "evaluate_1000.py": "7bef33fafe988aa4dc4e2864ad3caa2e6fb92a6ea5c7dac3d5123fb50f0d3300",
+    "compare_validation_1000.py": "ce568da27a9e23f88747aa6167498f195984274ed0f97dd39b1d60ee45f18e56",
+    "evaluate_test_multiseed.py": "45e62a90c021b050b568fef86caf26e8f79ca1f131521d976ab4166e49177ef8"
+  }
+}

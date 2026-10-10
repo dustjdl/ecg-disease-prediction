@@ -1,0 +1,69 @@
+{
+  "source_path": "results/ecg_predictions/run_20261011_000527_332f77c10d404360af25b91935f36c4a/estimated_12lead.npz",
+  "source_sha256": "b3097de7bed0227ae585d0d6392b52ab3251f569fed45e30af06d7dffc201080",
+  "waveform_values_included": false,
+  "keys": {
+    "signal": {
+      "shape": [
+        1000,
+        12
+      ],
+      "dtype": "float32"
+    },
+    "lead_names": {
+      "shape": [
+        12
+      ],
+      "dtype": "<U4"
+    },
+    "sampling_rate_hz": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "voltage_unit": {
+      "shape": [],
+      "dtype": "<U2"
+    },
+    "is_estimated_lead": {
+      "shape": [
+        12
+      ],
+      "dtype": "bool"
+    }
+  },
+  "lead_names": [
+    "I",
+    "II",
+    "III",
+    "AVR",
+    "AVL",
+    "AVF",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "sampling_rate_hz": 100,
+  "voltage_unit": "mV",
+  "is_estimated_lead": [
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "axis_order": [
+    "time",
+    "lead"
+  ],
+  "observed_lead": "I"
+}

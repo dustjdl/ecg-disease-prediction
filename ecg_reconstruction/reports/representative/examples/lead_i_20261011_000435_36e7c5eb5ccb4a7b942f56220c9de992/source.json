@@ -1,0 +1,18 @@
+{
+  "dataset_path": "data\\processed\\ptbxl_100hz_1000records.npz",
+  "dataset_sha256": "2828f1949a6c5205de243cf304afc47faabc52d55021c7b9120f19d6309662d6",
+  "original_index": 800,
+  "ecg_id": 8,
+  "patient_id": 11275,
+  "split": "validation",
+  "sampling_rate_hz": 100,
+  "voltage_unit": "mV",
+  "input_lead": "I",
+  "shape": [
+    1000,
+    1
+  ],
+  "dtype": "float32",
+  "selection": "first validation record in original NPZ order; X only",
+  "input_file_sha256": "2e0330eedf5906f1ef8ea3819c813abbdeb67ec35d5e991dfd61b00ffa58c850"
+}

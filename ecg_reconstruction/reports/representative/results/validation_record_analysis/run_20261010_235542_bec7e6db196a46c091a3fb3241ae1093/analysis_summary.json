@@ -1,0 +1,24 @@
+{
+  "overall_mse_record_counts": {
+    "improved": 68,
+    "worsened": 32,
+    "equal": 0
+  },
+  "tie_rule": "Exact equality of float64 overall MSE; negative candidate-baseline is improvement.",
+  "saved_loss_checks": {
+    "baseline": {
+      "saved_validation_loss": 0.0394510305672884,
+      "pooled_mse_mV2": 0.03945103128409186,
+      "matches": true,
+      "atol": 1e-07,
+      "rtol": 1e-05
+    },
+    "candidate": {
+      "saved_validation_loss": 0.03842036746442318,
+      "pooled_mse_mV2": 0.03842036843580701,
+      "matches": true,
+      "atol": 1e-07,
+      "rtol": 1e-05
+    }
+  }
+}

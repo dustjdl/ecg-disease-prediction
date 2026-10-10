@@ -1,0 +1,226 @@
+{
+  "run_id": "run_20261011_000527_332f77c10d404360af25b91935f36c4a",
+  "input": {
+    "path": "examples\\lead_i_20261011_000435_36e7c5eb5ccb4a7b942f56220c9de992\\lead_i_example.npy",
+    "sha256": "2e0330eedf5906f1ef8ea3819c813abbdeb67ec35d5e991dfd61b00ffa58c850",
+    "original_shape": [
+      1000,
+      1
+    ],
+    "original_dtype": "float32",
+    "model_input_dtype": "float32",
+    "sampling_rate_hz": 100,
+    "voltage_unit": "mV",
+    "conversion": "float32 cast and reshape only; source float64/integer precision may round"
+  },
+  "checkpoint": {
+    "path": "checkpoints\\dilated_1000\\run_20261010_234519_9f46beb7d33c40ed8124dc08ffabb636\\best_model.pth",
+    "sha256": "e6cfd066ab8c88f1e37d5635beff7df2c3606509d0e1455392dab6642d8c6a64",
+    "training_run_id": "run_20261010_234519_9f46beb7d33c40ed8124dc08ffabb636",
+    "checkpoint_epoch": 28,
+    "structure_verification": "exact full structure metadata and explicit runtime layer checks"
+  },
+  "model_structure": {
+    "class": "model_dilated.ECGDilatedModel",
+    "representation": "ECGDilatedModel(\n  (network): Sequential(\n    (0): Conv1d(1, 32, kernel_size=(7,), stride=(1,), padding=(3,))\n    (1): ReLU()\n    (2): Conv1d(32, 64, kernel_size=(5,), stride=(1,), padding=(4,), dilation=(2,))\n    (3): ReLU()\n    (4): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(8,), dilation=(4,))\n    (5): ReLU()\n    (6): Conv1d(64, 11, kernel_size=(1,), stride=(1,))\n  )\n)",
+    "model_source_sha256": "7bf38d264a8196bae019a2d7e037a7dbedbd0efa54527e3c1b2bb5ad11a09009",
+    "state_shapes": {
+      "network.0.weight": [
+        32,
+        1,
+        7
+      ],
+      "network.0.bias": [
+        32
+      ],
+      "network.2.weight": [
+        64,
+        32,
+        5
+      ],
+      "network.2.bias": [
+        64
+      ],
+      "network.4.weight": [
+        64,
+        64,
+        5
+      ],
+      "network.4.bias": [
+        64
+      ],
+      "network.6.weight": [
+        11,
+        64,
+        1
+      ],
+      "network.6.bias": [
+        11
+      ]
+    },
+    "parameter_count": 31819,
+    "layers": [
+      {
+        "name": "0",
+        "type": "Conv1d",
+        "in_channels": 1,
+        "out_channels": 32,
+        "kernel_size": [
+          7
+        ],
+        "stride": [
+          1
+        ],
+        "dilation": [
+          1
+        ],
+        "padding": [
+          3
+        ],
+        "bias": true,
+        "groups": 1,
+        "padding_mode": "zeros"
+      },
+      {
+        "name": "1",
+        "type": "ReLU",
+        "inplace": false
+      },
+      {
+        "name": "2",
+        "type": "Conv1d",
+        "in_channels": 32,
+        "out_channels": 64,
+        "kernel_size": [
+          5
+        ],
+        "stride": [
+          1
+        ],
+        "dilation": [
+          2
+        ],
+        "padding": [
+          4
+        ],
+        "bias": true,
+        "groups": 1,
+        "padding_mode": "zeros"
+      },
+      {
+        "name": "3",
+        "type": "ReLU",
+        "inplace": false
+      },
+      {
+        "name": "4",
+        "type": "Conv1d",
+        "in_channels": 64,
+        "out_channels": 64,
+        "kernel_size": [
+          5
+        ],
+        "stride": [
+          1
+        ],
+        "dilation": [
+          4
+        ],
+        "padding": [
+          8
+        ],
+        "bias": true,
+        "groups": 1,
+        "padding_mode": "zeros"
+      },
+      {
+        "name": "5",
+        "type": "ReLU",
+        "inplace": false
+      },
+      {
+        "name": "6",
+        "type": "Conv1d",
+        "in_channels": 64,
+        "out_channels": 11,
+        "kernel_size": [
+          1
+        ],
+        "stride": [
+          1
+        ],
+        "dilation": [
+          1
+        ],
+        "padding": [
+          0
+        ],
+        "bias": true,
+        "groups": 1,
+        "padding_mode": "zeros"
+      }
+    ],
+    "receptive_field_samples": 31,
+    "receptive_field_ms_at_100hz": 310,
+    "first_to_last_sample_ms_at_100hz": 300
+  },
+  "preprocessing": {
+    "normalization": "none",
+    "clipping": "none",
+    "filtering": "none",
+    "augmentation": "none",
+    "axis_conversion": "NTC -> NCT",
+    "voltage_unit": "mV"
+  },
+  "input_handling": "float32 conversion and reshape only; no resampling",
+  "lead_i_preservation": "bit-exact to the validated float32 input; checked before saving",
+  "signal_shape": [
+    1000,
+    12
+  ],
+  "signal_dtype": "float32",
+  "lead_names": [
+    "I",
+    "II",
+    "III",
+    "AVR",
+    "AVL",
+    "AVF",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "sampling_rate_hz": 100,
+  "voltage_unit": "mV",
+  "is_estimated_lead": [
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "environment": {
+    "python": "3.14.8",
+    "pytorch": "2.13.0+cu130",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "cpu",
+    "device_name": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "cuda_version": "13.0",
+    "cudnn_version": 92000,
+    "cudnn_deterministic": false,
+    "cudnn_benchmark": false
+  },
+  "program_sha256": "581d916c2bf8c534547ff2f21ff6a2fcd766552e400dd64953cf0a7e3bbbd765"
+}
