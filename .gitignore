@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# ECG datasets
+data/
+datasets/
+*.csv
+*.hea
+*.dat
+
+# Trained models
+*.h5
+*.pth
+*.pt
+*.ckpt
+
+# System files
+.DS_Store
+Thumbs.db
