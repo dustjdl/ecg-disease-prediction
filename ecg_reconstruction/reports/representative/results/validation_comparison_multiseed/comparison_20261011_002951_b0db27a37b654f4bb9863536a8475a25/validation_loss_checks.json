@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "saved_validation_loss": 0.03944690197706222,
+    "recalculated_mse_mV2_float64": 0.03944690251240235,
+    "historical_style_mse_mV2_float32": 0.03944690197706222,
+    "absolute_difference": 5.353401263952229e-10,
+    "atol": 1e-07,
+    "rtol": 1e-05,
+    "matches": true,
+    "historical_style_matches": true,
+    "environment_differences": {},
+    "diagnosis": "within tolerance"
+  },
+  "candidate": {
+    "saved_validation_loss": 0.038434841558337214,
+    "recalculated_mse_mV2_float64": 0.03843484289546918,
+    "historical_style_mse_mV2_float32": 0.038434841558337214,
+    "absolute_difference": 1.3371319676491744e-09,
+    "atol": 1e-07,
+    "rtol": 1e-05,
+    "matches": true,
+    "historical_style_matches": true,
+    "environment_differences": {},
+    "diagnosis": "within tolerance"
+  }
+}

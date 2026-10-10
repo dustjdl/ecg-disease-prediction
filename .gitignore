@@ -25,3 +25,79 @@ datasets/
 # System files
 .DS_Store
 Thumbs.db
+
+# Reconstruction sharing and runtime exclusions
+# Local environments, caches and build products anywhere in this repository
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+htmlcov/
+.coverage*
+
+# Root-level generated assets
+/data/
+/checkpoints/
+/results/
+/examples/
+/output/
+/outputs/
+/ecg_12lead.png
+
+# Reconstruction runtime assets; keep reports/representative/results included
+/ecg_reconstruction/data/
+/ecg_reconstruction/checkpoints/
+/ecg_reconstruction/results/
+/ecg_reconstruction/examples/
+/ecg_reconstruction/output/
+/ecg_reconstruction/outputs/
+/ecg_reconstruction/ecg_12lead.png
+
+# Raw signals, array files, model weights and archives
+*.npy
+*.npz
+*.dat
+*.hea
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pkl
+*.pickle
+*.zip
+*.tar
+*.gz
+*.part
+*.tmp
+*.log
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials
+credentials.json
+secrets.json
+.aws/
+.ssh/
+.codex/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Selected evidence CSVs are intentionally shared; other CSVs stay ignored.
+!/ecg_reconstruction/reports/representative/**/*.csv

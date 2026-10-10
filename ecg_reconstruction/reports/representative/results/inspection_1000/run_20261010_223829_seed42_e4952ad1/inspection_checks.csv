@@ -1,0 +1,29 @@
+﻿check,status,detail
+Required NPZ keys,PASS,"X, Y, ecg_id, patient_id, strat_fold, split, lead_names, sampling_rate_hz"
+X shape,PASS,"actual=(1000, 1000, 1), expected=(1000, 1000, 1)"
+X dtype,PASS,"actual=float32, expected=float32"
+Y shape,PASS,"actual=(1000, 1000, 11), expected=(1000, 1000, 11)"
+Y dtype,PASS,"actual=float32, expected=float32"
+ecg_id metadata shape,PASS,"actual=(1000,), expected=(1000,)"
+patient_id metadata shape,PASS,"actual=(1000,), expected=(1000,)"
+strat_fold metadata shape,PASS,"actual=(1000,), expected=(1000,)"
+split metadata shape,PASS,"actual=(1000,), expected=(1000,)"
+ecg_id integer dtype,PASS,actual=int64
+patient_id integer dtype,PASS,actual=int64
+strat_fold integer dtype,PASS,actual=int64
+Lead order (case insensitive),PASS,"actual=['I', 'II', 'III', 'AVR', 'AVL', 'AVF', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6']; X=I, Y=('II', 'III', 'AVR', 'AVL', 'AVF', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6')"
+Sampling rate,PASS,"actual=100, expected=100 Hz"
+Split counts,PASS,"actual={'train': 800, 'validation': 100, 'test': 100}, expected={'train': 800, 'validation': 100, 'test': 100}"
+Unique ecg_id,PASS,"unique=1000/1000, duplicated IDs=[]"
+Unique patient_id,PASS,"unique=1000/1000, duplicated IDs=[]"
+No cross-split patient overlap,PASS,"{'train/validation': [], 'train/test': [], 'validation/test': []}"
+Official fold/split mapping,PASS,"folds 1-8=train, 9=validation, 10=test"
+X NaN/inf,PASS,"NaN=0, inf=0"
+X Voltage range,PASS,"min=-3.421000, max=3.468000 mV"
+X Flat channels,PASS,flat channels=0
+Y NaN/inf,PASS,"NaN=0, inf=0"
+Y Voltage range,FAIL,"min=-11.144000, max=8.321000 mV"
+Y Flat channels,PASS,flat channels=0
+Plot ECG 645,PASS,results/inspection_1000/run_20261010_223829_seed42_e4952ad1/ecg_index0654_id645_train.png
+Plot ECG 969,PASS,results/inspection_1000/run_20261010_223829_seed42_e4952ad1/ecg_index0089_id969_train.png
+Plot ECG 909,PASS,results/inspection_1000/run_20261010_223829_seed42_e4952ad1/ecg_index0773_id909_train.png

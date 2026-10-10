@@ -1,0 +1,3 @@
+﻿ecg_id,index,patient_id,split,reason
+421,36,2490,train,V4의 국소적인 큰 음의 돌출 및 기준선 변화. 로컬 WFDB 원본과 float32 기준으로 일치함. 수동 파형 검토 후 이번 실험의 학습에서만 제외하며 validation/test는 유지함.
+710,249,5542,train,V2 시작 구간의 큰 음의 편차 및 기준선 변화. 로컬 WFDB 원본과 float32 기준으로 일치함. 수동 파형 검토 후 이번 실험의 학습에서만 제외하며 validation/test는 유지함.

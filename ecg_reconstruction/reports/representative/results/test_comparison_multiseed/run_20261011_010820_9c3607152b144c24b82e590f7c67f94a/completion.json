@@ -1,0 +1,63 @@
+{
+  "complete": true,
+  "model_count": 6,
+  "inference_orders": [
+    {
+      "seed": 42,
+      "model": "baseline",
+      "records": 100,
+      "ecg_id_order_sha256": "d4a8af192416c659f6f7f8c5406d74c3df36de19ebd76087e83054417638505c",
+      "matches_expected": true
+    },
+    {
+      "seed": 42,
+      "model": "candidate",
+      "records": 100,
+      "ecg_id_order_sha256": "d4a8af192416c659f6f7f8c5406d74c3df36de19ebd76087e83054417638505c",
+      "matches_expected": true
+    },
+    {
+      "seed": 43,
+      "model": "baseline",
+      "records": 100,
+      "ecg_id_order_sha256": "d4a8af192416c659f6f7f8c5406d74c3df36de19ebd76087e83054417638505c",
+      "matches_expected": true
+    },
+    {
+      "seed": 43,
+      "model": "candidate",
+      "records": 100,
+      "ecg_id_order_sha256": "d4a8af192416c659f6f7f8c5406d74c3df36de19ebd76087e83054417638505c",
+      "matches_expected": true
+    },
+    {
+      "seed": 44,
+      "model": "baseline",
+      "records": 100,
+      "ecg_id_order_sha256": "d4a8af192416c659f6f7f8c5406d74c3df36de19ebd76087e83054417638505c",
+      "matches_expected": true
+    },
+    {
+      "seed": 44,
+      "model": "candidate",
+      "records": 100,
+      "ecg_id_order_sha256": "d4a8af192416c659f6f7f8c5406d74c3df36de19ebd76087e83054417638505c",
+      "matches_expected": true
+    }
+  ],
+  "policy": {
+    "checkpoint_selection": "Each explicit checkpoint was selected by lowest validation MSE, before this test evaluation.",
+    "test_selection": "No model, seed, checkpoint or waveform case is selected using these test results.",
+    "prior_test_exposure": "The existing seed-42 baseline test result was already inspected, as disclosed by the user; this is not a wholly unseen-test workflow.",
+    "seed_interpretation": "Three training seeds on the same data split and the same 100 test ECGs; not three independent test cohorts.",
+    "seed_mean_rmse": "Arithmetic mean of three seed-specific pooled RMSE values; SD uses ddof=1.",
+    "all_seed_pooled_rmse": "sqrt(total squared error / total elements across three seeds); repeats the same 100 ECGs three times and differs from mean seed RMSE.",
+    "aggregation": "Convert predictions and targets separately to float64 before subtraction; float64 sums; overall excludes observed Lead I; RMSE=sqrt(MSE)."
+  },
+  "output_files": [
+    "test_metrics.csv",
+    "test_metrics_comparison.csv",
+    "seed_metric_summary.csv",
+    "all_seed_pooled_metrics.csv"
+  ]
+}

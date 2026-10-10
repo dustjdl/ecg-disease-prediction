@@ -1,0 +1,4 @@
+# Preserve byte-exact Python sources used by checkpoint SHA-256 validators.
+*.py -text
+# Keep archived evidence byte-exact for MANIFEST.json hashes and history restore.
+/reports/representative/** -text
