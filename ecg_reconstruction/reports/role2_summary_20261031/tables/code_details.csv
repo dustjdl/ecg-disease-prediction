@@ -1,0 +1,2681 @@
+﻿ecg_id,split,code,likelihood,description,diagnostic,diagnostic_class
+32,train,LPFB,100.0,left posterior fascicular block,1.0,CD
+32,train,SR,0.0,sinus rhythm,,
+35,train,NORM,100.0,normal ECG,1.0,NORM
+35,train,SR,0.0,sinus rhythm,,
+36,train,NORM,100.0,normal ECG,1.0,NORM
+36,train,SR,0.0,sinus rhythm,,
+37,train,NORM,80.0,normal ECG,1.0,NORM
+37,train,SARRH,0.0,sinus arrhythmia,,
+45,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+45,train,RAO/RAE,50.0,right atrial overload/enlargement,1.0,HYP
+45,train,RVH,35.0,right ventricular hypertrophy,1.0,HYP
+45,train,SR,0.0,sinus rhythm,,
+52,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+52,train,SR,0.0,sinus rhythm,,
+60,train,NORM,80.0,normal ECG,1.0,NORM
+60,train,SR,0.0,sinus rhythm,,
+82,train,NORM,100.0,normal ECG,1.0,NORM
+82,train,SR,0.0,sinus rhythm,,
+90,train,NORM,100.0,normal ECG,1.0,NORM
+90,train,SR,0.0,sinus rhythm,,
+96,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+96,train,SR,0.0,sinus rhythm,,
+102,train,ISCAL,50.0,ischemic in anterolateral leads,1.0,STTC
+102,train,1AVB,100.0,first degree AV block,1.0,CD
+102,train,SR,0.0,sinus rhythm,,
+149,train,NORM,80.0,normal ECG,1.0,NORM
+149,train,SARRH,0.0,sinus arrhythmia,,
+183,train,NORM,100.0,normal ECG,1.0,NORM
+183,train,SR,0.0,sinus rhythm,,
+188,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+188,train,SR,0.0,sinus rhythm,,
+231,train,NORM,100.0,normal ECG,1.0,NORM
+231,train,SR,0.0,sinus rhythm,,
+232,train,NORM,100.0,normal ECG,1.0,NORM
+232,train,SR,0.0,sinus rhythm,,
+247,train,NORM,100.0,normal ECG,1.0,NORM
+247,train,SR,0.0,sinus rhythm,,
+267,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+267,train,QWAVE,0.0,Q waves present,,
+267,train,SR,0.0,sinus rhythm,,
+268,train,NORM,100.0,normal ECG,1.0,NORM
+268,train,SR,0.0,sinus rhythm,,
+275,train,NORM,100.0,normal ECG,1.0,NORM
+275,train,SR,0.0,sinus rhythm,,
+291,train,NORM,80.0,normal ECG,1.0,NORM
+291,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+291,train,HVOLT,0.0,high QRS voltage,,
+291,train,SR,0.0,sinus rhythm,,
+306,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+306,train,SR,0.0,sinus rhythm,,
+307,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+307,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+307,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+307,train,INVT,0.0,inverted T-waves,,
+307,train,STD_,0.0,non-specific ST depression,,
+307,train,AFIB,0.0,atrial fibrillation,,
+308,train,AMI,15.0,anterior myocardial infarction,1.0,MI
+308,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+308,train,QWAVE,0.0,Q waves present,,
+308,train,LOWT,0.0,low amplitude T-waves,,
+308,train,STD_,0.0,non-specific ST depression,,
+308,train,SR,0.0,sinus rhythm,,
+311,train,AMI,15.0,anterior myocardial infarction,1.0,MI
+316,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+316,train,ISC_,50.0,non-specific ischemic,1.0,STTC
+316,train,EL,100.0,electrolytic disturbance or drug (former EDIS),1.0,STTC
+316,train,PVC,100.0,ventricular premature complex,,
+316,train,PAC,0.0,atrial premature complex,,
+316,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+316,train,STD_,0.0,non-specific ST depression,,
+316,train,SARRH,0.0,sinus arrhythmia,,
+324,train,NORM,80.0,normal ECG,1.0,NORM
+324,train,SR,0.0,sinus rhythm,,
+330,train,NORM,50.0,normal ECG,1.0,NORM
+330,train,AFIB,0.0,atrial fibrillation,,
+344,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+344,train,NT_,0.0,non-specific T-wave changes,,
+344,train,SR,0.0,sinus rhythm,,
+366,train,NORM,100.0,normal ECG,1.0,NORM
+366,train,SR,0.0,sinus rhythm,,
+369,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+369,train,SR,0.0,sinus rhythm,,
+379,train,NORM,100.0,normal ECG,1.0,NORM
+379,train,SR,0.0,sinus rhythm,,
+384,train,NORM,80.0,normal ECG,1.0,NORM
+384,train,SR,0.0,sinus rhythm,,
+385,train,PACE,100.0,normal functioning artificial pacemaker,,
+402,train,NORM,80.0,normal ECG,1.0,NORM
+402,train,SARRH,0.0,sinus arrhythmia,,
+411,train,NORM,100.0,normal ECG,1.0,NORM
+411,train,SR,0.0,sinus rhythm,,
+421,train,NORM,80.0,normal ECG,1.0,NORM
+421,train,PAC,0.0,atrial premature complex,,
+421,train,SR,0.0,sinus rhythm,,
+422,train,IRBBB,80.0,incomplete right bundle branch block,1.0,CD
+422,train,SR,0.0,sinus rhythm,,
+431,train,NORM,100.0,normal ECG,1.0,NORM
+431,train,SR,0.0,sinus rhythm,,
+432,train,NORM,100.0,normal ECG,1.0,NORM
+432,train,SR,0.0,sinus rhythm,,
+446,train,NORM,100.0,normal ECG,1.0,NORM
+457,train,NORM,100.0,normal ECG,1.0,NORM
+457,train,SR,0.0,sinus rhythm,,
+463,train,NORM,100.0,normal ECG,1.0,NORM
+463,train,SR,0.0,sinus rhythm,,
+464,train,ASMI,15.0,anteroseptal myocardial infarction,1.0,MI
+464,train,ABQRS,0.0,abnormal QRS,,
+464,train,SR,0.0,sinus rhythm,,
+465,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+466,train,NORM,100.0,normal ECG,1.0,NORM
+466,train,SR,0.0,sinus rhythm,,
+468,train,INJAL,50.0,subendocardial injury in anterolateral leads,1.0,MI
+468,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+468,train,INVT,0.0,inverted T-waves,,
+468,train,SR,0.0,sinus rhythm,,
+475,train,NORM,100.0,normal ECG,1.0,NORM
+475,train,SR,0.0,sinus rhythm,,
+476,train,ISC_,50.0,non-specific ischemic,1.0,STTC
+476,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+476,train,LOWT,0.0,low amplitude T-waves,,
+476,train,STD_,0.0,non-specific ST depression,,
+476,train,SR,0.0,sinus rhythm,,
+484,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+484,train,LOWT,0.0,low amplitude T-waves,,
+484,train,STD_,0.0,non-specific ST depression,,
+484,train,SR,0.0,sinus rhythm,,
+485,train,ISCAL,100.0,ischemic in anterolateral leads,1.0,STTC
+485,train,ISCIN,50.0,ischemic in inferior leads,1.0,STTC
+485,train,ABQRS,0.0,abnormal QRS,,
+485,train,SR,0.0,sinus rhythm,,
+486,train,AMI,50.0,anterior myocardial infarction,1.0,MI
+486,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+487,train,NORM,100.0,normal ECG,1.0,NORM
+495,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+495,train,NT_,0.0,non-specific T-wave changes,,
+495,train,SR,0.0,sinus rhythm,,
+508,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+508,train,ISCLA,100.0,ischemic in lateral leads,1.0,STTC
+508,train,ISCIN,100.0,ischemic in inferior leads,1.0,STTC
+549,train,NORM,100.0,normal ECG,1.0,NORM
+549,train,SR,0.0,sinus rhythm,,
+551,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+551,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+551,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+551,train,1AVB,100.0,first degree AV block,1.0,CD
+551,train,SR,0.0,sinus rhythm,,
+552,train,NORM,100.0,normal ECG,1.0,NORM
+552,train,SR,0.0,sinus rhythm,,
+560,train,NORM,100.0,normal ECG,1.0,NORM
+560,train,SR,0.0,sinus rhythm,,
+580,train,NORM,100.0,normal ECG,1.0,NORM
+580,train,SR,0.0,sinus rhythm,,
+589,train,NORM,100.0,normal ECG,1.0,NORM
+589,train,SR,0.0,sinus rhythm,,
+597,train,NORM,100.0,normal ECG,1.0,NORM
+597,train,SR,0.0,sinus rhythm,,
+608,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+608,train,NST_,100.0,non-specific ST changes,1.0,STTC
+608,train,STD_,0.0,non-specific ST depression,,
+608,train,AFIB,0.0,atrial fibrillation,,
+616,train,LAO/LAE,50.0,left atrial overload/enlargement,1.0,HYP
+616,train,NT_,0.0,non-specific T-wave changes,,
+616,train,SR,0.0,sinus rhythm,,
+621,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+621,train,SR,0.0,sinus rhythm,,
+622,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+622,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+622,train,STD_,0.0,non-specific ST depression,,
+622,train,STACH,0.0,sinus tachycardia,,
+628,train,NORM,50.0,normal ECG,1.0,NORM
+628,train,PVC,100.0,ventricular premature complex,,
+628,train,SR,0.0,sinus rhythm,,
+635,train,CLBBB,100.0,complete left bundle branch block,1.0,CD
+635,train,LPFB,100.0,left posterior fascicular block,1.0,CD
+635,train,RVH,15.0,right ventricular hypertrophy,1.0,HYP
+635,train,SR,0.0,sinus rhythm,,
+638,train,NORM,100.0,normal ECG,1.0,NORM
+638,train,SR,0.0,sinus rhythm,,
+676,train,NORM,80.0,normal ECG,1.0,NORM
+676,train,PAC,0.0,atrial premature complex,,
+676,train,LPR,0.0,prolonged PR interval,,
+676,train,SR,0.0,sinus rhythm,,
+704,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+704,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+704,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+704,train,PAC,0.0,atrial premature complex,,
+704,train,NST_,0.0,non-specific ST changes,1.0,STTC
+704,train,HVOLT,0.0,high QRS voltage,,
+704,train,SR,0.0,sinus rhythm,,
+724,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+724,train,SR,0.0,sinus rhythm,,
+737,train,NORM,100.0,normal ECG,1.0,NORM
+737,train,SR,0.0,sinus rhythm,,
+739,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+739,train,LVH,15.0,left ventricular hypertrophy,1.0,HYP
+739,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+739,train,STD_,0.0,non-specific ST depression,,
+739,train,SR,0.0,sinus rhythm,,
+755,train,LAFB,80.0,left anterior fascicular block,1.0,CD
+755,train,SR,0.0,sinus rhythm,,
+759,train,NORM,50.0,normal ECG,1.0,NORM
+759,train,AFIB,0.0,atrial fibrillation,,
+782,train,NORM,80.0,normal ECG,1.0,NORM
+782,train,SR,0.0,sinus rhythm,,
+783,train,NORM,100.0,normal ECG,1.0,NORM
+783,train,SR,0.0,sinus rhythm,,
+811,train,NST_,50.0,non-specific ST changes,1.0,STTC
+811,train,SR,0.0,sinus rhythm,,
+822,train,CLBBB,100.0,complete left bundle branch block,1.0,CD
+822,train,1AVB,100.0,first degree AV block,1.0,CD
+855,train,SEHYP,100.0,septal hypertrophy,1.0,HYP
+855,train,STACH,0.0,sinus tachycardia,,
+880,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+880,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+880,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+880,train,LOWT,0.0,low amplitude T-waves,,
+880,train,STD_,0.0,non-specific ST depression,,
+880,train,SR,0.0,sinus rhythm,,
+888,train,NORM,100.0,normal ECG,1.0,NORM
+888,train,SR,0.0,sinus rhythm,,
+903,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+903,train,SR,0.0,sinus rhythm,,
+916,train,NORM,100.0,normal ECG,1.0,NORM
+916,train,SR,0.0,sinus rhythm,,
+956,train,NORM,80.0,normal ECG,1.0,NORM
+956,train,SARRH,0.0,sinus arrhythmia,,
+957,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+957,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+957,train,SR,0.0,sinus rhythm,,
+960,train,NORM,100.0,normal ECG,1.0,NORM
+960,train,SR,0.0,sinus rhythm,,
+962,train,AMI,100.0,anterior myocardial infarction,1.0,MI
+962,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+962,train,NT_,0.0,non-specific T-wave changes,,
+962,train,QWAVE,0.0,Q waves present,,
+962,train,SR,0.0,sinus rhythm,,
+969,train,NORM,80.0,normal ECG,1.0,NORM
+969,train,STACH,0.0,sinus tachycardia,,
+974,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+974,train,NT_,0.0,non-specific T-wave changes,,
+974,train,SR,0.0,sinus rhythm,,
+979,train,NORM,100.0,normal ECG,1.0,NORM
+979,train,SR,0.0,sinus rhythm,,
+984,train,LVH,35.0,left ventricular hypertrophy,1.0,HYP
+984,train,SR,0.0,sinus rhythm,,
+1002,train,NORM,100.0,normal ECG,1.0,NORM
+1002,train,SR,0.0,sinus rhythm,,
+1003,train,NORM,80.0,normal ECG,1.0,NORM
+1003,train,PVC,0.0,ventricular premature complex,,
+1003,train,SR,0.0,sinus rhythm,,
+1011,train,NORM,80.0,normal ECG,1.0,NORM
+1011,train,PAC,0.0,atrial premature complex,,
+1011,train,SR,0.0,sinus rhythm,,
+1021,train,NORM,100.0,normal ECG,1.0,NORM
+1021,train,SR,0.0,sinus rhythm,,
+1025,train,ASMI,80.0,anteroseptal myocardial infarction,1.0,MI
+1025,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+1025,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+1025,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+1025,train,QWAVE,0.0,Q waves present,,
+1025,train,STD_,0.0,non-specific ST depression,,
+1025,train,SR,0.0,sinus rhythm,,
+1047,train,NORM,80.0,normal ECG,1.0,NORM
+1047,train,QWAVE,0.0,Q waves present,,
+1047,train,SR,0.0,sinus rhythm,,
+1052,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+1052,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+1052,train,INVT,0.0,inverted T-waves,,
+1052,train,STD_,0.0,non-specific ST depression,,
+1052,train,AFIB,0.0,atrial fibrillation,,
+2,train,NORM,80.0,normal ECG,1.0,NORM
+2,train,SBRAD,0.0,sinus bradycardia,,
+13,train,NORM,100.0,normal ECG,1.0,NORM
+13,train,SR,0.0,sinus rhythm,,
+46,train,NORM,100.0,normal ECG,1.0,NORM
+46,train,SR,0.0,sinus rhythm,,
+55,train,NORM,100.0,normal ECG,1.0,NORM
+55,train,SR,0.0,sinus rhythm,,
+58,train,NORM,100.0,normal ECG,1.0,NORM
+58,train,SR,0.0,sinus rhythm,,
+78,train,NORM,80.0,normal ECG,1.0,NORM
+78,train,SBRAD,0.0,sinus bradycardia,,
+80,train,NORM,100.0,normal ECG,1.0,NORM
+80,train,SR,0.0,sinus rhythm,,
+84,train,NORM,100.0,normal ECG,1.0,NORM
+84,train,SR,0.0,sinus rhythm,,
+86,train,NORM,100.0,normal ECG,1.0,NORM
+86,train,SR,0.0,sinus rhythm,,
+109,train,NORM,100.0,normal ECG,1.0,NORM
+109,train,SR,0.0,sinus rhythm,,
+123,train,NORM,100.0,normal ECG,1.0,NORM
+123,train,SR,0.0,sinus rhythm,,
+126,train,NORM,100.0,normal ECG,1.0,NORM
+126,train,SR,0.0,sinus rhythm,,
+130,train,NORM,80.0,normal ECG,1.0,NORM
+130,train,SR,0.0,sinus rhythm,,
+166,train,NORM,80.0,normal ECG,1.0,NORM
+166,train,SR,0.0,sinus rhythm,,
+176,train,NORM,80.0,normal ECG,1.0,NORM
+176,train,SR,0.0,sinus rhythm,,
+196,train,NORM,100.0,normal ECG,1.0,NORM
+196,train,SR,0.0,sinus rhythm,,
+209,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+209,train,1AVB,100.0,first degree AV block,1.0,CD
+209,train,SR,0.0,sinus rhythm,,
+221,train,NORM,100.0,normal ECG,1.0,NORM
+221,train,SR,0.0,sinus rhythm,,
+236,train,NORM,80.0,normal ECG,1.0,NORM
+236,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+236,train,SR,0.0,sinus rhythm,,
+244,train,NORM,100.0,normal ECG,1.0,NORM
+244,train,SR,0.0,sinus rhythm,,
+248,train,NORM,100.0,normal ECG,1.0,NORM
+248,train,SR,0.0,sinus rhythm,,
+249,train,NORM,100.0,normal ECG,1.0,NORM
+249,train,SR,0.0,sinus rhythm,,
+264,train,NORM,100.0,normal ECG,1.0,NORM
+264,train,SR,0.0,sinus rhythm,,
+273,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+273,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+273,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+273,train,STD_,0.0,non-specific ST depression,,
+273,train,SR,0.0,sinus rhythm,,
+277,train,NORM,100.0,normal ECG,1.0,NORM
+277,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+277,train,SR,0.0,sinus rhythm,,
+283,train,NORM,100.0,normal ECG,1.0,NORM
+283,train,SARRH,0.0,sinus arrhythmia,,
+285,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+285,train,SR,0.0,sinus rhythm,,
+294,train,ASMI,15.0,anteroseptal myocardial infarction,1.0,MI
+294,train,ISCIN,100.0,ischemic in inferior leads,1.0,STTC
+301,train,NORM,100.0,normal ECG,1.0,NORM
+301,train,SR,0.0,sinus rhythm,,
+302,train,NORM,100.0,normal ECG,1.0,NORM
+302,train,SR,0.0,sinus rhythm,,
+309,train,NORM,100.0,normal ECG,1.0,NORM
+315,train,NORM,100.0,normal ECG,1.0,NORM
+315,train,SR,0.0,sinus rhythm,,
+319,train,ASMI,35.0,anteroseptal myocardial infarction,1.0,MI
+319,train,NT_,0.0,non-specific T-wave changes,,
+319,train,QWAVE,0.0,Q waves present,,
+319,train,SR,0.0,sinus rhythm,,
+323,train,IMI,35.0,inferior myocardial infarction,1.0,MI
+323,train,QWAVE,0.0,Q waves present,,
+323,train,SR,0.0,sinus rhythm,,
+340,train,NORM,100.0,normal ECG,1.0,NORM
+340,train,SR,0.0,sinus rhythm,,
+359,train,NORM,100.0,normal ECG,1.0,NORM
+359,train,SR,0.0,sinus rhythm,,
+362,train,NORM,100.0,normal ECG,1.0,NORM
+362,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+362,train,SARRH,0.0,sinus arrhythmia,,
+415,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+415,train,SR,0.0,sinus rhythm,,
+416,train,ISCIL,100.0,ischemic in inferolateral leads,1.0,STTC
+428,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+428,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+428,train,LPFB,100.0,left posterior fascicular block,1.0,CD
+428,train,AFIB,0.0,atrial fibrillation,,
+429,train,IMI,80.0,inferior myocardial infarction,1.0,MI
+429,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+429,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+442,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+442,train,LVOLT,0.0,low QRS voltages in the frontal and horizontal leads,,
+442,train,SR,0.0,sinus rhythm,,
+467,train,NORM,100.0,normal ECG,1.0,NORM
+467,train,SR,0.0,sinus rhythm,,
+474,train,NORM,100.0,normal ECG,1.0,NORM
+474,train,SR,0.0,sinus rhythm,,
+481,train,NORM,50.0,normal ECG,1.0,NORM
+481,train,SR,0.0,sinus rhythm,,
+482,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+482,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+482,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+482,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+482,train,NST_,0.0,non-specific ST changes,1.0,STTC
+482,train,AFIB,0.0,atrial fibrillation,,
+488,train,NORM,100.0,normal ECG,1.0,NORM
+488,train,SR,0.0,sinus rhythm,,
+490,train,NORM,100.0,normal ECG,1.0,NORM
+490,train,SR,0.0,sinus rhythm,,
+506,train,NORM,100.0,normal ECG,1.0,NORM
+506,train,SR,0.0,sinus rhythm,,
+518,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+518,train,SR,0.0,sinus rhythm,,
+538,train,NORM,100.0,normal ECG,1.0,NORM
+538,train,SR,0.0,sinus rhythm,,
+555,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+555,train,PVC,100.0,ventricular premature complex,,
+555,train,1AVB,100.0,first degree AV block,1.0,CD
+555,train,SR,0.0,sinus rhythm,,
+572,train,NORM,100.0,normal ECG,1.0,NORM
+572,train,SR,0.0,sinus rhythm,,
+576,train,NST_,100.0,non-specific ST changes,1.0,STTC
+576,train,LOWT,0.0,low amplitude T-waves,,
+576,train,SR,0.0,sinus rhythm,,
+623,train,ALMI,100.0,anterolateral myocardial infarction,1.0,MI
+623,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+629,train,NORM,100.0,normal ECG,1.0,NORM
+629,train,SR,0.0,sinus rhythm,,
+632,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+632,train,PVC,100.0,ventricular premature complex,,
+632,train,PAC,0.0,atrial premature complex,,
+632,train,NT_,0.0,non-specific T-wave changes,,
+632,train,SR,0.0,sinus rhythm,,
+639,train,NORM,100.0,normal ECG,1.0,NORM
+639,train,NT_,0.0,non-specific T-wave changes,,
+639,train,SR,0.0,sinus rhythm,,
+643,train,NORM,100.0,normal ECG,1.0,NORM
+643,train,SR,0.0,sinus rhythm,,
+663,train,NORM,100.0,normal ECG,1.0,NORM
+663,train,SR,0.0,sinus rhythm,,
+665,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+665,train,PVC,100.0,ventricular premature complex,,
+675,train,NORM,100.0,normal ECG,1.0,NORM
+675,train,SR,0.0,sinus rhythm,,
+678,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+678,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+678,train,SR,0.0,sinus rhythm,,
+684,train,NORM,100.0,normal ECG,1.0,NORM
+684,train,SR,0.0,sinus rhythm,,
+701,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+701,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+701,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+701,train,STD_,0.0,non-specific ST depression,,
+701,train,SR,0.0,sinus rhythm,,
+702,train,IRBBB,80.0,incomplete right bundle branch block,1.0,CD
+702,train,SR,0.0,sinus rhythm,,
+703,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+703,train,AFIB,0.0,atrial fibrillation,,
+731,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+731,train,ISCAL,100.0,ischemic in anterolateral leads,1.0,STTC
+731,train,DIG,50.0,digitalis-effect,1.0,STTC
+731,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+731,train,LOWT,0.0,low amplitude T-waves,,
+731,train,STD_,0.0,non-specific ST depression,,
+731,train,AFIB,0.0,atrial fibrillation,,
+745,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+745,train,LPR,0.0,prolonged PR interval,,
+745,train,SR,0.0,sinus rhythm,,
+778,train,NORM,100.0,normal ECG,1.0,NORM
+778,train,SR,0.0,sinus rhythm,,
+803,train,NORM,100.0,normal ECG,1.0,NORM
+803,train,SR,0.0,sinus rhythm,,
+833,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+833,train,ILMI,50.0,inferolateral myocardial infarction,1.0,MI
+833,train,CLBBB,100.0,complete left bundle branch block,1.0,CD
+833,train,PVC,100.0,ventricular premature complex,,
+833,train,1AVB,100.0,first degree AV block,1.0,CD
+833,train,SR,0.0,sinus rhythm,,
+841,train,NST_,100.0,non-specific ST changes,1.0,STTC
+841,train,LVH,35.0,left ventricular hypertrophy,1.0,HYP
+841,train,PVC,100.0,ventricular premature complex,,
+841,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+841,train,LOWT,0.0,low amplitude T-waves,,
+841,train,SR,0.0,sinus rhythm,,
+844,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+844,train,QWAVE,0.0,Q waves present,,
+844,train,SR,0.0,sinus rhythm,,
+846,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+846,train,DIG,100.0,digitalis-effect,1.0,STTC
+846,train,STD_,0.0,non-specific ST depression,,
+846,train,AFIB,0.0,atrial fibrillation,,
+847,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+847,train,ASMI,15.0,anteroseptal myocardial infarction,1.0,MI
+847,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+847,train,LOWT,0.0,low amplitude T-waves,,
+847,train,STD_,0.0,non-specific ST depression,,
+847,train,SR,0.0,sinus rhythm,,
+864,train,ISCIN,100.0,ischemic in inferior leads,1.0,STTC
+864,train,1AVB,100.0,first degree AV block,1.0,CD
+864,train,PVC,100.0,ventricular premature complex,,
+864,train,LPR,0.0,prolonged PR interval,,
+864,train,SR,0.0,sinus rhythm,,
+882,train,NORM,100.0,normal ECG,1.0,NORM
+882,train,PAC,0.0,atrial premature complex,,
+882,train,NST_,0.0,non-specific ST changes,1.0,STTC
+882,train,SR,0.0,sinus rhythm,,
+905,train,NORM,100.0,normal ECG,1.0,NORM
+905,train,SR,0.0,sinus rhythm,,
+920,train,NORM,80.0,normal ECG,1.0,NORM
+920,train,SBRAD,0.0,sinus bradycardia,,
+922,train,NORM,100.0,normal ECG,1.0,NORM
+922,train,SR,0.0,sinus rhythm,,
+940,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+940,train,SR,0.0,sinus rhythm,,
+942,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+942,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+942,train,NST_,0.0,non-specific ST changes,1.0,STTC
+942,train,AFIB,0.0,atrial fibrillation,,
+964,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+964,train,ILBBB,100.0,incomplete left bundle branch block,1.0,CD
+964,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+964,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+964,train,PAC,100.0,atrial premature complex,,
+964,train,SR,0.0,sinus rhythm,,
+972,train,NORM,100.0,normal ECG,1.0,NORM
+972,train,SR,0.0,sinus rhythm,,
+994,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+994,train,NT_,0.0,non-specific T-wave changes,,
+994,train,SR,0.0,sinus rhythm,,
+995,train,NORM,100.0,normal ECG,1.0,NORM
+995,train,STACH,0.0,sinus tachycardia,,
+1006,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+1006,train,ANEUR,50.0,ST-T changes compatible with ventricular aneurysm,1.0,STTC
+1006,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+1006,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+1006,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+1006,train,INVT,0.0,inverted T-waves,,
+1006,train,STD_,0.0,non-specific ST depression,,
+1040,train,ILMI,100.0,inferolateral myocardial infarction,1.0,MI
+1040,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+1040,train,PVC,100.0,ventricular premature complex,,
+1040,train,QWAVE,0.0,Q waves present,,
+1040,train,INVT,0.0,inverted T-waves,,
+1040,train,SR,0.0,sinus rhythm,,
+1050,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+1053,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+1053,train,AFIB,0.0,atrial fibrillation,,
+1065,train,DIG,100.0,digitalis-effect,1.0,STTC
+1065,train,AFIB,0.0,atrial fibrillation,,
+1076,train,NORM,100.0,normal ECG,1.0,NORM
+1076,train,SR,0.0,sinus rhythm,,
+1086,train,NORM,100.0,normal ECG,1.0,NORM
+1086,train,SR,0.0,sinus rhythm,,
+1089,train,NORM,100.0,normal ECG,1.0,NORM
+1089,train,SR,0.0,sinus rhythm,,
+1091,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+1091,train,SR,0.0,sinus rhythm,,
+1092,train,NORM,100.0,normal ECG,1.0,NORM
+1092,train,SR,0.0,sinus rhythm,,
+1096,train,NORM,100.0,normal ECG,1.0,NORM
+1096,train,SR,0.0,sinus rhythm,,
+1097,train,NORM,100.0,normal ECG,1.0,NORM
+1097,train,SR,0.0,sinus rhythm,,
+1118,train,NORM,100.0,normal ECG,1.0,NORM
+1118,train,SARRH,0.0,sinus arrhythmia,,
+1,train,NORM,100.0,normal ECG,1.0,NORM
+1,train,LVOLT,0.0,low QRS voltages in the frontal and horizontal leads,,
+1,train,SR,0.0,sinus rhythm,,
+4,train,NORM,100.0,normal ECG,1.0,NORM
+4,train,SR,0.0,sinus rhythm,,
+15,train,NORM,100.0,normal ECG,1.0,NORM
+15,train,SARRH,0.0,sinus arrhythmia,,
+24,train,NORM,100.0,normal ECG,1.0,NORM
+24,train,SR,0.0,sinus rhythm,,
+33,train,NORM,100.0,normal ECG,1.0,NORM
+33,train,SR,0.0,sinus rhythm,,
+64,train,NORM,80.0,normal ECG,1.0,NORM
+64,train,SR,0.0,sinus rhythm,,
+105,train,NORM,100.0,normal ECG,1.0,NORM
+105,train,ABQRS,0.0,abnormal QRS,,
+105,train,SR,0.0,sinus rhythm,,
+110,train,NORM,100.0,normal ECG,1.0,NORM
+110,train,SR,0.0,sinus rhythm,,
+118,train,NORM,80.0,normal ECG,1.0,NORM
+118,train,SR,0.0,sinus rhythm,,
+147,train,NORM,100.0,normal ECG,1.0,NORM
+147,train,SR,0.0,sinus rhythm,,
+148,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+148,train,SR,0.0,sinus rhythm,,
+159,train,NORM,80.0,normal ECG,1.0,NORM
+159,train,SR,0.0,sinus rhythm,,
+164,train,ISCAL,100.0,ischemic in anterolateral leads,1.0,STTC
+179,train,NORM,100.0,normal ECG,1.0,NORM
+179,train,SR,0.0,sinus rhythm,,
+191,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+191,train,1AVB,100.0,first degree AV block,1.0,CD
+211,train,AMI,15.0,anterior myocardial infarction,1.0,MI
+211,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+211,train,SR,0.0,sinus rhythm,,
+224,train,NORM,100.0,normal ECG,1.0,NORM
+224,train,SR,0.0,sinus rhythm,,
+226,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+226,train,SR,0.0,sinus rhythm,,
+255,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+255,train,PVC,100.0,ventricular premature complex,,
+255,train,SR,0.0,sinus rhythm,,
+257,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+257,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+257,train,PAC,0.0,atrial premature complex,,
+257,train,LOWT,0.0,low amplitude T-waves,,
+257,train,STD_,0.0,non-specific ST depression,,
+257,train,SR,0.0,sinus rhythm,,
+284,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+284,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+284,train,DIG,100.0,digitalis-effect,1.0,STTC
+284,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+284,train,STD_,0.0,non-specific ST depression,,
+284,train,SBRAD,0.0,sinus bradycardia,,
+284,train,SARRH,0.0,sinus arrhythmia,,
+296,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+296,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+296,train,STD_,0.0,non-specific ST depression,,
+296,train,SR,0.0,sinus rhythm,,
+341,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+341,train,STD_,0.0,non-specific ST depression,,
+341,train,SR,0.0,sinus rhythm,,
+355,train,NORM,100.0,normal ECG,1.0,NORM
+355,train,SR,0.0,sinus rhythm,,
+381,train,NORM,80.0,normal ECG,1.0,NORM
+389,train,NORM,100.0,normal ECG,1.0,NORM
+389,train,SR,0.0,sinus rhythm,,
+395,train,NORM,100.0,normal ECG,1.0,NORM
+395,train,SR,0.0,sinus rhythm,,
+396,train,NORM,80.0,normal ECG,1.0,NORM
+396,train,SARRH,0.0,sinus arrhythmia,,
+410,train,NORM,100.0,normal ECG,1.0,NORM
+410,train,SR,0.0,sinus rhythm,,
+436,train,NORM,50.0,normal ECG,1.0,NORM
+436,train,PVC,100.0,ventricular premature complex,,
+436,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+436,train,SR,0.0,sinus rhythm,,
+453,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+453,train,SR,0.0,sinus rhythm,,
+479,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+521,train,NORM,80.0,normal ECG,1.0,NORM
+521,train,SR,0.0,sinus rhythm,,
+530,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+530,train,INJAL,100.0,subendocardial injury in anterolateral leads,1.0,MI
+530,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+530,train,SR,0.0,sinus rhythm,,
+548,train,NORM,80.0,normal ECG,1.0,NORM
+550,train,NST_,100.0,non-specific ST changes,1.0,STTC
+571,train,NST_,100.0,non-specific ST changes,1.0,STTC
+571,train,STD_,0.0,non-specific ST depression,,
+571,train,SR,0.0,sinus rhythm,,
+577,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+577,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+577,train,SR,0.0,sinus rhythm,,
+591,train,NORM,100.0,normal ECG,1.0,NORM
+591,train,SR,0.0,sinus rhythm,,
+592,train,ASMI,15.0,anteroseptal myocardial infarction,1.0,MI
+592,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+592,train,QWAVE,0.0,Q waves present,,
+592,train,SR,0.0,sinus rhythm,,
+646,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+646,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+646,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+646,train,PAC,0.0,atrial premature complex,,
+646,train,NT_,0.0,non-specific T-wave changes,,
+646,train,SR,0.0,sinus rhythm,,
+652,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+652,train,LVH,80.0,left ventricular hypertrophy,1.0,HYP
+652,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+652,train,LAO/LAE,100.0,left atrial overload/enlargement,1.0,HYP
+652,train,STD_,0.0,non-specific ST depression,,
+652,train,STACH,0.0,sinus tachycardia,,
+654,train,NORM,100.0,normal ECG,1.0,NORM
+654,train,SR,0.0,sinus rhythm,,
+655,train,NORM,100.0,normal ECG,1.0,NORM
+661,train,IMI,80.0,inferior myocardial infarction,1.0,MI
+661,train,QWAVE,0.0,Q waves present,,
+661,train,SR,0.0,sinus rhythm,,
+671,train,NORM,100.0,normal ECG,1.0,NORM
+671,train,SR,0.0,sinus rhythm,,
+686,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+686,train,EL,50.0,electrolytic disturbance or drug (former EDIS),1.0,STTC
+686,train,SR,0.0,sinus rhythm,,
+693,train,INJAS,50.0,subendocardial injury in anteroseptal leads,1.0,MI
+693,train,INJLA,50.0,subendocardial injury in lateral leads,1.0,MI
+693,train,LOWT,0.0,low amplitude T-waves,,
+693,train,SR,0.0,sinus rhythm,,
+695,train,NORM,100.0,normal ECG,1.0,NORM
+695,train,INVT,0.0,inverted T-waves,,
+695,train,SR,0.0,sinus rhythm,,
+710,train,NORM,100.0,normal ECG,1.0,NORM
+710,train,SR,0.0,sinus rhythm,,
+736,train,NORM,100.0,normal ECG,1.0,NORM
+736,train,SR,0.0,sinus rhythm,,
+744,train,EL,50.0,electrolytic disturbance or drug (former EDIS),1.0,STTC
+744,train,SR,0.0,sinus rhythm,,
+746,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+746,train,NT_,0.0,non-specific T-wave changes,,
+746,train,SR,0.0,sinus rhythm,,
+746,train,BIGU,0.0,"bigeminal pattern (unknown origin, SV or Ventricular)",,
+754,train,NORM,100.0,normal ECG,1.0,NORM
+754,train,SR,0.0,sinus rhythm,,
+777,train,NORM,100.0,normal ECG,1.0,NORM
+777,train,SR,0.0,sinus rhythm,,
+793,train,NORM,100.0,normal ECG,1.0,NORM
+793,train,SR,0.0,sinus rhythm,,
+801,train,NST_,100.0,non-specific ST changes,1.0,STTC
+801,train,ABQRS,0.0,abnormal QRS,,
+801,train,SBRAD,0.0,sinus bradycardia,,
+826,train,IPLMI,100.0,inferoposterolateral myocardial infarction,1.0,MI
+826,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+826,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+826,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+826,train,PAC,0.0,atrial premature complex,,
+826,train,QWAVE,0.0,Q waves present,,
+826,train,SR,0.0,sinus rhythm,,
+829,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+829,train,ISCAL,100.0,ischemic in anterolateral leads,1.0,STTC
+829,train,PVC,100.0,ventricular premature complex,,
+829,train,QWAVE,0.0,Q waves present,,
+829,train,INVT,0.0,inverted T-waves,,
+829,train,AFIB,0.0,atrial fibrillation,,
+857,train,NST_,100.0,non-specific ST changes,1.0,STTC
+857,train,RAO/RAE,100.0,right atrial overload/enlargement,1.0,HYP
+857,train,STD_,0.0,non-specific ST depression,,
+857,train,STACH,0.0,sinus tachycardia,,
+867,train,NORM,100.0,normal ECG,1.0,NORM
+867,train,SR,0.0,sinus rhythm,,
+876,train,NORM,100.0,normal ECG,1.0,NORM
+876,train,SR,0.0,sinus rhythm,,
+899,train,NORM,100.0,normal ECG,1.0,NORM
+899,train,SR,0.0,sinus rhythm,,
+912,train,INJAS,100.0,subendocardial injury in anteroseptal leads,1.0,MI
+912,train,INVT,0.0,inverted T-waves,,
+912,train,SR,0.0,sinus rhythm,,
+924,train,ALMI,100.0,anterolateral myocardial infarction,1.0,MI
+924,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+924,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+924,train,STACH,0.0,sinus tachycardia,,
+926,train,NORM,100.0,normal ECG,1.0,NORM
+926,train,SR,0.0,sinus rhythm,,
+941,train,ISCAS,100.0,ischemic in anteroseptal leads,1.0,STTC
+941,train,ISCAL,100.0,ischemic in anterolateral leads,1.0,STTC
+941,train,INVT,0.0,inverted T-waves,,
+941,train,STD_,0.0,non-specific ST depression,,
+941,train,SR,0.0,sinus rhythm,,
+971,train,NORM,100.0,normal ECG,1.0,NORM
+971,train,LVOLT,0.0,low QRS voltages in the frontal and horizontal leads,,
+971,train,SR,0.0,sinus rhythm,,
+977,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+977,train,SR,0.0,sinus rhythm,,
+986,train,EL,50.0,electrolytic disturbance or drug (former EDIS),1.0,STTC
+986,train,STD_,0.0,non-specific ST depression,,
+986,train,SR,0.0,sinus rhythm,,
+993,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+993,train,STD_,0.0,non-specific ST depression,,
+993,train,SR,0.0,sinus rhythm,,
+1012,train,LMI,100.0,lateral myocardial infarction,1.0,MI
+1012,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+1012,train,NT_,0.0,non-specific T-wave changes,,
+1012,train,AFIB,0.0,atrial fibrillation,,
+1018,train,NORM,100.0,normal ECG,1.0,NORM
+1018,train,SR,0.0,sinus rhythm,,
+1028,train,NORM,100.0,normal ECG,1.0,NORM
+1028,train,SR,0.0,sinus rhythm,,
+1029,train,NORM,100.0,normal ECG,1.0,NORM
+1037,train,NORM,100.0,normal ECG,1.0,NORM
+1037,train,SR,0.0,sinus rhythm,,
+1043,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+1043,train,ABQRS,0.0,abnormal QRS,,
+1043,train,SR,0.0,sinus rhythm,,
+1049,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+1049,train,LMI,100.0,lateral myocardial infarction,1.0,MI
+1049,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+1082,train,LVH,15.0,left ventricular hypertrophy,1.0,HYP
+1082,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+1082,train,SR,0.0,sinus rhythm,,
+1083,train,NORM,100.0,normal ECG,1.0,NORM
+1083,train,SR,0.0,sinus rhythm,,
+1106,train,NORM,100.0,normal ECG,1.0,NORM
+1106,train,SR,0.0,sinus rhythm,,
+1112,train,NORM,80.0,normal ECG,1.0,NORM
+1112,train,SARRH,0.0,sinus arrhythmia,,
+1129,train,NORM,100.0,normal ECG,1.0,NORM
+1137,train,NORM,100.0,normal ECG,1.0,NORM
+1137,train,NST_,0.0,non-specific ST changes,1.0,STTC
+1137,train,SR,0.0,sinus rhythm,,
+1148,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+1148,train,SR,0.0,sinus rhythm,,
+1155,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+1155,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+1194,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+1194,train,STD_,0.0,non-specific ST depression,,
+1194,train,SR,0.0,sinus rhythm,,
+1203,train,IMI,80.0,inferior myocardial infarction,1.0,MI
+1203,train,AMI,80.0,anterior myocardial infarction,1.0,MI
+1203,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+1203,train,QWAVE,0.0,Q waves present,,
+1203,train,LOWT,0.0,low amplitude T-waves,,
+1203,train,AFIB,0.0,atrial fibrillation,,
+1221,train,NORM,100.0,normal ECG,1.0,NORM
+1221,train,SR,0.0,sinus rhythm,,
+1229,train,NST_,100.0,non-specific ST changes,1.0,STTC
+1229,train,DIG,100.0,digitalis-effect,1.0,STTC
+1229,train,AFIB,0.0,atrial fibrillation,,
+1235,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+1235,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+1235,train,LPR,0.0,prolonged PR interval,,
+1235,train,SR,0.0,sinus rhythm,,
+1243,train,NORM,100.0,normal ECG,1.0,NORM
+1243,train,SR,0.0,sinus rhythm,,
+1244,train,NORM,80.0,normal ECG,1.0,NORM
+1244,train,SR,0.0,sinus rhythm,,
+1247,train,NORM,100.0,normal ECG,1.0,NORM
+1247,train,SR,0.0,sinus rhythm,,
+1281,train,NORM,100.0,normal ECG,1.0,NORM
+1281,train,SR,0.0,sinus rhythm,,
+1301,train,NORM,100.0,normal ECG,1.0,NORM
+1301,train,SR,0.0,sinus rhythm,,
+1313,train,NORM,100.0,normal ECG,1.0,NORM
+1313,train,SR,0.0,sinus rhythm,,
+1317,train,AMI,15.0,anterior myocardial infarction,1.0,MI
+1317,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+1317,train,LAO/LAE,50.0,left atrial overload/enlargement,1.0,HYP
+1317,train,ABQRS,0.0,abnormal QRS,,
+1317,train,SR,0.0,sinus rhythm,,
+1337,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+1337,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+1337,train,ISC_,50.0,non-specific ischemic,1.0,STTC
+1337,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+1337,train,STD_,0.0,non-specific ST depression,,
+1337,train,SR,0.0,sinus rhythm,,
+1339,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+1339,train,PVC,100.0,ventricular premature complex,,
+5,train,NORM,100.0,normal ECG,1.0,NORM
+5,train,SR,0.0,sinus rhythm,,
+6,train,NORM,100.0,normal ECG,1.0,NORM
+6,train,SR,0.0,sinus rhythm,,
+22,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+22,train,SR,0.0,sinus rhythm,,
+25,train,NORM,100.0,normal ECG,1.0,NORM
+25,train,SR,0.0,sinus rhythm,,
+29,train,NORM,100.0,normal ECG,1.0,NORM
+29,train,SR,0.0,sinus rhythm,,
+44,train,NORM,100.0,normal ECG,1.0,NORM
+44,train,SR,0.0,sinus rhythm,,
+67,train,NORM,100.0,normal ECG,1.0,NORM
+67,train,SR,0.0,sinus rhythm,,
+83,train,NORM,100.0,normal ECG,1.0,NORM
+83,train,SR,0.0,sinus rhythm,,
+89,train,NORM,100.0,normal ECG,1.0,NORM
+89,train,SR,0.0,sinus rhythm,,
+99,train,NORM,100.0,normal ECG,1.0,NORM
+99,train,SR,0.0,sinus rhythm,,
+101,train,NORM,100.0,normal ECG,1.0,NORM
+101,train,SR,0.0,sinus rhythm,,
+103,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+103,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+103,train,ABQRS,0.0,abnormal QRS,,
+103,train,STACH,0.0,sinus tachycardia,,
+104,train,NORM,100.0,normal ECG,1.0,NORM
+104,train,SR,0.0,sinus rhythm,,
+114,train,NORM,100.0,normal ECG,1.0,NORM
+114,train,SR,0.0,sinus rhythm,,
+120,train,NORM,100.0,normal ECG,1.0,NORM
+120,train,SR,0.0,sinus rhythm,,
+133,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+133,train,SR,0.0,sinus rhythm,,
+158,train,NORM,100.0,normal ECG,1.0,NORM
+158,train,SR,0.0,sinus rhythm,,
+177,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+177,train,SR,0.0,sinus rhythm,,
+197,train,NORM,100.0,normal ECG,1.0,NORM
+197,train,SR,0.0,sinus rhythm,,
+206,train,NORM,100.0,normal ECG,1.0,NORM
+206,train,SR,0.0,sinus rhythm,,
+212,train,NORM,100.0,normal ECG,1.0,NORM
+212,train,SR,0.0,sinus rhythm,,
+213,train,NORM,100.0,normal ECG,1.0,NORM
+213,train,SARRH,0.0,sinus arrhythmia,,
+235,train,NORM,100.0,normal ECG,1.0,NORM
+235,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+235,train,SBRAD,0.0,sinus bradycardia,,
+270,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+270,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+270,train,STACH,0.0,sinus tachycardia,,
+272,train,NORM,100.0,normal ECG,1.0,NORM
+272,train,SR,0.0,sinus rhythm,,
+322,train,NORM,100.0,normal ECG,1.0,NORM
+322,train,SARRH,0.0,sinus arrhythmia,,
+329,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+329,train,NT_,0.0,non-specific T-wave changes,,
+329,train,SR,0.0,sinus rhythm,,
+333,train,LVH,35.0,left ventricular hypertrophy,1.0,HYP
+333,train,STD_,0.0,non-specific ST depression,,
+333,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+333,train,SR,0.0,sinus rhythm,,
+348,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+348,train,LVOLT,0.0,low QRS voltages in the frontal and horizontal leads,,
+348,train,SR,0.0,sinus rhythm,,
+351,train,AFIB,100.0,atrial fibrillation,,
+351,train,NST_,0.0,non-specific ST changes,1.0,STTC
+358,train,NORM,100.0,normal ECG,1.0,NORM
+358,train,SR,0.0,sinus rhythm,,
+370,train,NORM,100.0,normal ECG,1.0,NORM
+370,train,SR,0.0,sinus rhythm,,
+393,train,NORM,100.0,normal ECG,1.0,NORM
+393,train,SR,0.0,sinus rhythm,,
+399,train,NORM,100.0,normal ECG,1.0,NORM
+399,train,SR,0.0,sinus rhythm,,
+404,train,NORM,100.0,normal ECG,1.0,NORM
+404,train,SR,0.0,sinus rhythm,,
+413,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+413,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+413,train,1AVB,100.0,first degree AV block,1.0,CD
+413,train,LPR,0.0,prolonged PR interval,,
+413,train,PVC,0.0,ventricular premature complex,,
+413,train,LOWT,0.0,low amplitude T-waves,,
+413,train,SR,0.0,sinus rhythm,,
+434,train,NORM,100.0,normal ECG,1.0,NORM
+434,train,SR,0.0,sinus rhythm,,
+443,train,NORM,100.0,normal ECG,1.0,NORM
+444,train,NORM,100.0,normal ECG,1.0,NORM
+444,train,SR,0.0,sinus rhythm,,
+480,train,NORM,100.0,normal ECG,1.0,NORM
+480,train,SR,0.0,sinus rhythm,,
+492,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+492,train,SR,0.0,sinus rhythm,,
+501,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+501,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+501,train,STD_,0.0,non-specific ST depression,,
+501,train,SR,0.0,sinus rhythm,,
+505,train,NORM,100.0,normal ECG,1.0,NORM
+505,train,SR,0.0,sinus rhythm,,
+509,train,NORM,100.0,normal ECG,1.0,NORM
+509,train,SR,0.0,sinus rhythm,,
+517,train,CLBBB,100.0,complete left bundle branch block,1.0,CD
+528,train,ILMI,100.0,inferolateral myocardial infarction,1.0,MI
+528,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+528,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+528,train,ISCAL,100.0,ischemic in anterolateral leads,1.0,STTC
+528,train,ISCAS,100.0,ischemic in anteroseptal leads,1.0,STTC
+528,train,SR,0.0,sinus rhythm,,
+540,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+540,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+540,train,INJAS,100.0,subendocardial injury in anteroseptal leads,1.0,MI
+540,train,SR,0.0,sinus rhythm,,
+543,train,NORM,80.0,normal ECG,1.0,NORM
+543,train,SBRAD,0.0,sinus bradycardia,,
+556,train,ASMI,15.0,anteroseptal myocardial infarction,1.0,MI
+556,train,1AVB,100.0,first degree AV block,1.0,CD
+556,train,SR,0.0,sinus rhythm,,
+557,train,ISCIN,100.0,ischemic in inferior leads,1.0,STTC
+557,train,AFIB,0.0,atrial fibrillation,,
+562,train,NST_,100.0,non-specific ST changes,1.0,STTC
+562,train,SR,0.0,sinus rhythm,,
+568,train,NORM,80.0,normal ECG,1.0,NORM
+568,train,SBRAD,0.0,sinus bradycardia,,
+575,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+575,train,PVC,100.0,ventricular premature complex,,
+575,train,PAC,0.0,atrial premature complex,,
+575,train,LOWT,0.0,low amplitude T-waves,,
+575,train,SR,0.0,sinus rhythm,,
+586,train,NORM,80.0,normal ECG,1.0,NORM
+586,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+586,train,SR,0.0,sinus rhythm,,
+604,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+604,train,NST_,100.0,non-specific ST changes,1.0,STTC
+604,train,PAC,0.0,atrial premature complex,,
+604,train,STD_,0.0,non-specific ST depression,,
+604,train,SR,0.0,sinus rhythm,,
+605,train,NORM,100.0,normal ECG,1.0,NORM
+605,train,SR,0.0,sinus rhythm,,
+606,train,NORM,80.0,normal ECG,1.0,NORM
+606,train,LPR,0.0,prolonged PR interval,,
+606,train,SR,0.0,sinus rhythm,,
+614,train,NORM,80.0,normal ECG,1.0,NORM
+614,train,QWAVE,0.0,Q waves present,,
+614,train,SR,0.0,sinus rhythm,,
+631,train,NORM,80.0,normal ECG,1.0,NORM
+631,train,PAC,0.0,atrial premature complex,,
+631,train,PVC,0.0,ventricular premature complex,,
+631,train,SR,0.0,sinus rhythm,,
+640,train,LVH,80.0,left ventricular hypertrophy,1.0,HYP
+640,train,SEHYP,100.0,septal hypertrophy,1.0,HYP
+640,train,QWAVE,0.0,Q waves present,,
+640,train,SR,0.0,sinus rhythm,,
+641,train,NORM,100.0,normal ECG,1.0,NORM
+641,train,SR,0.0,sinus rhythm,,
+642,train,NORM,100.0,normal ECG,1.0,NORM
+642,train,SR,0.0,sinus rhythm,,
+644,train,NORM,100.0,normal ECG,1.0,NORM
+644,train,SR,0.0,sinus rhythm,,
+667,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+667,train,1AVB,100.0,first degree AV block,1.0,CD
+667,train,RVH,50.0,right ventricular hypertrophy,1.0,HYP
+667,train,LPR,0.0,prolonged PR interval,,
+667,train,SR,0.0,sinus rhythm,,
+691,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+691,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+691,train,QWAVE,0.0,Q waves present,,
+691,train,AFIB,0.0,atrial fibrillation,,
+708,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+708,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+708,train,QWAVE,0.0,Q waves present,,
+708,train,LOWT,0.0,low amplitude T-waves,,
+708,train,SR,0.0,sinus rhythm,,
+709,train,NORM,50.0,normal ECG,1.0,NORM
+709,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+709,train,SR,0.0,sinus rhythm,,
+729,train,NORM,100.0,normal ECG,1.0,NORM
+729,train,SR,0.0,sinus rhythm,,
+735,train,NORM,100.0,normal ECG,1.0,NORM
+735,train,SR,0.0,sinus rhythm,,
+753,train,NORM,100.0,normal ECG,1.0,NORM
+753,train,SR,0.0,sinus rhythm,,
+790,train,NORM,100.0,normal ECG,1.0,NORM
+790,train,SR,0.0,sinus rhythm,,
+797,train,NORM,100.0,normal ECG,1.0,NORM
+797,train,SR,0.0,sinus rhythm,,
+808,train,NORM,100.0,normal ECG,1.0,NORM
+808,train,SR,0.0,sinus rhythm,,
+810,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+810,train,ABQRS,0.0,abnormal QRS,,
+810,train,SR,0.0,sinus rhythm,,
+815,train,NORM,100.0,normal ECG,1.0,NORM
+815,train,SR,0.0,sinus rhythm,,
+835,train,NORM,100.0,normal ECG,1.0,NORM
+835,train,SR,0.0,sinus rhythm,,
+837,train,NORM,100.0,normal ECG,1.0,NORM
+837,train,SR,0.0,sinus rhythm,,
+840,train,NST_,100.0,non-specific ST changes,1.0,STTC
+840,train,LNGQT,100.0,long QT-interval,1.0,STTC
+840,train,EL,50.0,electrolytic disturbance or drug (former EDIS),1.0,STTC
+840,train,SR,0.0,sinus rhythm,,
+850,train,NORM,100.0,normal ECG,1.0,NORM
+850,train,SR,0.0,sinus rhythm,,
+852,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+852,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+852,train,SR,0.0,sinus rhythm,,
+859,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+859,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+859,train,PVC,100.0,ventricular premature complex,,
+859,train,LOWT,0.0,low amplitude T-waves,,
+859,train,STD_,0.0,non-specific ST depression,,
+859,train,AFIB,0.0,atrial fibrillation,,
+863,train,NORM,100.0,normal ECG,1.0,NORM
+871,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+871,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+871,train,SR,0.0,sinus rhythm,,
+872,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+872,train,AFIB,0.0,atrial fibrillation,,
+879,train,NORM,100.0,normal ECG,1.0,NORM
+879,train,NT_,0.0,non-specific T-wave changes,,
+879,train,SR,0.0,sinus rhythm,,
+893,train,NORM,80.0,normal ECG,1.0,NORM
+893,train,PVC,0.0,ventricular premature complex,,
+893,train,SR,0.0,sinus rhythm,,
+896,train,NORM,80.0,normal ECG,1.0,NORM
+896,train,PAC,0.0,atrial premature complex,,
+896,train,SR,0.0,sinus rhythm,,
+897,train,NORM,100.0,normal ECG,1.0,NORM
+897,train,SR,0.0,sinus rhythm,,
+914,train,ALMI,100.0,anterolateral myocardial infarction,1.0,MI
+914,train,PVC,100.0,ventricular premature complex,,
+914,train,STD_,0.0,non-specific ST depression,,
+914,train,SR,0.0,sinus rhythm,,
+918,train,NORM,100.0,normal ECG,1.0,NORM
+918,train,SR,0.0,sinus rhythm,,
+951,train,NORM,100.0,normal ECG,1.0,NORM
+951,train,SR,0.0,sinus rhythm,,
+955,train,ILMI,100.0,inferolateral myocardial infarction,1.0,MI
+955,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+955,train,ANEUR,50.0,ST-T changes compatible with ventricular aneurysm,1.0,STTC
+955,train,SARRH,0.0,sinus arrhythmia,,
+976,train,NORM,80.0,normal ECG,1.0,NORM
+976,train,STACH,0.0,sinus tachycardia,,
+988,train,NORM,100.0,normal ECG,1.0,NORM
+988,train,SR,0.0,sinus rhythm,,
+1035,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+1035,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+1035,train,QWAVE,0.0,Q waves present,,
+1035,train,LOWT,0.0,low amplitude T-waves,,
+1035,train,SR,0.0,sinus rhythm,,
+1045,train,NORM,100.0,normal ECG,1.0,NORM
+1045,train,SR,0.0,sinus rhythm,,
+1064,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+1064,train,SR,0.0,sinus rhythm,,
+1066,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+1066,train,LPFB,100.0,left posterior fascicular block,1.0,CD
+1066,train,1AVB,100.0,first degree AV block,1.0,CD
+1066,train,LPR,0.0,prolonged PR interval,,
+1066,train,SR,0.0,sinus rhythm,,
+1070,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+1070,train,LVH,35.0,left ventricular hypertrophy,1.0,HYP
+1070,train,PVC,100.0,ventricular premature complex,,
+1070,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+1070,train,STD_,0.0,non-specific ST depression,,
+1070,train,SR,0.0,sinus rhythm,,
+1085,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+1085,train,SR,0.0,sinus rhythm,,
+3,train,NORM,100.0,normal ECG,1.0,NORM
+3,train,SR,0.0,sinus rhythm,,
+11,train,NORM,80.0,normal ECG,1.0,NORM
+11,train,SARRH,0.0,sinus arrhythmia,,
+54,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+54,train,SR,0.0,sinus rhythm,,
+66,train,NORM,100.0,normal ECG,1.0,NORM
+66,train,SR,0.0,sinus rhythm,,
+73,train,NORM,100.0,normal ECG,1.0,NORM
+73,train,ABQRS,0.0,abnormal QRS,,
+73,train,SR,0.0,sinus rhythm,,
+81,train,NORM,100.0,normal ECG,1.0,NORM
+81,train,SR,0.0,sinus rhythm,,
+85,train,NORM,100.0,normal ECG,1.0,NORM
+85,train,SR,0.0,sinus rhythm,,
+95,train,NORM,100.0,normal ECG,1.0,NORM
+95,train,SR,0.0,sinus rhythm,,
+106,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+106,train,LVH,15.0,left ventricular hypertrophy,1.0,HYP
+106,train,ABQRS,0.0,abnormal QRS,,
+106,train,SR,0.0,sinus rhythm,,
+107,train,NORM,80.0,normal ECG,1.0,NORM
+107,train,SR,0.0,sinus rhythm,,
+136,train,NORM,100.0,normal ECG,1.0,NORM
+136,train,SR,0.0,sinus rhythm,,
+154,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+154,train,SR,0.0,sinus rhythm,,
+161,train,IMI,35.0,inferior myocardial infarction,1.0,MI
+161,train,SR,0.0,sinus rhythm,,
+174,train,NORM,100.0,normal ECG,1.0,NORM
+174,train,SR,0.0,sinus rhythm,,
+187,train,NORM,80.0,normal ECG,1.0,NORM
+187,train,SARRH,0.0,sinus arrhythmia,,
+192,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+192,train,SR,0.0,sinus rhythm,,
+220,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+220,train,ABQRS,0.0,abnormal QRS,,
+220,train,SR,0.0,sinus rhythm,,
+237,train,NORM,100.0,normal ECG,1.0,NORM
+237,train,SR,0.0,sinus rhythm,,
+242,train,NORM,80.0,normal ECG,1.0,NORM
+242,train,SR,0.0,sinus rhythm,,
+250,train,NORM,100.0,normal ECG,1.0,NORM
+250,train,SR,0.0,sinus rhythm,,
+251,train,NORM,80.0,normal ECG,1.0,NORM
+251,train,SARRH,0.0,sinus arrhythmia,,
+253,train,NORM,100.0,normal ECG,1.0,NORM
+253,train,SR,0.0,sinus rhythm,,
+254,train,NORM,100.0,normal ECG,1.0,NORM
+254,train,SR,0.0,sinus rhythm,,
+263,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+263,train,NST_,0.0,non-specific ST changes,1.0,STTC
+263,train,STACH,0.0,sinus tachycardia,,
+278,train,NORM,100.0,normal ECG,1.0,NORM
+278,train,SR,0.0,sinus rhythm,,
+279,train,CLBBB,100.0,complete left bundle branch block,1.0,CD
+279,train,STACH,0.0,sinus tachycardia,,
+304,train,NORM,100.0,normal ECG,1.0,NORM
+304,train,SR,0.0,sinus rhythm,,
+313,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+313,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+313,train,STD_,0.0,non-specific ST depression,,
+313,train,SR,0.0,sinus rhythm,,
+325,train,IMI,80.0,inferior myocardial infarction,1.0,MI
+325,train,QWAVE,0.0,Q waves present,,
+325,train,LOWT,0.0,low amplitude T-waves,,
+325,train,STD_,0.0,non-specific ST depression,,
+325,train,SR,0.0,sinus rhythm,,
+339,train,NORM,100.0,normal ECG,1.0,NORM
+339,train,SR,0.0,sinus rhythm,,
+345,train,NORM,100.0,normal ECG,1.0,NORM
+345,train,SR,0.0,sinus rhythm,,
+349,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+349,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+349,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+349,train,PVC,100.0,ventricular premature complex,,
+349,train,STD_,0.0,non-specific ST depression,,
+349,train,SR,0.0,sinus rhythm,,
+380,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+380,train,ASMI,15.0,anteroseptal myocardial infarction,1.0,MI
+380,train,SR,0.0,sinus rhythm,,
+390,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+390,train,SR,0.0,sinus rhythm,,
+392,train,NORM,100.0,normal ECG,1.0,NORM
+392,train,SR,0.0,sinus rhythm,,
+407,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+407,train,LVOLT,0.0,low QRS voltages in the frontal and horizontal leads,,
+407,train,SR,0.0,sinus rhythm,,
+412,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+412,train,NST_,0.0,non-specific ST changes,1.0,STTC
+412,train,SR,0.0,sinus rhythm,,
+420,train,NORM,100.0,normal ECG,1.0,NORM
+420,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+420,train,LOWT,0.0,low amplitude T-waves,,
+420,train,SR,0.0,sinus rhythm,,
+424,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+424,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+424,train,SR,0.0,sinus rhythm,,
+460,train,NORM,100.0,normal ECG,1.0,NORM
+460,train,SR,0.0,sinus rhythm,,
+469,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+469,train,SR,0.0,sinus rhythm,,
+470,train,NORM,100.0,normal ECG,1.0,NORM
+470,train,SR,0.0,sinus rhythm,,
+489,train,CLBBB,100.0,complete left bundle branch block,1.0,CD
+489,train,LAO/LAE,100.0,left atrial overload/enlargement,1.0,HYP
+489,train,SR,0.0,sinus rhythm,,
+496,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+496,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+496,train,LOWT,0.0,low amplitude T-waves,,
+496,train,SR,0.0,sinus rhythm,,
+497,train,NORM,80.0,normal ECG,1.0,NORM
+497,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+497,train,SR,0.0,sinus rhythm,,
+502,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+502,train,NT_,0.0,non-specific T-wave changes,,
+502,train,SR,0.0,sinus rhythm,,
+503,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+503,train,NT_,0.0,non-specific T-wave changes,,
+503,train,PVC,0.0,ventricular premature complex,,
+503,train,SARRH,0.0,sinus arrhythmia,,
+536,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+536,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+536,train,SR,0.0,sinus rhythm,,
+542,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+542,train,SR,0.0,sinus rhythm,,
+585,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+585,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+585,train,STD_,0.0,non-specific ST depression,,
+585,train,SR,0.0,sinus rhythm,,
+588,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+588,train,SR,0.0,sinus rhythm,,
+593,train,ISCAL,50.0,ischemic in anterolateral leads,1.0,STTC
+593,train,INVT,0.0,inverted T-waves,,
+593,train,STD_,0.0,non-specific ST depression,,
+593,train,SR,0.0,sinus rhythm,,
+600,train,IMI,80.0,inferior myocardial infarction,1.0,MI
+600,train,AMI,100.0,anterior myocardial infarction,1.0,MI
+600,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+600,train,QWAVE,0.0,Q waves present,,
+600,train,SR,0.0,sinus rhythm,,
+620,train,NORM,100.0,normal ECG,1.0,NORM
+620,train,SR,0.0,sinus rhythm,,
+648,train,NORM,80.0,normal ECG,1.0,NORM
+648,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+648,train,NT_,0.0,non-specific T-wave changes,,
+648,train,SR,0.0,sinus rhythm,,
+649,train,NORM,100.0,normal ECG,1.0,NORM
+649,train,SR,0.0,sinus rhythm,,
+650,train,EL,50.0,electrolytic disturbance or drug (former EDIS),1.0,STTC
+650,train,SR,0.0,sinus rhythm,,
+657,train,NORM,100.0,normal ECG,1.0,NORM
+657,train,SR,0.0,sinus rhythm,,
+664,train,NORM,100.0,normal ECG,1.0,NORM
+664,train,SR,0.0,sinus rhythm,,
+670,train,NORM,100.0,normal ECG,1.0,NORM
+670,train,SR,0.0,sinus rhythm,,
+692,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+692,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+692,train,LOWT,0.0,low amplitude T-waves,,
+692,train,STD_,0.0,non-specific ST depression,,
+692,train,SR,0.0,sinus rhythm,,
+721,train,NORM,100.0,normal ECG,1.0,NORM
+721,train,SR,0.0,sinus rhythm,,
+747,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+747,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+747,train,LPR,0.0,prolonged PR interval,,
+747,train,QWAVE,0.0,Q waves present,,
+747,train,LOWT,0.0,low amplitude T-waves,,
+747,train,SR,0.0,sinus rhythm,,
+774,train,NORM,100.0,normal ECG,1.0,NORM
+774,train,SR,0.0,sinus rhythm,,
+784,train,NORM,100.0,normal ECG,1.0,NORM
+784,train,SR,0.0,sinus rhythm,,
+786,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+786,train,SR,0.0,sinus rhythm,,
+804,train,NORM,80.0,normal ECG,1.0,NORM
+804,train,SR,0.0,sinus rhythm,,
+807,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+807,train,PVC,100.0,ventricular premature complex,,
+807,train,STACH,0.0,sinus tachycardia,,
+817,train,NORM,100.0,normal ECG,1.0,NORM
+817,train,SR,0.0,sinus rhythm,,
+831,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+831,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+831,train,QWAVE,0.0,Q waves present,,
+831,train,SR,0.0,sinus rhythm,,
+851,train,NORM,100.0,normal ECG,1.0,NORM
+851,train,SR,0.0,sinus rhythm,,
+858,train,AFLT,100.0,atrial flutter,,
+869,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+869,train,SR,0.0,sinus rhythm,,
+883,train,ILBBB,100.0,incomplete left bundle branch block,1.0,CD
+883,train,1AVB,100.0,first degree AV block,1.0,CD
+883,train,SR,0.0,sinus rhythm,,
+891,train,NORM,100.0,normal ECG,1.0,NORM
+891,train,SR,0.0,sinus rhythm,,
+921,train,NORM,100.0,normal ECG,1.0,NORM
+921,train,SR,0.0,sinus rhythm,,
+929,train,NORM,100.0,normal ECG,1.0,NORM
+929,train,SR,0.0,sinus rhythm,,
+932,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+932,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+932,train,SR,0.0,sinus rhythm,,
+934,train,ISC_,80.0,non-specific ischemic,1.0,STTC
+934,train,DIG,80.0,digitalis-effect,1.0,STTC
+934,train,LVOLT,0.0,low QRS voltages in the frontal and horizontal leads,,
+934,train,LOWT,0.0,low amplitude T-waves,,
+934,train,STD_,0.0,non-specific ST depression,,
+934,train,SR,0.0,sinus rhythm,,
+939,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+939,train,DIG,100.0,digitalis-effect,1.0,STTC
+939,train,STD_,0.0,non-specific ST depression,,
+939,train,AFIB,0.0,atrial fibrillation,,
+967,train,NORM,100.0,normal ECG,1.0,NORM
+967,train,NT_,0.0,non-specific T-wave changes,,
+967,train,SR,0.0,sinus rhythm,,
+982,train,ASMI,15.0,anteroseptal myocardial infarction,1.0,MI
+982,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+982,train,QWAVE,0.0,Q waves present,,
+982,train,SR,0.0,sinus rhythm,,
+996,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+996,train,NT_,0.0,non-specific T-wave changes,,
+996,train,SR,0.0,sinus rhythm,,
+1001,train,NORM,100.0,normal ECG,1.0,NORM
+1001,train,SR,0.0,sinus rhythm,,
+1010,train,NST_,100.0,non-specific ST changes,1.0,STTC
+1010,train,NT_,0.0,non-specific T-wave changes,,
+1010,train,SR,0.0,sinus rhythm,,
+1023,train,NORM,100.0,normal ECG,1.0,NORM
+1023,train,SR,0.0,sinus rhythm,,
+1024,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+1024,train,SR,0.0,sinus rhythm,,
+1027,train,NORM,100.0,normal ECG,1.0,NORM
+1027,train,SR,0.0,sinus rhythm,,
+1044,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+1044,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+1044,train,PVC,100.0,ventricular premature complex,,
+1044,train,NST_,0.0,non-specific ST changes,1.0,STTC
+1044,train,SR,0.0,sinus rhythm,,
+1059,train,ILMI,50.0,inferolateral myocardial infarction,1.0,MI
+1062,train,NORM,100.0,normal ECG,1.0,NORM
+1062,train,SR,0.0,sinus rhythm,,
+1067,train,NORM,100.0,normal ECG,1.0,NORM
+1067,train,LVOLT,0.0,low QRS voltages in the frontal and horizontal leads,,
+1067,train,SR,0.0,sinus rhythm,,
+1069,train,NORM,100.0,normal ECG,1.0,NORM
+1069,train,SR,0.0,sinus rhythm,,
+1081,train,IPLMI,100.0,inferoposterolateral myocardial infarction,1.0,MI
+1081,train,LPR,0.0,prolonged PR interval,,
+1081,train,SR,0.0,sinus rhythm,,
+1105,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+1105,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+1105,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+1108,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+1108,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+1108,train,PVC,100.0,ventricular premature complex,,
+1108,train,LPR,0.0,prolonged PR interval,,
+1108,train,QWAVE,0.0,Q waves present,,
+1108,train,SR,0.0,sinus rhythm,,
+1135,train,1AVB,100.0,first degree AV block,1.0,CD
+1135,train,SR,0.0,sinus rhythm,,
+1136,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+1136,train,NT_,0.0,non-specific T-wave changes,,
+1136,train,SR,0.0,sinus rhythm,,
+1154,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+1154,train,NT_,0.0,non-specific T-wave changes,,
+1154,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+1154,train,SR,0.0,sinus rhythm,,
+1160,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+1160,train,SR,0.0,sinus rhythm,,
+16,train,NORM,100.0,normal ECG,1.0,NORM
+16,train,SR,0.0,sinus rhythm,,
+21,train,NORM,100.0,normal ECG,1.0,NORM
+21,train,SR,0.0,sinus rhythm,,
+27,train,NORM,80.0,normal ECG,1.0,NORM
+27,train,SR,0.0,sinus rhythm,,
+31,train,NORM,100.0,normal ECG,1.0,NORM
+31,train,SR,0.0,sinus rhythm,,
+42,train,NORM,100.0,normal ECG,1.0,NORM
+42,train,SR,0.0,sinus rhythm,,
+61,train,NORM,100.0,normal ECG,1.0,NORM
+61,train,SR,0.0,sinus rhythm,,
+70,train,NORM,100.0,normal ECG,1.0,NORM
+70,train,SR,0.0,sinus rhythm,,
+77,train,AMI,50.0,anterior myocardial infarction,1.0,MI
+77,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+77,train,SR,0.0,sinus rhythm,,
+97,train,NORM,80.0,normal ECG,1.0,NORM
+97,train,SR,0.0,sinus rhythm,,
+111,train,NORM,100.0,normal ECG,1.0,NORM
+111,train,SR,0.0,sinus rhythm,,
+135,train,ISCAL,100.0,ischemic in anterolateral leads,1.0,STTC
+163,train,NORM,80.0,normal ECG,1.0,NORM
+163,train,SARRH,0.0,sinus arrhythmia,,
+169,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+169,train,SR,0.0,sinus rhythm,,
+182,train,ASMI,35.0,anteroseptal myocardial infarction,1.0,MI
+182,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+182,train,1AVB,100.0,first degree AV block,1.0,CD
+182,train,SR,0.0,sinus rhythm,,
+214,train,NORM,100.0,normal ECG,1.0,NORM
+214,train,SR,0.0,sinus rhythm,,
+215,train,NORM,100.0,normal ECG,1.0,NORM
+215,train,SR,0.0,sinus rhythm,,
+222,train,RVH,100.0,right ventricular hypertrophy,1.0,HYP
+222,train,RAO/RAE,100.0,right atrial overload/enlargement,1.0,HYP
+222,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+222,train,ABQRS,0.0,abnormal QRS,,
+222,train,SR,0.0,sinus rhythm,,
+239,train,NORM,100.0,normal ECG,1.0,NORM
+239,train,SR,0.0,sinus rhythm,,
+258,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+258,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+276,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+276,train,NT_,0.0,non-specific T-wave changes,,
+276,train,SR,0.0,sinus rhythm,,
+286,train,CLBBB,100.0,complete left bundle branch block,1.0,CD
+286,train,SR,0.0,sinus rhythm,,
+310,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+310,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+310,train,QWAVE,0.0,Q waves present,,
+310,train,SR,0.0,sinus rhythm,,
+314,train,NORM,100.0,normal ECG,1.0,NORM
+314,train,SR,0.0,sinus rhythm,,
+332,train,NORM,100.0,normal ECG,1.0,NORM
+332,train,SR,0.0,sinus rhythm,,
+342,train,NORM,100.0,normal ECG,1.0,NORM
+342,train,SR,0.0,sinus rhythm,,
+350,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+350,train,SARRH,0.0,sinus arrhythmia,,
+356,train,NORM,100.0,normal ECG,1.0,NORM
+356,train,SR,0.0,sinus rhythm,,
+374,train,NORM,100.0,normal ECG,1.0,NORM
+374,train,SR,0.0,sinus rhythm,,
+401,train,NORM,100.0,normal ECG,1.0,NORM
+401,train,SR,0.0,sinus rhythm,,
+418,train,AMI,50.0,anterior myocardial infarction,1.0,MI
+418,train,SR,0.0,sinus rhythm,,
+451,train,NORM,100.0,normal ECG,1.0,NORM
+451,train,SR,0.0,sinus rhythm,,
+493,train,NORM,100.0,normal ECG,1.0,NORM
+493,train,SR,0.0,sinus rhythm,,
+494,train,NORM,100.0,normal ECG,1.0,NORM
+494,train,SR,0.0,sinus rhythm,,
+546,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+546,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+546,train,SR,0.0,sinus rhythm,,
+547,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+547,train,LPFB,100.0,left posterior fascicular block,1.0,CD
+547,train,ALMI,100.0,anterolateral myocardial infarction,1.0,MI
+547,train,PVC,100.0,ventricular premature complex,,
+547,train,AFIB,0.0,atrial fibrillation,,
+561,train,NORM,100.0,normal ECG,1.0,NORM
+561,train,SR,0.0,sinus rhythm,,
+578,train,NORM,100.0,normal ECG,1.0,NORM
+578,train,SR,0.0,sinus rhythm,,
+579,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+579,train,SR,0.0,sinus rhythm,,
+595,train,NORM,100.0,normal ECG,1.0,NORM
+595,train,SR,0.0,sinus rhythm,,
+603,train,NORM,100.0,normal ECG,1.0,NORM
+603,train,SR,0.0,sinus rhythm,,
+607,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+607,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+607,train,QWAVE,0.0,Q waves present,,
+607,train,SR,0.0,sinus rhythm,,
+610,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+610,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+610,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+610,train,LOWT,0.0,low amplitude T-waves,,
+610,train,STD_,0.0,non-specific ST depression,,
+610,train,AFIB,0.0,atrial fibrillation,,
+617,train,ASMI,15.0,anteroseptal myocardial infarction,1.0,MI
+617,train,SR,0.0,sinus rhythm,,
+625,train,NORM,100.0,normal ECG,1.0,NORM
+625,train,SR,0.0,sinus rhythm,,
+626,train,ISCIL,100.0,ischemic in inferolateral leads,1.0,STTC
+626,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+626,train,RAO/RAE,100.0,right atrial overload/enlargement,1.0,HYP
+626,train,NST_,0.0,non-specific ST changes,1.0,STTC
+626,train,STACH,0.0,sinus tachycardia,,
+656,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+656,train,DIG,80.0,digitalis-effect,1.0,STTC
+656,train,STD_,0.0,non-specific ST depression,,
+656,train,AFIB,0.0,atrial fibrillation,,
+660,train,NORM,100.0,normal ECG,1.0,NORM
+669,train,NORM,100.0,normal ECG,1.0,NORM
+669,train,SR,0.0,sinus rhythm,,
+683,train,NORM,100.0,normal ECG,1.0,NORM
+683,train,SR,0.0,sinus rhythm,,
+689,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+689,train,QWAVE,0.0,Q waves present,,
+689,train,SR,0.0,sinus rhythm,,
+715,train,NORM,50.0,normal ECG,1.0,NORM
+715,train,PVC,100.0,ventricular premature complex,,
+715,train,SR,0.0,sinus rhythm,,
+718,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+718,train,NT_,0.0,non-specific T-wave changes,,
+718,train,LPR,0.0,prolonged PR interval,,
+718,train,SR,0.0,sinus rhythm,,
+733,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+733,train,STD_,0.0,non-specific ST depression,,
+733,train,SR,0.0,sinus rhythm,,
+738,train,AMI,15.0,anterior myocardial infarction,1.0,MI
+738,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+738,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+738,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+738,train,PVC,100.0,ventricular premature complex,,
+738,train,NST_,0.0,non-specific ST changes,1.0,STTC
+738,train,STACH,0.0,sinus tachycardia,,
+738,train,BIGU,0.0,"bigeminal pattern (unknown origin, SV or Ventricular)",,
+740,train,NORM,100.0,normal ECG,1.0,NORM
+740,train,SR,0.0,sinus rhythm,,
+749,train,NORM,80.0,normal ECG,1.0,NORM
+749,train,SR,0.0,sinus rhythm,,
+750,train,LAO/LAE,50.0,left atrial overload/enlargement,1.0,HYP
+750,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+750,train,PAC,0.0,atrial premature complex,,
+750,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+750,train,SR,0.0,sinus rhythm,,
+760,train,IMI,80.0,inferior myocardial infarction,1.0,MI
+760,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+760,train,QWAVE,0.0,Q waves present,,
+760,train,LOWT,0.0,low amplitude T-waves,,
+760,train,STD_,0.0,non-specific ST depression,,
+760,train,SR,0.0,sinus rhythm,,
+781,train,NORM,100.0,normal ECG,1.0,NORM
+781,train,SR,0.0,sinus rhythm,,
+802,train,NORM,100.0,normal ECG,1.0,NORM
+802,train,SR,0.0,sinus rhythm,,
+816,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+816,train,PAC,0.0,atrial premature complex,,
+816,train,LPR,0.0,prolonged PR interval,,
+816,train,SR,0.0,sinus rhythm,,
+816,train,TRIGU,0.0,"trigeminal pattern (unknown origin, SV or Ventricular)",,
+827,train,ILMI,100.0,inferolateral myocardial infarction,1.0,MI
+827,train,QWAVE,0.0,Q waves present,,
+827,train,INVT,0.0,inverted T-waves,,
+827,train,SR,0.0,sinus rhythm,,
+832,train,NORM,100.0,normal ECG,1.0,NORM
+832,train,SR,0.0,sinus rhythm,,
+836,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+836,train,SR,0.0,sinus rhythm,,
+862,train,NORM,100.0,normal ECG,1.0,NORM
+862,train,SR,0.0,sinus rhythm,,
+894,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+894,train,PAC,0.0,atrial premature complex,,
+894,train,SR,0.0,sinus rhythm,,
+906,train,NORM,100.0,normal ECG,1.0,NORM
+906,train,SR,0.0,sinus rhythm,,
+908,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+908,train,AFIB,0.0,atrial fibrillation,,
+919,train,SEHYP,50.0,septal hypertrophy,1.0,HYP
+919,train,ISCAS,100.0,ischemic in anteroseptal leads,1.0,STTC
+919,train,INVT,0.0,inverted T-waves,,
+919,train,SR,0.0,sinus rhythm,,
+923,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+923,train,LMI,50.0,lateral myocardial infarction,1.0,MI
+923,train,ISCIL,100.0,ischemic in inferolateral leads,1.0,STTC
+923,train,LOWT,0.0,low amplitude T-waves,,
+923,train,STD_,0.0,non-specific ST depression,,
+923,train,AFIB,0.0,atrial fibrillation,,
+930,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+930,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+930,train,EL,50.0,electrolytic disturbance or drug (former EDIS),1.0,STTC
+930,train,STD_,0.0,non-specific ST depression,,
+930,train,SR,0.0,sinus rhythm,,
+965,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+965,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+965,train,STD_,0.0,non-specific ST depression,,
+965,train,SR,0.0,sinus rhythm,,
+991,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+991,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+991,train,ABQRS,0.0,abnormal QRS,,
+991,train,SR,0.0,sinus rhythm,,
+992,train,NORM,100.0,normal ECG,1.0,NORM
+992,train,SR,0.0,sinus rhythm,,
+1004,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+1004,train,PVC,100.0,ventricular premature complex,,
+1004,train,STD_,0.0,non-specific ST depression,,
+1004,train,LPR,0.0,prolonged PR interval,,
+1004,train,HVOLT,0.0,high QRS voltage,,
+1004,train,SR,0.0,sinus rhythm,,
+1017,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+1017,train,PVC,100.0,ventricular premature complex,,
+1017,train,DIG,100.0,digitalis-effect,1.0,STTC
+1017,train,STD_,0.0,non-specific ST depression,,
+1017,train,AFIB,0.0,atrial fibrillation,,
+1032,train,LVH,35.0,left ventricular hypertrophy,1.0,HYP
+1032,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+1032,train,SR,0.0,sinus rhythm,,
+1036,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+1036,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+1036,train,PVC,100.0,ventricular premature complex,,
+1036,train,PAC,0.0,atrial premature complex,,
+1036,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+1036,train,SR,0.0,sinus rhythm,,
+1042,train,NORM,80.0,normal ECG,1.0,NORM
+1042,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+1042,train,SR,0.0,sinus rhythm,,
+1058,train,NORM,100.0,normal ECG,1.0,NORM
+1072,train,CLBBB,100.0,complete left bundle branch block,1.0,CD
+1072,train,SR,0.0,sinus rhythm,,
+1080,train,NST_,100.0,non-specific ST changes,1.0,STTC
+1080,train,SR,0.0,sinus rhythm,,
+1088,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+1088,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+1088,train,SR,0.0,sinus rhythm,,
+1125,train,NORM,100.0,normal ECG,1.0,NORM
+1125,train,SR,0.0,sinus rhythm,,
+1127,train,NORM,100.0,normal ECG,1.0,NORM
+1127,train,SR,0.0,sinus rhythm,,
+1149,train,NORM,100.0,normal ECG,1.0,NORM
+1149,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+1149,train,SR,0.0,sinus rhythm,,
+1174,train,NORM,100.0,normal ECG,1.0,NORM
+1174,train,SR,0.0,sinus rhythm,,
+1178,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+1178,train,DIG,80.0,digitalis-effect,1.0,STTC
+1178,train,PVC,100.0,ventricular premature complex,,
+1178,train,LOWT,0.0,low amplitude T-waves,,
+1178,train,STD_,0.0,non-specific ST depression,,
+1178,train,AFIB,0.0,atrial fibrillation,,
+1182,train,NORM,100.0,normal ECG,1.0,NORM
+1182,train,SR,0.0,sinus rhythm,,
+1187,train,1AVB,100.0,first degree AV block,1.0,CD
+1187,train,ISC_,15.0,non-specific ischemic,1.0,STTC
+1187,train,STD_,0.0,non-specific ST depression,,
+1187,train,LPR,0.0,prolonged PR interval,,
+1187,train,SR,0.0,sinus rhythm,,
+1192,train,NORM,100.0,normal ECG,1.0,NORM
+1192,train,SR,0.0,sinus rhythm,,
+1198,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+1198,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+1198,train,QWAVE,0.0,Q waves present,,
+1198,train,SR,0.0,sinus rhythm,,
+1210,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+1210,train,LOWT,0.0,low amplitude T-waves,,
+1210,train,STD_,0.0,non-specific ST depression,,
+1210,train,STACH,0.0,sinus tachycardia,,
+1216,train,INJAS,100.0,subendocardial injury in anteroseptal leads,1.0,MI
+1216,train,ISCIL,100.0,ischemic in inferolateral leads,1.0,STTC
+1216,train,SBRAD,0.0,sinus bradycardia,,
+1230,train,NORM,100.0,normal ECG,1.0,NORM
+1230,train,SR,0.0,sinus rhythm,,
+1234,train,NORM,35.0,normal ECG,1.0,NORM
+1234,train,HVOLT,0.0,high QRS voltage,,
+1234,train,STACH,0.0,sinus tachycardia,,
+1239,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+1239,train,ALMI,100.0,anterolateral myocardial infarction,1.0,MI
+1239,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+1239,train,1AVB,100.0,first degree AV block,1.0,CD
+1239,train,QWAVE,0.0,Q waves present,,
+1239,train,INVT,0.0,inverted T-waves,,
+1239,train,SR,0.0,sinus rhythm,,
+1263,train,NORM,100.0,normal ECG,1.0,NORM
+1263,train,SR,0.0,sinus rhythm,,
+1267,train,NORM,100.0,normal ECG,1.0,NORM
+1267,train,SR,0.0,sinus rhythm,,
+1283,train,NORM,100.0,normal ECG,1.0,NORM
+1283,train,SR,0.0,sinus rhythm,,
+7,train,NORM,100.0,normal ECG,1.0,NORM
+7,train,SR,0.0,sinus rhythm,,
+14,train,NORM,100.0,normal ECG,1.0,NORM
+14,train,SR,0.0,sinus rhythm,,
+19,train,NORM,100.0,normal ECG,1.0,NORM
+19,train,SR,0.0,sinus rhythm,,
+50,train,LMI,15.0,lateral myocardial infarction,1.0,MI
+50,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+50,train,SR,0.0,sinus rhythm,,
+68,train,NORM,80.0,normal ECG,1.0,NORM
+68,train,SR,0.0,sinus rhythm,,
+87,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+87,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+87,train,SR,0.0,sinus rhythm,,
+88,train,NORM,100.0,normal ECG,1.0,NORM
+88,train,SR,0.0,sinus rhythm,,
+124,train,NORM,100.0,normal ECG,1.0,NORM
+124,train,SR,0.0,sinus rhythm,,
+125,train,NORM,100.0,normal ECG,1.0,NORM
+125,train,SR,0.0,sinus rhythm,,
+146,train,IMI,35.0,inferior myocardial infarction,1.0,MI
+146,train,ISCLA,100.0,ischemic in lateral leads,1.0,STTC
+146,train,SEHYP,50.0,septal hypertrophy,1.0,HYP
+146,train,SR,0.0,sinus rhythm,,
+150,train,NORM,100.0,normal ECG,1.0,NORM
+150,train,SR,0.0,sinus rhythm,,
+156,train,NORM,100.0,normal ECG,1.0,NORM
+156,train,SR,0.0,sinus rhythm,,
+168,train,ISCAL,50.0,ischemic in anterolateral leads,1.0,STTC
+168,train,SR,0.0,sinus rhythm,,
+185,train,NORM,100.0,normal ECG,1.0,NORM
+185,train,SR,0.0,sinus rhythm,,
+202,train,NORM,100.0,normal ECG,1.0,NORM
+202,train,SR,0.0,sinus rhythm,,
+225,train,NORM,100.0,normal ECG,1.0,NORM
+225,train,SBRAD,0.0,sinus bradycardia,,
+230,train,NORM,100.0,normal ECG,1.0,NORM
+230,train,SR,0.0,sinus rhythm,,
+256,train,CLBBB,100.0,complete left bundle branch block,1.0,CD
+256,train,PVC,100.0,ventricular premature complex,,
+256,train,SR,0.0,sinus rhythm,,
+260,train,LNGQT,100.0,long QT-interval,1.0,STTC
+260,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+260,train,SR,0.0,sinus rhythm,,
+280,train,NORM,100.0,normal ECG,1.0,NORM
+280,train,SR,0.0,sinus rhythm,,
+288,train,NORM,100.0,normal ECG,1.0,NORM
+288,train,NT_,0.0,non-specific T-wave changes,,
+288,train,SR,0.0,sinus rhythm,,
+289,train,NORM,80.0,normal ECG,1.0,NORM
+289,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+289,train,SBRAD,0.0,sinus bradycardia,,
+297,train,NORM,80.0,normal ECG,1.0,NORM
+297,train,PVC,0.0,ventricular premature complex,,
+297,train,SR,0.0,sinus rhythm,,
+300,train,NORM,80.0,normal ECG,1.0,NORM
+300,train,NT_,0.0,non-specific T-wave changes,,
+300,train,SR,0.0,sinus rhythm,,
+321,train,EL,50.0,electrolytic disturbance or drug (former EDIS),1.0,STTC
+321,train,NST_,0.0,non-specific ST changes,1.0,STTC
+321,train,AFIB,0.0,atrial fibrillation,,
+331,train,LAFB,80.0,left anterior fascicular block,1.0,CD
+331,train,SR,0.0,sinus rhythm,,
+335,train,NORM,100.0,normal ECG,1.0,NORM
+335,train,SR,0.0,sinus rhythm,,
+363,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+363,train,PVC,100.0,ventricular premature complex,,
+371,train,NORM,100.0,normal ECG,1.0,NORM
+371,train,SR,0.0,sinus rhythm,,
+372,train,NORM,100.0,normal ECG,1.0,NORM
+372,train,SR,0.0,sinus rhythm,,
+373,train,NORM,100.0,normal ECG,1.0,NORM
+373,train,SR,0.0,sinus rhythm,,
+375,train,NORM,100.0,normal ECG,1.0,NORM
+375,train,SR,0.0,sinus rhythm,,
+391,train,NORM,100.0,normal ECG,1.0,NORM
+391,train,SR,0.0,sinus rhythm,,
+403,train,NORM,100.0,normal ECG,1.0,NORM
+403,train,SR,0.0,sinus rhythm,,
+409,train,LMI,15.0,lateral myocardial infarction,1.0,MI
+409,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+409,train,NT_,0.0,non-specific T-wave changes,,
+409,train,SR,0.0,sinus rhythm,,
+433,train,NORM,100.0,normal ECG,1.0,NORM
+433,train,SR,0.0,sinus rhythm,,
+438,train,NORM,100.0,normal ECG,1.0,NORM
+438,train,SR,0.0,sinus rhythm,,
+439,train,NORM,100.0,normal ECG,1.0,NORM
+439,train,SR,0.0,sinus rhythm,,
+450,train,NST_,100.0,non-specific ST changes,1.0,STTC
+450,train,SR,0.0,sinus rhythm,,
+454,train,NORM,100.0,normal ECG,1.0,NORM
+454,train,SR,0.0,sinus rhythm,,
+477,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+477,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+477,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+511,train,ISCIN,100.0,ischemic in inferior leads,1.0,STTC
+511,train,ISCAL,50.0,ischemic in anterolateral leads,1.0,STTC
+511,train,SR,0.0,sinus rhythm,,
+531,train,NORM,100.0,normal ECG,1.0,NORM
+531,train,SR,0.0,sinus rhythm,,
+533,train,NORM,100.0,normal ECG,1.0,NORM
+533,train,SR,0.0,sinus rhythm,,
+539,train,NORM,100.0,normal ECG,1.0,NORM
+539,train,SR,0.0,sinus rhythm,,
+541,train,ISCAS,100.0,ischemic in anteroseptal leads,1.0,STTC
+541,train,ISCAL,100.0,ischemic in anterolateral leads,1.0,STTC
+541,train,SR,0.0,sinus rhythm,,
+565,train,NORM,100.0,normal ECG,1.0,NORM
+565,train,SR,0.0,sinus rhythm,,
+566,train,NORM,100.0,normal ECG,1.0,NORM
+566,train,SR,0.0,sinus rhythm,,
+583,train,NORM,100.0,normal ECG,1.0,NORM
+583,train,SR,0.0,sinus rhythm,,
+594,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+594,train,ILMI,50.0,inferolateral myocardial infarction,1.0,MI
+594,train,AFIB,0.0,atrial fibrillation,,
+596,train,NORM,100.0,normal ECG,1.0,NORM
+596,train,SR,0.0,sinus rhythm,,
+599,train,ASMI,80.0,anteroseptal myocardial infarction,1.0,MI
+599,train,LPR,0.0,prolonged PR interval,,
+599,train,SR,0.0,sinus rhythm,,
+602,train,NORM,80.0,normal ECG,1.0,NORM
+602,train,SARRH,0.0,sinus arrhythmia,,
+624,train,NORM,100.0,normal ECG,1.0,NORM
+624,train,SR,0.0,sinus rhythm,,
+645,train,NORM,100.0,normal ECG,1.0,NORM
+645,train,SR,0.0,sinus rhythm,,
+647,train,NORM,80.0,normal ECG,1.0,NORM
+647,train,SR,0.0,sinus rhythm,,
+651,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+651,train,LMI,100.0,lateral myocardial infarction,1.0,MI
+651,train,LPFB,100.0,left posterior fascicular block,1.0,CD
+651,train,QWAVE,0.0,Q waves present,,
+651,train,SR,0.0,sinus rhythm,,
+653,train,NORM,100.0,normal ECG,1.0,NORM
+653,train,SR,0.0,sinus rhythm,,
+666,train,NORM,100.0,normal ECG,1.0,NORM
+666,train,SR,0.0,sinus rhythm,,
+674,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+674,train,INVT,0.0,inverted T-waves,,
+674,train,AFIB,0.0,atrial fibrillation,,
+679,train,NORM,100.0,normal ECG,1.0,NORM
+679,train,SR,0.0,sinus rhythm,,
+680,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+680,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+680,train,SR,0.0,sinus rhythm,,
+681,train,AMI,15.0,anterior myocardial infarction,1.0,MI
+681,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+681,train,SR,0.0,sinus rhythm,,
+690,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+690,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+690,train,SR,0.0,sinus rhythm,,
+700,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+700,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+700,train,QWAVE,0.0,Q waves present,,
+700,train,SR,0.0,sinus rhythm,,
+711,train,CLBBB,100.0,complete left bundle branch block,1.0,CD
+711,train,LAO/LAE,100.0,left atrial overload/enlargement,1.0,HYP
+711,train,SR,0.0,sinus rhythm,,
+714,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+714,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+714,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+714,train,INVT,0.0,inverted T-waves,,
+714,train,STD_,0.0,non-specific ST depression,,
+714,train,SR,0.0,sinus rhythm,,
+719,train,NORM,100.0,normal ECG,1.0,NORM
+719,train,SR,0.0,sinus rhythm,,
+720,train,AMI,50.0,anterior myocardial infarction,1.0,MI
+720,train,QWAVE,0.0,Q waves present,,
+720,train,SR,0.0,sinus rhythm,,
+725,train,NORM,100.0,normal ECG,1.0,NORM
+725,train,SARRH,0.0,sinus arrhythmia,,
+734,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+734,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+734,train,QWAVE,0.0,Q waves present,,
+734,train,LOWT,0.0,low amplitude T-waves,,
+734,train,STD_,0.0,non-specific ST depression,,
+734,train,SR,0.0,sinus rhythm,,
+741,train,LVH,35.0,left ventricular hypertrophy,1.0,HYP
+741,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+741,train,SR,0.0,sinus rhythm,,
+742,train,ILMI,50.0,inferolateral myocardial infarction,1.0,MI
+742,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+742,train,LOWT,0.0,low amplitude T-waves,,
+742,train,SR,0.0,sinus rhythm,,
+767,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+767,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+767,train,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+767,train,STD_,0.0,non-specific ST depression,,
+767,train,SR,0.0,sinus rhythm,,
+773,train,NORM,100.0,normal ECG,1.0,NORM
+773,train,SR,0.0,sinus rhythm,,
+788,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+788,train,LPFB,100.0,left posterior fascicular block,1.0,CD
+788,train,SR,0.0,sinus rhythm,,
+791,train,NORM,100.0,normal ECG,1.0,NORM
+791,train,SR,0.0,sinus rhythm,,
+794,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+794,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+794,train,SR,0.0,sinus rhythm,,
+812,train,NORM,100.0,normal ECG,1.0,NORM
+812,train,SR,0.0,sinus rhythm,,
+819,train,NORM,100.0,normal ECG,1.0,NORM
+819,train,SR,0.0,sinus rhythm,,
+820,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+820,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+820,train,DIG,100.0,digitalis-effect,1.0,STTC
+820,train,LOWT,0.0,low amplitude T-waves,,
+820,train,STD_,0.0,non-specific ST depression,,
+820,train,AFIB,0.0,atrial fibrillation,,
+824,train,NORM,100.0,normal ECG,1.0,NORM
+824,train,SR,0.0,sinus rhythm,,
+830,train,NORM,100.0,normal ECG,1.0,NORM
+830,train,SR,0.0,sinus rhythm,,
+834,train,NORM,100.0,normal ECG,1.0,NORM
+834,train,SR,0.0,sinus rhythm,,
+838,train,NORM,100.0,normal ECG,1.0,NORM
+838,train,SR,0.0,sinus rhythm,,
+842,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+842,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+842,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+842,train,NST_,0.0,non-specific ST changes,1.0,STTC
+842,train,SR,0.0,sinus rhythm,,
+845,train,NORM,100.0,normal ECG,1.0,NORM
+845,train,SR,0.0,sinus rhythm,,
+877,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+877,train,SR,0.0,sinus rhythm,,
+890,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+890,train,SR,0.0,sinus rhythm,,
+900,train,NORM,100.0,normal ECG,1.0,NORM
+900,train,SR,0.0,sinus rhythm,,
+915,train,IMI,80.0,inferior myocardial infarction,1.0,MI
+915,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+915,train,PVC,0.0,ventricular premature complex,,
+915,train,QWAVE,0.0,Q waves present,,
+915,train,INVT,0.0,inverted T-waves,,
+915,train,SR,0.0,sinus rhythm,,
+933,train,NORM,100.0,normal ECG,1.0,NORM
+933,train,SR,0.0,sinus rhythm,,
+937,train,NORM,50.0,normal ECG,1.0,NORM
+937,train,STD_,0.0,non-specific ST depression,,
+937,train,SR,0.0,sinus rhythm,,
+944,train,NORM,80.0,normal ECG,1.0,NORM
+944,train,SR,0.0,sinus rhythm,,
+945,train,NORM,100.0,normal ECG,1.0,NORM
+945,train,SR,0.0,sinus rhythm,,
+978,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+978,train,LVH,80.0,left ventricular hypertrophy,1.0,HYP
+978,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+978,train,PAC,0.0,atrial premature complex,,
+978,train,QWAVE,0.0,Q waves present,,
+978,train,LOWT,0.0,low amplitude T-waves,,
+978,train,STACH,0.0,sinus tachycardia,,
+980,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+980,train,SR,0.0,sinus rhythm,,
+981,train,NORM,100.0,normal ECG,1.0,NORM
+981,train,SR,0.0,sinus rhythm,,
+998,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+998,train,LAO/LAE,100.0,left atrial overload/enlargement,1.0,HYP
+998,train,1AVB,100.0,first degree AV block,1.0,CD
+998,train,PVC,100.0,ventricular premature complex,,
+998,train,LPR,0.0,prolonged PR interval,,
+998,train,SR,0.0,sinus rhythm,,
+1000,train,NORM,100.0,normal ECG,1.0,NORM
+1000,train,SR,0.0,sinus rhythm,,
+12,train,NORM,80.0,normal ECG,1.0,NORM
+12,train,SBRAD,0.0,sinus bradycardia,,
+43,train,NORM,100.0,normal ECG,1.0,NORM
+43,train,SR,0.0,sinus rhythm,,
+53,train,NORM,100.0,normal ECG,1.0,NORM
+53,train,SR,0.0,sinus rhythm,,
+71,train,NORM,100.0,normal ECG,1.0,NORM
+71,train,SR,0.0,sinus rhythm,,
+74,train,NORM,100.0,normal ECG,1.0,NORM
+74,train,SR,0.0,sinus rhythm,,
+92,train,NORM,100.0,normal ECG,1.0,NORM
+92,train,SR,0.0,sinus rhythm,,
+98,train,NORM,100.0,normal ECG,1.0,NORM
+98,train,SARRH,0.0,sinus arrhythmia,,
+108,train,NORM,80.0,normal ECG,1.0,NORM
+108,train,STACH,0.0,sinus tachycardia,,
+113,train,NORM,100.0,normal ECG,1.0,NORM
+113,train,SR,0.0,sinus rhythm,,
+131,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+131,train,ABQRS,0.0,abnormal QRS,,
+131,train,SR,0.0,sinus rhythm,,
+138,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+138,train,SR,0.0,sinus rhythm,,
+194,train,NORM,100.0,normal ECG,1.0,NORM
+194,train,TAB_,0.0,T-wave abnormality,,
+199,train,AMI,15.0,anterior myocardial infarction,1.0,MI
+199,train,RAO/RAE,100.0,right atrial overload/enlargement,1.0,HYP
+199,train,ABQRS,0.0,abnormal QRS,,
+199,train,SR,0.0,sinus rhythm,,
+207,train,NORM,80.0,normal ECG,1.0,NORM
+207,train,HVOLT,0.0,high QRS voltage,,
+207,train,SR,0.0,sinus rhythm,,
+259,train,ISCIL,100.0,ischemic in inferolateral leads,1.0,STTC
+259,train,SR,0.0,sinus rhythm,,
+261,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+261,train,EL,50.0,electrolytic disturbance or drug (former EDIS),1.0,STTC
+261,train,NT_,0.0,non-specific T-wave changes,,
+261,train,SR,0.0,sinus rhythm,,
+265,train,NORM,100.0,normal ECG,1.0,NORM
+265,train,NT_,0.0,non-specific T-wave changes,,
+265,train,SR,0.0,sinus rhythm,,
+269,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+269,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+269,train,PAC,0.0,atrial premature complex,,
+269,train,LPR,0.0,prolonged PR interval,,
+269,train,QWAVE,0.0,Q waves present,,
+269,train,SR,0.0,sinus rhythm,,
+290,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+290,train,SR,0.0,sinus rhythm,,
+292,train,NORM,100.0,normal ECG,1.0,NORM
+305,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+305,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+305,train,NT_,0.0,non-specific T-wave changes,,
+305,train,SARRH,0.0,sinus arrhythmia,,
+312,train,NORM,100.0,normal ECG,1.0,NORM
+312,train,SR,0.0,sinus rhythm,,
+317,train,NORM,100.0,normal ECG,1.0,NORM
+317,train,SR,0.0,sinus rhythm,,
+327,train,NORM,100.0,normal ECG,1.0,NORM
+327,train,SR,0.0,sinus rhythm,,
+328,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+328,train,SARRH,0.0,sinus arrhythmia,,
+337,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+337,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+337,train,LOWT,0.0,low amplitude T-waves,,
+337,train,STD_,0.0,non-specific ST depression,,
+337,train,AFIB,0.0,atrial fibrillation,,
+338,train,CLBBB,100.0,complete left bundle branch block,1.0,CD
+338,train,SR,0.0,sinus rhythm,,
+353,train,NORM,100.0,normal ECG,1.0,NORM
+353,train,SR,0.0,sinus rhythm,,
+357,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+357,train,SR,0.0,sinus rhythm,,
+367,train,NORM,80.0,normal ECG,1.0,NORM
+367,train,SR,0.0,sinus rhythm,,
+376,train,NORM,100.0,normal ECG,1.0,NORM
+376,train,SR,0.0,sinus rhythm,,
+394,train,NORM,80.0,normal ECG,1.0,NORM
+394,train,SR,0.0,sinus rhythm,,
+408,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+408,train,NT_,0.0,non-specific T-wave changes,,
+408,train,SR,0.0,sinus rhythm,,
+423,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+423,train,ILBBB,100.0,incomplete left bundle branch block,1.0,CD
+423,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+423,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+426,train,NORM,100.0,normal ECG,1.0,NORM
+426,train,SR,0.0,sinus rhythm,,
+435,train,NORM,100.0,normal ECG,1.0,NORM
+435,train,SR,0.0,sinus rhythm,,
+447,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+447,train,SR,0.0,sinus rhythm,,
+455,train,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+455,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+455,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+455,train,ISCAL,50.0,ischemic in anterolateral leads,1.0,STTC
+455,train,SR,0.0,sinus rhythm,,
+471,train,NORM,100.0,normal ECG,1.0,NORM
+471,train,SR,0.0,sinus rhythm,,
+500,train,IMI,50.0,inferior myocardial infarction,1.0,MI
+500,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+500,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+500,train,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+500,train,QWAVE,0.0,Q waves present,,
+500,train,STD_,0.0,non-specific ST depression,,
+500,train,AFIB,0.0,atrial fibrillation,,
+507,train,AMI,50.0,anterior myocardial infarction,1.0,MI
+507,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+507,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+523,train,NORM,100.0,normal ECG,1.0,NORM
+523,train,SR,0.0,sinus rhythm,,
+567,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+567,train,AFIB,0.0,atrial fibrillation,,
+590,train,NORM,100.0,normal ECG,1.0,NORM
+590,train,SR,0.0,sinus rhythm,,
+609,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+609,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+609,train,LOWT,0.0,low amplitude T-waves,,
+609,train,STD_,0.0,non-specific ST depression,,
+609,train,SR,0.0,sinus rhythm,,
+630,train,NORM,35.0,normal ECG,1.0,NORM
+630,train,HVOLT,0.0,high QRS voltage,,
+630,train,SR,0.0,sinus rhythm,,
+637,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+637,train,ISCAL,100.0,ischemic in anterolateral leads,1.0,STTC
+637,train,AFIB,0.0,atrial fibrillation,,
+659,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+659,train,SR,0.0,sinus rhythm,,
+668,train,NORM,100.0,normal ECG,1.0,NORM
+668,train,SR,0.0,sinus rhythm,,
+672,train,ISCAL,100.0,ischemic in anterolateral leads,1.0,STTC
+672,train,INVT,0.0,inverted T-waves,,
+672,train,SR,0.0,sinus rhythm,,
+677,train,NORM,100.0,normal ECG,1.0,NORM
+677,train,SR,0.0,sinus rhythm,,
+682,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+682,train,SR,0.0,sinus rhythm,,
+697,train,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+697,train,AFIB,0.0,atrial fibrillation,,
+698,train,NORM,100.0,normal ECG,1.0,NORM
+698,train,STACH,0.0,sinus tachycardia,,
+706,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+706,train,IMI,100.0,inferior myocardial infarction,1.0,MI
+706,train,AFLT,0.0,atrial flutter,,
+713,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+713,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+713,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+713,train,LAO/LAE,100.0,left atrial overload/enlargement,1.0,HYP
+713,train,PVC,100.0,ventricular premature complex,,
+713,train,LPR,0.0,prolonged PR interval,,
+713,train,STD_,0.0,non-specific ST depression,,
+713,train,SR,0.0,sinus rhythm,,
+743,train,NST_,100.0,non-specific ST changes,1.0,STTC
+743,train,LNGQT,100.0,long QT-interval,1.0,STTC
+743,train,LOWT,0.0,low amplitude T-waves,,
+743,train,STD_,0.0,non-specific ST depression,,
+743,train,SR,0.0,sinus rhythm,,
+752,train,NORM,80.0,normal ECG,1.0,NORM
+752,train,SR,0.0,sinus rhythm,,
+768,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+768,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+768,train,INVT,0.0,inverted T-waves,,
+768,train,STD_,0.0,non-specific ST depression,,
+768,train,SR,0.0,sinus rhythm,,
+769,train,NORM,100.0,normal ECG,1.0,NORM
+769,train,SARRH,0.0,sinus arrhythmia,,
+770,train,NORM,80.0,normal ECG,1.0,NORM
+770,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+770,train,SR,0.0,sinus rhythm,,
+780,train,NORM,80.0,normal ECG,1.0,NORM
+780,train,SR,0.0,sinus rhythm,,
+785,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+785,train,SR,0.0,sinus rhythm,,
+809,train,NORM,100.0,normal ECG,1.0,NORM
+809,train,SR,0.0,sinus rhythm,,
+853,train,ILMI,100.0,inferolateral myocardial infarction,1.0,MI
+853,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+853,train,SR,0.0,sinus rhythm,,
+865,train,NORM,100.0,normal ECG,1.0,NORM
+865,train,SR,0.0,sinus rhythm,,
+870,train,NORM,100.0,normal ECG,1.0,NORM
+870,train,SR,0.0,sinus rhythm,,
+873,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+873,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+873,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+873,train,LPR,0.0,prolonged PR interval,,
+873,train,SR,0.0,sinus rhythm,,
+874,train,NORM,50.0,normal ECG,1.0,NORM
+874,train,SR,0.0,sinus rhythm,,
+875,train,NORM,50.0,normal ECG,1.0,NORM
+875,train,LPR,0.0,prolonged PR interval,,
+875,train,SR,0.0,sinus rhythm,,
+878,train,NORM,100.0,normal ECG,1.0,NORM
+878,train,SR,0.0,sinus rhythm,,
+884,train,NORM,100.0,normal ECG,1.0,NORM
+884,train,LPR,0.0,prolonged PR interval,,
+884,train,SR,0.0,sinus rhythm,,
+898,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+898,train,EL,50.0,electrolytic disturbance or drug (former EDIS),1.0,STTC
+898,train,SR,0.0,sinus rhythm,,
+909,train,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+909,train,STD_,0.0,non-specific ST depression,,
+909,train,SR,0.0,sinus rhythm,,
+938,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+938,train,SR,0.0,sinus rhythm,,
+961,train,NORM,100.0,normal ECG,1.0,NORM
+961,train,SR,0.0,sinus rhythm,,
+970,train,IPLMI,50.0,inferoposterolateral myocardial infarction,1.0,MI
+970,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+970,train,RAO/RAE,50.0,right atrial overload/enlargement,1.0,HYP
+983,train,NORM,100.0,normal ECG,1.0,NORM
+983,train,SR,0.0,sinus rhythm,,
+989,train,NORM,100.0,normal ECG,1.0,NORM
+989,train,SR,0.0,sinus rhythm,,
+1034,train,NORM,100.0,normal ECG,1.0,NORM
+1034,train,SR,0.0,sinus rhythm,,
+1041,train,NORM,100.0,normal ECG,1.0,NORM
+1041,train,SR,0.0,sinus rhythm,,
+1048,train,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+1048,train,ISC_,100.0,non-specific ischemic,1.0,STTC
+1071,train,NORM,100.0,normal ECG,1.0,NORM
+1071,train,SR,0.0,sinus rhythm,,
+1079,train,IMI,15.0,inferior myocardial infarction,1.0,MI
+1079,train,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+1122,train,NORM,100.0,normal ECG,1.0,NORM
+1122,train,SR,0.0,sinus rhythm,,
+1140,train,NORM,100.0,normal ECG,1.0,NORM
+1140,train,SR,0.0,sinus rhythm,,
+1161,train,NORM,100.0,normal ECG,1.0,NORM
+1161,train,SR,0.0,sinus rhythm,,
+1167,train,NORM,80.0,normal ECG,1.0,NORM
+1167,train,SR,0.0,sinus rhythm,,
+1176,train,NORM,100.0,normal ECG,1.0,NORM
+1176,train,SR,0.0,sinus rhythm,,
+1180,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+1180,train,ALMI,50.0,anterolateral myocardial infarction,1.0,MI
+1180,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+1181,train,NORM,100.0,normal ECG,1.0,NORM
+1181,train,SR,0.0,sinus rhythm,,
+1214,train,NORM,80.0,normal ECG,1.0,NORM
+1214,train,STACH,0.0,sinus tachycardia,,
+1232,train,CRBBB,100.0,complete right bundle branch block,1.0,CD
+1232,train,1AVB,100.0,first degree AV block,1.0,CD
+1232,train,PAC,0.0,atrial premature complex,,
+1232,train,LPR,0.0,prolonged PR interval,,
+1232,train,SBRAD,0.0,sinus bradycardia,,
+1232,train,BIGU,0.0,"bigeminal pattern (unknown origin, SV or Ventricular)",,
+1250,train,NORM,80.0,normal ECG,1.0,NORM
+1250,train,SR,0.0,sinus rhythm,,
+1254,train,NORM,100.0,normal ECG,1.0,NORM
+1254,train,SR,0.0,sinus rhythm,,
+1257,train,NORM,100.0,normal ECG,1.0,NORM
+1257,train,SR,0.0,sinus rhythm,,
+1269,train,NORM,100.0,normal ECG,1.0,NORM
+1269,train,SR,0.0,sinus rhythm,,
+1277,train,LAFB,100.0,left anterior fascicular block,1.0,CD
+1278,train,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+1293,train,NORM,80.0,normal ECG,1.0,NORM
+1293,train,SARRH,0.0,sinus arrhythmia,,
+8,validation,IMI,35.0,inferior myocardial infarction,1.0,MI
+8,validation,ABQRS,0.0,abnormal QRS,,
+8,validation,SR,0.0,sinus rhythm,,
+10,validation,NORM,100.0,normal ECG,1.0,NORM
+10,validation,SR,0.0,sinus rhythm,,
+17,validation,AFLT,100.0,atrial flutter,,
+17,validation,ABQRS,0.0,abnormal QRS,,
+17,validation,AFIB,0.0,atrial fibrillation,,
+30,validation,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+30,validation,SR,0.0,sinus rhythm,,
+41,validation,LAFB,100.0,left anterior fascicular block,1.0,CD
+41,validation,SR,0.0,sinus rhythm,,
+47,validation,NORM,100.0,normal ECG,1.0,NORM
+47,validation,SR,0.0,sinus rhythm,,
+48,validation,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+48,validation,SR,0.0,sinus rhythm,,
+49,validation,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+49,validation,SR,0.0,sinus rhythm,,
+51,validation,NORM,100.0,normal ECG,1.0,NORM
+51,validation,SR,0.0,sinus rhythm,,
+62,validation,NORM,100.0,normal ECG,1.0,NORM
+62,validation,ABQRS,0.0,abnormal QRS,,
+62,validation,SR,0.0,sinus rhythm,,
+69,validation,NORM,100.0,normal ECG,1.0,NORM
+69,validation,SBRAD,0.0,sinus bradycardia,,
+72,validation,NORM,100.0,normal ECG,1.0,NORM
+72,validation,ABQRS,0.0,abnormal QRS,,
+72,validation,SR,0.0,sinus rhythm,,
+91,validation,NORM,100.0,normal ECG,1.0,NORM
+91,validation,SR,0.0,sinus rhythm,,
+94,validation,NORM,100.0,normal ECG,1.0,NORM
+94,validation,SR,0.0,sinus rhythm,,
+127,validation,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+127,validation,SR,0.0,sinus rhythm,,
+134,validation,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+134,validation,SR,0.0,sinus rhythm,,
+144,validation,PACE,100.0,normal functioning artificial pacemaker,,
+151,validation,NORM,100.0,normal ECG,1.0,NORM
+152,validation,LMI,50.0,lateral myocardial infarction,1.0,MI
+152,validation,ISCIL,100.0,ischemic in inferolateral leads,1.0,STTC
+152,validation,AFIB,0.0,atrial fibrillation,,
+153,validation,IMI,15.0,inferior myocardial infarction,1.0,MI
+153,validation,ABQRS,0.0,abnormal QRS,,
+153,validation,SR,0.0,sinus rhythm,,
+155,validation,ILMI,35.0,inferolateral myocardial infarction,1.0,MI
+155,validation,ABQRS,0.0,abnormal QRS,,
+155,validation,SR,0.0,sinus rhythm,,
+165,validation,NORM,100.0,normal ECG,1.0,NORM
+165,validation,SR,0.0,sinus rhythm,,
+170,validation,NST_,100.0,non-specific ST changes,1.0,STTC
+170,validation,PVC,100.0,ventricular premature complex,,
+170,validation,SR,0.0,sinus rhythm,,
+171,validation,ISCIL,100.0,ischemic in inferolateral leads,1.0,STTC
+171,validation,SR,0.0,sinus rhythm,,
+173,validation,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+173,validation,ISC_,100.0,non-specific ischemic,1.0,STTC
+173,validation,SR,0.0,sinus rhythm,,
+178,validation,NORM,100.0,normal ECG,1.0,NORM
+178,validation,SR,0.0,sinus rhythm,,
+184,validation,ILMI,100.0,inferolateral myocardial infarction,1.0,MI
+184,validation,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+184,validation,SR,0.0,sinus rhythm,,
+186,validation,ISCAS,100.0,ischemic in anteroseptal leads,1.0,STTC
+190,validation,PACE,100.0,normal functioning artificial pacemaker,,
+193,validation,NORM,100.0,normal ECG,1.0,NORM
+193,validation,SR,0.0,sinus rhythm,,
+195,validation,CRBBB,100.0,complete right bundle branch block,1.0,CD
+195,validation,SR,0.0,sinus rhythm,,
+198,validation,NORM,100.0,normal ECG,1.0,NORM
+198,validation,SR,0.0,sinus rhythm,,
+204,validation,NORM,100.0,normal ECG,1.0,NORM
+204,validation,SR,0.0,sinus rhythm,,
+205,validation,NORM,100.0,normal ECG,1.0,NORM
+205,validation,ABQRS,0.0,abnormal QRS,,
+205,validation,SR,0.0,sinus rhythm,,
+216,validation,NORM,100.0,normal ECG,1.0,NORM
+216,validation,SR,0.0,sinus rhythm,,
+217,validation,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+217,validation,SR,0.0,sinus rhythm,,
+223,validation,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+223,validation,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+223,validation,ISC_,100.0,non-specific ischemic,1.0,STTC
+223,validation,SR,0.0,sinus rhythm,,
+228,validation,NORM,80.0,normal ECG,1.0,NORM
+228,validation,SARRH,0.0,sinus arrhythmia,,
+233,validation,NORM,100.0,normal ECG,1.0,NORM
+233,validation,SR,0.0,sinus rhythm,,
+234,validation,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+234,validation,IMI,15.0,inferior myocardial infarction,1.0,MI
+234,validation,ANEUR,100.0,ST-T changes compatible with ventricular aneurysm,1.0,STTC
+234,validation,1AVB,100.0,first degree AV block,1.0,CD
+234,validation,SR,0.0,sinus rhythm,,
+262,validation,NORM,100.0,normal ECG,1.0,NORM
+262,validation,SR,0.0,sinus rhythm,,
+266,validation,ALMI,100.0,anterolateral myocardial infarction,1.0,MI
+266,validation,IMI,80.0,inferior myocardial infarction,1.0,MI
+266,validation,LAFB,100.0,left anterior fascicular block,1.0,CD
+266,validation,PVC,100.0,ventricular premature complex,,
+266,validation,ANEUR,50.0,ST-T changes compatible with ventricular aneurysm,1.0,STTC
+266,validation,QWAVE,0.0,Q waves present,,
+266,validation,INVT,0.0,inverted T-waves,,
+266,validation,SR,0.0,sinus rhythm,,
+287,validation,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+287,validation,CLBBB,100.0,complete left bundle branch block,1.0,CD
+287,validation,PVC,100.0,ventricular premature complex,,
+287,validation,SR,0.0,sinus rhythm,,
+293,validation,NORM,100.0,normal ECG,1.0,NORM
+293,validation,SR,0.0,sinus rhythm,,
+295,validation,NST_,100.0,non-specific ST changes,1.0,STTC
+295,validation,SR,0.0,sinus rhythm,,
+303,validation,NORM,100.0,normal ECG,1.0,NORM
+303,validation,SR,0.0,sinus rhythm,,
+343,validation,NORM,100.0,normal ECG,1.0,NORM
+343,validation,SR,0.0,sinus rhythm,,
+352,validation,NORM,100.0,normal ECG,1.0,NORM
+352,validation,SR,0.0,sinus rhythm,,
+354,validation,NORM,100.0,normal ECG,1.0,NORM
+354,validation,SR,0.0,sinus rhythm,,
+360,validation,NORM,80.0,normal ECG,1.0,NORM
+360,validation,SR,0.0,sinus rhythm,,
+365,validation,NORM,100.0,normal ECG,1.0,NORM
+365,validation,SR,0.0,sinus rhythm,,
+368,validation,NORM,100.0,normal ECG,1.0,NORM
+368,validation,SR,0.0,sinus rhythm,,
+383,validation,IMI,15.0,inferior myocardial infarction,1.0,MI
+383,validation,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+383,validation,ISC_,100.0,non-specific ischemic,1.0,STTC
+386,validation,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+386,validation,ISC_,100.0,non-specific ischemic,1.0,STTC
+387,validation,NORM,100.0,normal ECG,1.0,NORM
+387,validation,SR,0.0,sinus rhythm,,
+398,validation,NORM,100.0,normal ECG,1.0,NORM
+398,validation,SR,0.0,sinus rhythm,,
+406,validation,NORM,100.0,normal ECG,1.0,NORM
+406,validation,SR,0.0,sinus rhythm,,
+414,validation,INJAS,100.0,subendocardial injury in anteroseptal leads,1.0,MI
+414,validation,INJAL,100.0,subendocardial injury in anterolateral leads,1.0,MI
+414,validation,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+414,validation,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+414,validation,STD_,0.0,non-specific ST depression,,
+414,validation,SR,0.0,sinus rhythm,,
+419,validation,NORM,100.0,normal ECG,1.0,NORM
+419,validation,SR,0.0,sinus rhythm,,
+425,validation,IPMI,100.0,inferoposterior myocardial infarction,1.0,MI
+425,validation,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+425,validation,ISC_,100.0,non-specific ischemic,1.0,STTC
+425,validation,PVC,100.0,ventricular premature complex,,
+425,validation,QWAVE,0.0,Q waves present,,
+425,validation,LOWT,0.0,low amplitude T-waves,,
+425,validation,STD_,0.0,non-specific ST depression,,
+425,validation,SR,0.0,sinus rhythm,,
+437,validation,NORM,100.0,normal ECG,1.0,NORM
+437,validation,SR,0.0,sinus rhythm,,
+441,validation,NORM,100.0,normal ECG,1.0,NORM
+441,validation,SR,0.0,sinus rhythm,,
+445,validation,NORM,100.0,normal ECG,1.0,NORM
+445,validation,SR,0.0,sinus rhythm,,
+483,validation,IMI,15.0,inferior myocardial infarction,1.0,MI
+483,validation,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+483,validation,INJAS,100.0,subendocardial injury in anteroseptal leads,1.0,MI
+491,validation,NORM,100.0,normal ECG,1.0,NORM
+491,validation,SR,0.0,sinus rhythm,,
+498,validation,PACE,100.0,normal functioning artificial pacemaker,,
+515,validation,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+515,validation,SR,0.0,sinus rhythm,,
+520,validation,LAFB,100.0,left anterior fascicular block,1.0,CD
+520,validation,SR,0.0,sinus rhythm,,
+524,validation,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+524,validation,ISC_,100.0,non-specific ischemic,1.0,STTC
+524,validation,1AVB,100.0,first degree AV block,1.0,CD
+524,validation,LAO/LAE,100.0,left atrial overload/enlargement,1.0,HYP
+529,validation,NST_,100.0,non-specific ST changes,1.0,STTC
+529,validation,SR,0.0,sinus rhythm,,
+537,validation,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+537,validation,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+537,validation,ISC_,100.0,non-specific ischemic,1.0,STTC
+537,validation,SR,0.0,sinus rhythm,,
+544,validation,IMI,100.0,inferior myocardial infarction,1.0,MI
+544,validation,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+544,validation,ISC_,100.0,non-specific ischemic,1.0,STTC
+545,validation,IMI,50.0,inferior myocardial infarction,1.0,MI
+545,validation,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+545,validation,ISC_,100.0,non-specific ischemic,1.0,STTC
+545,validation,CLBBB,100.0,complete left bundle branch block,1.0,CD
+545,validation,SR,0.0,sinus rhythm,,
+553,validation,NORM,100.0,normal ECG,1.0,NORM
+553,validation,SR,0.0,sinus rhythm,,
+554,validation,IMI,15.0,inferior myocardial infarction,1.0,MI
+554,validation,ISCAN,100.0,ischemic in anterior leads,1.0,STTC
+554,validation,SR,0.0,sinus rhythm,,
+558,validation,IMI,15.0,inferior myocardial infarction,1.0,MI
+558,validation,SR,0.0,sinus rhythm,,
+563,validation,IMI,50.0,inferior myocardial infarction,1.0,MI
+563,validation,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+563,validation,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+563,validation,1AVB,100.0,first degree AV block,1.0,CD
+563,validation,SR,0.0,sinus rhythm,,
+574,validation,NORM,80.0,normal ECG,1.0,NORM
+574,validation,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+574,validation,SR,0.0,sinus rhythm,,
+587,validation,NORM,100.0,normal ECG,1.0,NORM
+587,validation,SR,0.0,sinus rhythm,,
+601,validation,IMI,80.0,inferior myocardial infarction,1.0,MI
+601,validation,NT_,0.0,non-specific T-wave changes,,
+601,validation,QWAVE,0.0,Q waves present,,
+601,validation,SR,0.0,sinus rhythm,,
+612,validation,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+612,validation,LOWT,0.0,low amplitude T-waves,,
+612,validation,SBRAD,0.0,sinus bradycardia,,
+615,validation,NORM,100.0,normal ECG,1.0,NORM
+615,validation,SR,0.0,sinus rhythm,,
+627,validation,IMI,100.0,inferior myocardial infarction,1.0,MI
+627,validation,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+627,validation,QWAVE,0.0,Q waves present,,
+627,validation,SR,0.0,sinus rhythm,,
+633,validation,LAFB,100.0,left anterior fascicular block,1.0,CD
+633,validation,SR,0.0,sinus rhythm,,
+662,validation,NORM,100.0,normal ECG,1.0,NORM
+662,validation,SR,0.0,sinus rhythm,,
+673,validation,NORM,100.0,normal ECG,1.0,NORM
+673,validation,SR,0.0,sinus rhythm,,
+705,validation,LAFB,100.0,left anterior fascicular block,1.0,CD
+705,validation,INJAS,100.0,subendocardial injury in anteroseptal leads,1.0,MI
+705,validation,SR,0.0,sinus rhythm,,
+716,validation,AMI,50.0,anterior myocardial infarction,1.0,MI
+716,validation,NT_,0.0,non-specific T-wave changes,,
+716,validation,QWAVE,0.0,Q waves present,,
+716,validation,SR,0.0,sinus rhythm,,
+717,validation,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+717,validation,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+717,validation,AFIB,0.0,atrial fibrillation,,
+722,validation,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+722,validation,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+722,validation,ISC_,100.0,non-specific ischemic,1.0,STTC
+722,validation,STD_,0.0,non-specific ST depression,,
+722,validation,AFIB,0.0,atrial fibrillation,,
+728,validation,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+728,validation,IMI,50.0,inferior myocardial infarction,1.0,MI
+728,validation,1AVB,100.0,first degree AV block,1.0,CD
+728,validation,NT_,0.0,non-specific T-wave changes,,
+728,validation,LPR,0.0,prolonged PR interval,,
+728,validation,SR,0.0,sinus rhythm,,
+748,validation,NORM,100.0,normal ECG,1.0,NORM
+748,validation,SR,0.0,sinus rhythm,,
+771,validation,NORM,100.0,normal ECG,1.0,NORM
+772,validation,NORM,100.0,normal ECG,1.0,NORM
+772,validation,ABQRS,0.0,abnormal QRS,,
+772,validation,SR,0.0,sinus rhythm,,
+776,validation,NORM,100.0,normal ECG,1.0,NORM
+776,validation,SR,0.0,sinus rhythm,,
+787,validation,NORM,100.0,normal ECG,1.0,NORM
+787,validation,SR,0.0,sinus rhythm,,
+792,validation,NORM,100.0,normal ECG,1.0,NORM
+792,validation,SR,0.0,sinus rhythm,,
+796,validation,CLBBB,100.0,complete left bundle branch block,1.0,CD
+796,validation,PVC,100.0,ventricular premature complex,,
+796,validation,LAO/LAE,50.0,left atrial overload/enlargement,1.0,HYP
+796,validation,SR,0.0,sinus rhythm,,
+800,validation,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+800,validation,ALMI,100.0,anterolateral myocardial infarction,1.0,MI
+800,validation,1AVB,100.0,first degree AV block,1.0,CD
+818,validation,NORM,50.0,normal ECG,1.0,NORM
+818,validation,PVC,100.0,ventricular premature complex,,
+818,validation,SARRH,0.0,sinus arrhythmia,,
+9,test,NORM,100.0,normal ECG,1.0,NORM
+9,test,SR,0.0,sinus rhythm,,
+38,test,NORM,100.0,normal ECG,1.0,NORM
+38,test,SR,0.0,sinus rhythm,,
+40,test,NORM,80.0,normal ECG,1.0,NORM
+40,test,SR,0.0,sinus rhythm,,
+57,test,NORM,100.0,normal ECG,1.0,NORM
+57,test,SR,0.0,sinus rhythm,,
+59,test,NORM,100.0,normal ECG,1.0,NORM
+59,test,SR,0.0,sinus rhythm,,
+63,test,ASMI,15.0,anteroseptal myocardial infarction,1.0,MI
+63,test,ABQRS,0.0,abnormal QRS,,
+63,test,SR,0.0,sinus rhythm,,
+65,test,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+65,test,SR,0.0,sinus rhythm,,
+75,test,NORM,100.0,normal ECG,1.0,NORM
+75,test,SR,0.0,sinus rhythm,,
+76,test,NORM,80.0,normal ECG,1.0,NORM
+76,test,SARRH,0.0,sinus arrhythmia,,
+79,test,NORM,100.0,normal ECG,1.0,NORM
+79,test,SR,0.0,sinus rhythm,,
+93,test,NORM,100.0,normal ECG,1.0,NORM
+93,test,SR,0.0,sinus rhythm,,
+100,test,NORM,80.0,normal ECG,1.0,NORM
+100,test,SARRH,0.0,sinus arrhythmia,,
+112,test,NORM,80.0,normal ECG,1.0,NORM
+112,test,SR,0.0,sinus rhythm,,
+115,test,NORM,100.0,normal ECG,1.0,NORM
+115,test,SR,0.0,sinus rhythm,,
+116,test,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+116,test,SR,0.0,sinus rhythm,,
+117,test,NORM,100.0,normal ECG,1.0,NORM
+117,test,SR,0.0,sinus rhythm,,
+128,test,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+129,test,NORM,100.0,normal ECG,1.0,NORM
+129,test,SR,0.0,sinus rhythm,,
+157,test,LAFB,100.0,left anterior fascicular block,1.0,CD
+157,test,SR,0.0,sinus rhythm,,
+160,test,NST_,100.0,non-specific ST changes,1.0,STTC
+160,test,SR,0.0,sinus rhythm,,
+162,test,ASMI,50.0,anteroseptal myocardial infarction,1.0,MI
+162,test,LAFB,100.0,left anterior fascicular block,1.0,CD
+162,test,LVH,50.0,left ventricular hypertrophy,1.0,HYP
+162,test,ISC_,100.0,non-specific ischemic,1.0,STTC
+162,test,SR,0.0,sinus rhythm,,
+167,test,ISCAL,100.0,ischemic in anterolateral leads,1.0,STTC
+167,test,SR,0.0,sinus rhythm,,
+172,test,CRBBB,100.0,complete right bundle branch block,1.0,CD
+172,test,LAFB,100.0,left anterior fascicular block,1.0,CD
+172,test,SR,0.0,sinus rhythm,,
+175,test,IMI,15.0,inferior myocardial infarction,1.0,MI
+175,test,ABQRS,0.0,abnormal QRS,,
+175,test,SR,0.0,sinus rhythm,,
+180,test,CLBBB,100.0,complete left bundle branch block,1.0,CD
+180,test,SR,0.0,sinus rhythm,,
+201,test,NORM,100.0,normal ECG,1.0,NORM
+201,test,SR,0.0,sinus rhythm,,
+203,test,NORM,100.0,normal ECG,1.0,NORM
+203,test,SR,0.0,sinus rhythm,,
+208,test,NORM,100.0,normal ECG,1.0,NORM
+208,test,SR,0.0,sinus rhythm,,
+210,test,IMI,80.0,inferior myocardial infarction,1.0,MI
+210,test,SR,0.0,sinus rhythm,,
+218,test,NORM,80.0,normal ECG,1.0,NORM
+218,test,1AVB,100.0,first degree AV block,1.0,CD
+218,test,SR,0.0,sinus rhythm,,
+240,test,IMI,50.0,inferior myocardial infarction,1.0,MI
+240,test,ABQRS,0.0,abnormal QRS,,
+240,test,SBRAD,0.0,sinus bradycardia,,
+241,test,NORM,100.0,normal ECG,1.0,NORM
+241,test,SR,0.0,sinus rhythm,,
+243,test,NORM,100.0,normal ECG,1.0,NORM
+243,test,SR,0.0,sinus rhythm,,
+245,test,NORM,100.0,normal ECG,1.0,NORM
+245,test,SR,0.0,sinus rhythm,,
+252,test,NORM,100.0,normal ECG,1.0,NORM
+252,test,SR,0.0,sinus rhythm,,
+271,test,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+271,test,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+271,test,ISC_,100.0,non-specific ischemic,1.0,STTC
+271,test,PAC,0.0,atrial premature complex,,
+271,test,STD_,0.0,non-specific ST depression,,
+271,test,SR,0.0,sinus rhythm,,
+274,test,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+274,test,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+274,test,ISC_,100.0,non-specific ischemic,1.0,STTC
+274,test,LAO/LAE,50.0,left atrial overload/enlargement,1.0,HYP
+274,test,VCLVH,0.0,voltage criteria (QRS) for left ventricular hypertrophy,,
+274,test,INVT,0.0,inverted T-waves,,
+274,test,STD_,0.0,non-specific ST depression,,
+274,test,SR,0.0,sinus rhythm,,
+299,test,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+299,test,ISC_,100.0,non-specific ischemic,1.0,STTC
+299,test,LAO/LAE,50.0,left atrial overload/enlargement,1.0,HYP
+299,test,SR,0.0,sinus rhythm,,
+318,test,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+318,test,DIG,80.0,digitalis-effect,1.0,STTC
+318,test,STD_,0.0,non-specific ST depression,,
+318,test,AFIB,0.0,atrial fibrillation,,
+334,test,NORM,100.0,normal ECG,1.0,NORM
+334,test,SR,0.0,sinus rhythm,,
+361,test,NORM,100.0,normal ECG,1.0,NORM
+361,test,SR,0.0,sinus rhythm,,
+364,test,NORM,100.0,normal ECG,1.0,NORM
+364,test,SR,0.0,sinus rhythm,,
+377,test,LPFB,100.0,left posterior fascicular block,1.0,CD
+377,test,SR,0.0,sinus rhythm,,
+382,test,PACE,100.0,normal functioning artificial pacemaker,,
+388,test,NST_,100.0,non-specific ST changes,1.0,STTC
+388,test,SR,0.0,sinus rhythm,,
+397,test,NORM,100.0,normal ECG,1.0,NORM
+397,test,SR,0.0,sinus rhythm,,
+400,test,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+400,test,SR,0.0,sinus rhythm,,
+405,test,NORM,100.0,normal ECG,1.0,NORM
+405,test,SR,0.0,sinus rhythm,,
+417,test,NORM,100.0,normal ECG,1.0,NORM
+417,test,SR,0.0,sinus rhythm,,
+427,test,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+427,test,PAC,0.0,atrial premature complex,,
+427,test,SR,0.0,sinus rhythm,,
+430,test,ASMI,15.0,anteroseptal myocardial infarction,1.0,MI
+430,test,SR,0.0,sinus rhythm,,
+440,test,NORM,100.0,normal ECG,1.0,NORM
+440,test,SARRH,0.0,sinus arrhythmia,,
+448,test,LAFB,100.0,left anterior fascicular block,1.0,CD
+448,test,SR,0.0,sinus rhythm,,
+449,test,AFLT,100.0,atrial flutter,,
+452,test,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+452,test,ISC_,100.0,non-specific ischemic,1.0,STTC
+452,test,PVC,100.0,ventricular premature complex,,
+452,test,AFIB,0.0,atrial fibrillation,,
+472,test,NORM,100.0,normal ECG,1.0,NORM
+472,test,SR,0.0,sinus rhythm,,
+473,test,NORM,100.0,normal ECG,1.0,NORM
+473,test,SR,0.0,sinus rhythm,,
+478,test,NORM,80.0,normal ECG,1.0,NORM
+478,test,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+478,test,SARRH,0.0,sinus arrhythmia,,
+499,test,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+499,test,NT_,0.0,non-specific T-wave changes,,
+499,test,SR,0.0,sinus rhythm,,
+504,test,NORM,100.0,normal ECG,1.0,NORM
+504,test,SR,0.0,sinus rhythm,,
+512,test,CRBBB,100.0,complete right bundle branch block,1.0,CD
+512,test,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+514,test,ILMI,100.0,inferolateral myocardial infarction,1.0,MI
+514,test,SR,0.0,sinus rhythm,,
+516,test,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+516,test,ISC_,100.0,non-specific ischemic,1.0,STTC
+516,test,SR,0.0,sinus rhythm,,
+526,test,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+526,test,SR,0.0,sinus rhythm,,
+527,test,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+527,test,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+527,test,SR,0.0,sinus rhythm,,
+534,test,ISC_,100.0,non-specific ischemic,1.0,STTC
+534,test,LVH,100.0,left ventricular hypertrophy,1.0,HYP
+559,test,NORM,100.0,normal ECG,1.0,NORM
+559,test,SR,0.0,sinus rhythm,,
+564,test,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+564,test,ANEUR,50.0,ST-T changes compatible with ventricular aneurysm,1.0,STTC
+564,test,ISCAL,100.0,ischemic in anterolateral leads,1.0,STTC
+564,test,SR,0.0,sinus rhythm,,
+569,test,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+569,test,LAFB,100.0,left anterior fascicular block,1.0,CD
+569,test,NST_,100.0,non-specific ST changes,1.0,STTC
+569,test,STD_,0.0,non-specific ST depression,,
+569,test,AFIB,0.0,atrial fibrillation,,
+570,test,NORM,100.0,normal ECG,1.0,NORM
+570,test,SR,0.0,sinus rhythm,,
+573,test,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+573,test,LAO/LAE,100.0,left atrial overload/enlargement,1.0,HYP
+573,test,PVC,100.0,ventricular premature complex,,
+573,test,LOWT,0.0,low amplitude T-waves,,
+573,test,SR,0.0,sinus rhythm,,
+581,test,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+581,test,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+581,test,NST_,0.0,non-specific ST changes,1.0,STTC
+581,test,AFIB,0.0,atrial fibrillation,,
+584,test,NORM,80.0,normal ECG,1.0,NORM
+584,test,SR,0.0,sinus rhythm,,
+611,test,NORM,100.0,normal ECG,1.0,NORM
+611,test,SBRAD,0.0,sinus bradycardia,,
+618,test,CLBBB,100.0,complete left bundle branch block,1.0,CD
+618,test,SR,0.0,sinus rhythm,,
+619,test,NORM,100.0,normal ECG,1.0,NORM
+619,test,NT_,0.0,non-specific T-wave changes,,
+619,test,SR,0.0,sinus rhythm,,
+658,test,IVCD,100.0,non-specific intraventricular conduction disturbance (block),1.0,CD
+658,test,SBRAD,0.0,sinus bradycardia,,
+685,test,IMI,15.0,inferior myocardial infarction,1.0,MI
+685,test,ILBBB,100.0,incomplete left bundle branch block,1.0,CD
+685,test,1AVB,100.0,first degree AV block,1.0,CD
+685,test,LPR,0.0,prolonged PR interval,,
+685,test,SR,0.0,sinus rhythm,,
+687,test,NORM,100.0,normal ECG,1.0,NORM
+694,test,NORM,100.0,normal ECG,1.0,NORM
+694,test,SR,0.0,sinus rhythm,,
+696,test,NORM,80.0,normal ECG,1.0,NORM
+696,test,QWAVE,0.0,Q waves present,,
+696,test,SR,0.0,sinus rhythm,,
+707,test,NDT,100.0,non-diagnostic T abnormalities,1.0,STTC
+707,test,SR,0.0,sinus rhythm,,
+723,test,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+723,test,ISCIN,100.0,ischemic in inferior leads,1.0,STTC
+723,test,SR,0.0,sinus rhythm,,
+726,test,NORM,100.0,normal ECG,1.0,NORM
+726,test,IRBBB,100.0,incomplete right bundle branch block,1.0,CD
+726,test,LAFB,100.0,left anterior fascicular block,1.0,CD
+726,test,SR,0.0,sinus rhythm,,
+732,test,NORM,100.0,normal ECG,1.0,NORM
+732,test,SR,0.0,sinus rhythm,,
+751,test,NORM,100.0,normal ECG,1.0,NORM
+751,test,SR,0.0,sinus rhythm,,
+756,test,NST_,100.0,non-specific ST changes,1.0,STTC
+756,test,PAC,0.0,atrial premature complex,,
+756,test,STD_,0.0,non-specific ST depression,,
+756,test,SR,0.0,sinus rhythm,,
+764,test,NORM,100.0,normal ECG,1.0,NORM
+764,test,SR,0.0,sinus rhythm,,
+765,test,IMI,15.0,inferior myocardial infarction,1.0,MI
+765,test,INJAS,100.0,subendocardial injury in anteroseptal leads,1.0,MI
+765,test,INVT,0.0,inverted T-waves,,
+765,test,SR,0.0,sinus rhythm,,
+775,test,NORM,100.0,normal ECG,1.0,NORM
+775,test,SR,0.0,sinus rhythm,,
+779,test,NORM,100.0,normal ECG,1.0,NORM
+779,test,SR,0.0,sinus rhythm,,
+789,test,LAFB,100.0,left anterior fascicular block,1.0,CD
+789,test,SR,0.0,sinus rhythm,,
+795,test,NORM,100.0,normal ECG,1.0,NORM
+795,test,SR,0.0,sinus rhythm,,
+799,test,IMI,15.0,inferior myocardial infarction,1.0,MI
+799,test,SR,0.0,sinus rhythm,,
+805,test,NORM,15.0,normal ECG,1.0,NORM
+805,test,ABQRS,0.0,abnormal QRS,,
+805,test,SR,0.0,sinus rhythm,,
+806,test,IRBBB,80.0,incomplete right bundle branch block,1.0,CD
+806,test,SR,0.0,sinus rhythm,,
+821,test,ILMI,15.0,inferolateral myocardial infarction,1.0,MI
+821,test,SR,0.0,sinus rhythm,,
+848,test,NORM,100.0,normal ECG,1.0,NORM
+848,test,NT_,0.0,non-specific T-wave changes,,
+848,test,SR,0.0,sinus rhythm,,
+854,test,ASMI,100.0,anteroseptal myocardial infarction,1.0,MI
+854,test,ISCAL,100.0,ischemic in anterolateral leads,1.0,STTC
+861,test,NST_,100.0,non-specific ST changes,1.0,STTC
+861,test,PAC,0.0,atrial premature complex,,
+861,test,STD_,0.0,non-specific ST depression,,
+861,test,SR,0.0,sinus rhythm,,
