@@ -98,3 +98,10 @@ python -m venv .venv
 저장된 validation과 test에서 세 seed 모두 Dilated CNN의 overall MSE·MAE·RMSE가 낮았다. 세 seed는 동일 분할의 반복 실험이며 같은 test 100개를 평가했다. 독립 test 300개가 아니다. 기존 seed 42 Baseline test 결과를 최종 비교 전에 이미 확인한 사실도 유지한다. 통계적 유의성이나 임상적 유효성을 주장하지 않으며, 스마트워치 검증과 분류 모델 연결은 미완료다.
 
 2026-10-11 원격 main의 기존 이력과 파일을 확인하고 로컬 main을 origin/main에 연결했다. 원격 프로젝트 소개와 목표는 이 문서 앞부분에 보존하고 재구성 모듈 안내를 통합했다. 충돌하던 README·.gitignore와 준비한 공유 파일 전체는 연결 전에 저장소 밖에 백업했다. `git add`, commit, push, 학습·모델 추론은 실행하지 않았다.
+
+
+## 역할 3 질환 분류 모델 개발 — 2026-11-01
+
+Lead I(A), 실제 12유도(B), 재구성 포함 12유도(C)를 다중 라벨·보조 이진 분류로 seed 42·43·44에서 실제 학습·평가했다. [분류 모듈과 실행 방법](ecg_classification/README.md), [이번 실험에 적용한 라벨 기준](ecg_classification/LABEL_CRITERIA.md), [실제 성능 비교](ecg_classification/CLASSIFICATION_FINAL_SUMMARY.md)를 참고한다.
+
+C는 A보다 macro 일부 지표가 높았지만 micro AUPRC는 낮아 일관된 개선은 아니었고, 실제 12유도 B와의 차이가 남았다. 코드·문서·집계 결과를 공유하며 모델 가중치·원본 ECG·레코드별 예측·최종 ZIP은 별도 전달한다. 기존 재구성 문서는 당시 기록으로 보존했다.
