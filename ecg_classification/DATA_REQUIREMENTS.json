@@ -1,0 +1,25 @@
+{
+  "data_files": [
+    {
+      "role": "labels",
+      "relative_path": "data/received/ecg_labels_analysis_998.csv",
+      "sha256": "acb9700af83530d02aa119a86b66340b129a3f948aa5bbf44d5bde0712ddf416",
+      "bytes": 142484,
+      "included_in_zip": false
+    },
+    {
+      "role": "reconstructions",
+      "relative_path": "data/received/ecg_for_classification.npz",
+      "sha256": "a92b050d4cac82df58e0f8e2217caf4cd3df8aa25a25eea4eeceed2bfdb724ed",
+      "bytes": 66753755,
+      "included_in_zip": false
+    },
+    {
+      "role": "reference_dataset",
+      "relative_path": "data/processed/ptbxl_100hz_1000records.npz",
+      "sha256": "2828f1949a6c5205de243cf304afc47faabc52d55021c7b9120f19d6309662d6",
+      "bytes": 21495944,
+      "included_in_zip": false
+    }
+  ]
+}

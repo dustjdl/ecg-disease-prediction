@@ -1,0 +1,36 @@
+{
+  "label_criteria": "applied to this experiment",
+  "protocol": {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs": 40,
+    "batch_size": 32,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.2,
+    "loss": "BCEWithLogitsLoss with train-only neg/pos weights",
+    "checkpoint_selection": "first strictly lowest weighted validation BCE in 40 fixed epochs",
+    "threshold_selection": "per output maximize validation F1 on 0.05..0.95 step .01; ties closest to .5, then higher",
+    "normalization": "per-input/per-channel train-eligible population mean and SD over records/time; no record centering/filtering",
+    "unclassified": "exclude from supervised loss and metrics; preserve split and save predictions with NA targets",
+    "multilabel_mixed": "retain all provided labels including NORM+disease",
+    "binary": "any disease MI/STTC/CD/HYP positive, NORM-only negative; mixed positive; unclassified excluded",
+    "test_policy": "finish all 18 models and lock all thresholds/checkpoints before any test probability/metric calculation",
+    "architecture": "Conv1d(C,32,7,stride=2,pad=3)-ReLU-Conv1d(32,64,5,2,2)-ReLU-Conv1d(64,128,5,2,2)-ReLU; global mean+max; Linear(256,64)-ReLU-Dropout(.2)-Linear(64,outputs)",
+    "AP_definition": "AUPRC = non-interpolated average precision (sklearn.average_precision_score), not trapezoidal PR area",
+    "seed_interpretation": "same records/splits/reconstruction NPZ repeated; SD ddof=1, not independent cohorts"
+  },
+  "training_source_sha256": "ba6f63644195a3a179da4fda959855107a1aeb2542ad463c34848be5bd5d7e0e",
+  "versions": {
+    "torch": "2.13.0+cu130",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "sklearn": "1.9.1"
+  },
+  "device": "cuda",
+  "note": "Training protocol and aggregate metrics are unchanged. Runtime datasets and weights are supplied in the final handoff, not Git."
+}

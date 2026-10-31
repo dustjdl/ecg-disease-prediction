@@ -101,3 +101,6 @@ desktop.ini
 
 # Selected evidence CSVs are intentionally shared; other CSVs stay ignored.
 !/ecg_reconstruction/reports/representative/**/*.csv
+
+# Classification sharing: include only selected aggregate CSV evidence.
+!/ecg_classification/reports/aggregate/*.csv

@@ -1,0 +1,3 @@
+# Preserve exact bytes for the shared SHA-256 manifest and source checks.
+* -text
+*.png binary

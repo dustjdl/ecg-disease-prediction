@@ -1,0 +1,47 @@
+{
+  "role_owner": "3: 질환 분류 모델 개발",
+  "label_policy_material_owner": "1",
+  "integration_recipient": "4",
+  "policy_status": "label criteria applied to this experiment",
+  "user_confirmation": "Only ecg_labels_analysis_998.csv and ecg_for_classification.npz were supplied; no additional policy document received",
+  "historical_correction": "role-2 in frozen original code/config/report was an incorrect role number. Use role 1 for label-policy materials. Original frozen artifacts retained.",
+  "training_results_changed": false,
+  "new_training_performed": false,
+  "original_split_counts": {
+    "train": 798,
+    "validation": 100,
+    "test": 100
+  },
+  "supervised_eligible_counts": {
+    "train": 796,
+    "validation": 96,
+    "test": 98
+  },
+  "excluded_ecg_ids": {
+    "train": [
+      385,
+      858
+    ],
+    "validation": [
+      17,
+      144,
+      190,
+      498
+    ],
+    "test": [
+      382,
+      449
+    ]
+  },
+  "multilabel_targets": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "mixed": "keep NORM and all disease positives in multilabel; abnormal-positive in binary",
+  "unclassified": "mask out of training/evaluation, keep split/predictions, NA truth",
+  "binary": "any MI/STTC/CD/HYP => 1; NORM only => 0; unclassified excluded",
+  "user_decision": "Use the existing label processing criteria for this experiment without waiting for additional policy confirmation."
+}
