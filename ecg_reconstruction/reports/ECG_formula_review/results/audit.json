@@ -1,0 +1,33 @@
+{
+  "source_sha256": {
+    "ecg_for_classification.npz": "a92b050d4cac82df58e0f8e2217caf4cd3df8aa25a25eea4eeceed2bfdb724ed",
+    "ecg_labels_analysis_998.csv": "acb9700af83530d02aa119a86b66340b129a3f948aa5bbf44d5bde0712ddf416",
+    "ptbxl_database.csv": "7600de9c1b27d181d850b3c6038a35d7c3ddb6bb33b702e3a20252a6859d216b"
+  },
+  "analysis": "validation_only_postprocessing_no_training",
+  "validation_records": 100,
+  "test_waveforms_scored": false,
+  "changed_leads": [
+    "III",
+    "AVR",
+    "AVL",
+    "AVF"
+  ],
+  "unchanged_leads": [
+    "I",
+    "II",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "labels_changed": false,
+  "mixed_records_by_split": {
+    "train": 13,
+    "test": 3
+  },
+  "fixed_waveform_example_ecg_id": 8,
+  "metrics_definition": "MSE and MAE pooled across same length ECGs/time/leads; RMSE=sqrt(pooled MSE)."
+}

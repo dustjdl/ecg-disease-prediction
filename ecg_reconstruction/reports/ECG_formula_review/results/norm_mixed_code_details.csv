@@ -1,0 +1,54 @@
+﻿ecg_id,split,scp_code,likelihood,note
+291,train,NORM,80.0,
+291,train,IRBBB,100.0,
+291,train,HVOLT,0.0,"0 means likelihood unknown, not absence"
+291,train,SR,0.0,"0 means likelihood unknown, not absence"
+236,train,NORM,80.0,
+236,train,IRBBB,100.0,
+236,train,SR,0.0,"0 means likelihood unknown, not absence"
+362,train,NORM,100.0,
+362,train,IRBBB,100.0,
+362,train,SARRH,0.0,"0 means likelihood unknown, not absence"
+882,train,NORM,100.0,
+882,train,PAC,0.0,"0 means likelihood unknown, not absence"
+882,train,NST_,0.0,"0 means likelihood unknown, not absence"
+882,train,SR,0.0,"0 means likelihood unknown, not absence"
+1137,train,NORM,100.0,
+1137,train,NST_,0.0,"0 means likelihood unknown, not absence"
+1137,train,SR,0.0,"0 means likelihood unknown, not absence"
+235,train,NORM,100.0,
+235,train,LAFB,100.0,
+235,train,SBRAD,0.0,"0 means likelihood unknown, not absence"
+586,train,NORM,80.0,
+586,train,IRBBB,100.0,
+586,train,SR,0.0,"0 means likelihood unknown, not absence"
+709,train,NORM,50.0,
+709,train,IRBBB,100.0,
+709,train,SR,0.0,"0 means likelihood unknown, not absence"
+420,train,NORM,100.0,
+420,train,IRBBB,100.0,
+420,train,LOWT,0.0,"0 means likelihood unknown, not absence"
+420,train,SR,0.0,"0 means likelihood unknown, not absence"
+648,train,NORM,80.0,
+648,train,IRBBB,100.0,
+648,train,NT_,0.0,"0 means likelihood unknown, not absence"
+648,train,SR,0.0,"0 means likelihood unknown, not absence"
+1042,train,NORM,80.0,
+1042,train,IVCD,100.0,
+1042,train,SR,0.0,"0 means likelihood unknown, not absence"
+1149,train,NORM,100.0,
+1149,train,IRBBB,100.0,
+1149,train,SR,0.0,"0 means likelihood unknown, not absence"
+770,train,NORM,80.0,
+770,train,IRBBB,100.0,
+770,train,SR,0.0,"0 means likelihood unknown, not absence"
+218,test,NORM,80.0,
+218,test,1AVB,100.0,
+218,test,SR,0.0,"0 means likelihood unknown, not absence"
+478,test,NORM,80.0,
+478,test,IRBBB,100.0,
+478,test,SARRH,0.0,"0 means likelihood unknown, not absence"
+726,test,NORM,100.0,
+726,test,IRBBB,100.0,
+726,test,LAFB,100.0,
+726,test,SR,0.0,"0 means likelihood unknown, not absence"
