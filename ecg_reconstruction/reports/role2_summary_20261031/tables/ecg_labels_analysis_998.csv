@@ -1,0 +1,999 @@
+﻿ecg_id,patient_id,strat_fold,split,filename_lr,scp_codes,diagnostic_codes,diagnostic_classes,has_multiple_classes,has_unknown_diagnostic_likelihood,label_status,include_in_analysis,exclusion_reason,NORM,MI,STTC,CD,HYP
+32,11154,1,train,records100/00000/00032_lr,"{'LPFB': 100.0, 'SR': 0.0}",LPFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+35,15539,1,train,records100/00000/00035_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+36,8787,1,train,records100/00000/00036_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+37,9123,1,train,records100/00000/00037_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+45,18794,1,train,records100/00000/00045_lr,"{'IRBBB': 100.0, 'RAO/RAE': 50.0, 'RVH': 35.0, 'SR': 0.0}",IRBBB;RAO/RAE;RVH,CD;HYP,True,False,abnormal_class_present,True,,0,0,0,1,1
+52,18153,1,train,records100/00000/00052_lr,"{'IRBBB': 100.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+60,15065,1,train,records100/00000/00060_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+82,19645,1,train,records100/00000/00082_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+90,8418,1,train,records100/00000/00090_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+96,21698,1,train,records100/00000/00096_lr,"{'LVH': 100.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+102,9887,1,train,records100/00000/00102_lr,"{'ISCAL': 50.0, '1AVB': 100.0, 'SR': 0.0}",ISCAL;1AVB,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+149,21700,1,train,records100/00000/00149_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+183,13660,1,train,records100/00000/00183_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+188,13483,1,train,records100/00000/00188_lr,"{'IRBBB': 100.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+231,18301,1,train,records100/00000/00231_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+232,12190,1,train,records100/00000/00232_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+247,15351,1,train,records100/00000/00247_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+267,7662,1,train,records100/00000/00267_lr,"{'IMI': 50.0, 'QWAVE': 0.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+268,2533,1,train,records100/00000/00268_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+275,1389,1,train,records100/00000/00275_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+291,4830,1,train,records100/00000/00291_lr,"{'NORM': 80.0, 'IRBBB': 100.0, 'HVOLT': 0.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+306,3242,1,train,records100/00000/00306_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+307,6348,1,train,records100/00000/00307_lr,"{'ASMI': 50.0, 'LVH': 100.0, 'ISC_': 100.0, 'INVT': 0.0, 'STD_': 0.0, 'AFIB': 0.0}",ASMI;LVH;ISC_,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+308,640,1,train,records100/00000/00308_lr,"{'AMI': 15.0, 'LAFB': 100.0, 'QWAVE': 0.0, 'LOWT': 0.0, 'STD_': 0.0, 'SR': 0.0}",AMI;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+311,4302,1,train,records100/00000/00311_lr,{'AMI': 15.0},AMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+316,380,1,train,records100/00000/00316_lr,"{'LVH': 50.0, 'ISC_': 50.0, 'EL': 100.0, 'PVC': 100.0, 'PAC': 0.0, 'VCLVH': 0.0, 'STD_': 0.0, 'SARRH': 0.0}",LVH;ISC_;EL,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+324,6044,1,train,records100/00000/00324_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+330,4807,1,train,records100/00000/00330_lr,"{'NORM': 50.0, 'AFIB': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+344,1491,1,train,records100/00000/00344_lr,"{'NDT': 100.0, 'NT_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+366,16163,1,train,records100/00000/00366_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+369,15251,1,train,records100/00000/00369_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+379,19267,1,train,records100/00000/00379_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+384,10456,1,train,records100/00000/00384_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+385,16064,1,train,records100/00000/00385_lr,{'PACE': 100.0},,,False,False,unclassified,True,,0,0,0,0,0
+402,12491,1,train,records100/00000/00402_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+411,589,1,train,records100/00000/00411_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+422,4257,1,train,records100/00000/00422_lr,"{'IRBBB': 80.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+431,9313,1,train,records100/00000/00431_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+432,14453,1,train,records100/00000/00432_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+446,3135,1,train,records100/00000/00446_lr,{'NORM': 100.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+457,16773,1,train,records100/00000/00457_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+463,16723,1,train,records100/00000/00463_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+464,11625,1,train,records100/00000/00464_lr,"{'ASMI': 15.0, 'ABQRS': 0.0, 'SR': 0.0}",ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+465,8979,1,train,records100/00000/00465_lr,{'NDT': 100.0},NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+466,1617,1,train,records100/00000/00466_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+468,4519,1,train,records100/00000/00468_lr,"{'INJAL': 50.0, 'IRBBB': 100.0, 'INVT': 0.0, 'SR': 0.0}",INJAL;IRBBB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+475,4545,1,train,records100/00000/00475_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+476,7616,1,train,records100/00000/00476_lr,"{'ISC_': 50.0, 'LVH': 50.0, 'LOWT': 0.0, 'STD_': 0.0, 'SR': 0.0}",ISC_;LVH,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+484,1991,1,train,records100/00000/00484_lr,"{'NDT': 100.0, 'LOWT': 0.0, 'STD_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+485,13439,1,train,records100/00000/00485_lr,"{'ISCAL': 100.0, 'ISCIN': 50.0, 'ABQRS': 0.0, 'SR': 0.0}",ISCAL;ISCIN,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+486,943,1,train,records100/00000/00486_lr,"{'AMI': 50.0, 'IMI': 50.0}",AMI;IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+487,17266,1,train,records100/00000/00487_lr,{'NORM': 100.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+495,3630,1,train,records100/00000/00495_lr,"{'NDT': 100.0, 'NT_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+508,8697,1,train,records100/00000/00508_lr,"{'LAFB': 100.0, 'ISCLA': 100.0, 'ISCIN': 100.0}",LAFB;ISCLA;ISCIN,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+549,13167,1,train,records100/00000/00549_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+551,20767,1,train,records100/00000/00551_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'LAFB': 100.0, '1AVB': 100.0, 'SR': 0.0}",LVH;ISC_;LAFB;1AVB,CD;HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,1,1
+552,9980,1,train,records100/00000/00552_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+560,16169,1,train,records100/00000/00560_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+580,8741,1,train,records100/00000/00580_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+589,8774,1,train,records100/00000/00589_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+597,5832,1,train,records100/00000/00597_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+608,543,1,train,records100/00000/00608_lr,"{'ASMI': 100.0, 'NST_': 100.0, 'STD_': 0.0, 'AFIB': 0.0}",ASMI;NST_,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+616,6056,1,train,records100/00000/00616_lr,"{'LAO/LAE': 50.0, 'NT_': 0.0, 'SR': 0.0}",LAO/LAE,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+621,3378,1,train,records100/00000/00621_lr,"{'CRBBB': 100.0, 'SR': 0.0}",CRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+622,6097,1,train,records100/00000/00622_lr,"{'ISC_': 100.0, 'ASMI': 100.0, 'STD_': 0.0, 'STACH': 0.0}",ISC_;ASMI,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+628,3476,1,train,records100/00000/00628_lr,"{'NORM': 50.0, 'PVC': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+635,392,1,train,records100/00000/00635_lr,"{'CLBBB': 100.0, 'LPFB': 100.0, 'RVH': 15.0, 'SR': 0.0}",CLBBB;LPFB;RVH,CD;HYP,True,False,abnormal_class_present,True,,0,0,0,1,1
+638,14577,1,train,records100/00000/00638_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+676,5808,1,train,records100/00000/00676_lr,"{'NORM': 80.0, 'PAC': 0.0, 'LPR': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+704,2071,1,train,records100/00000/00704_lr,"{'ASMI': 50.0, 'LVH': 100.0, 'IVCD': 100.0, 'PAC': 0.0, 'NST_': 0.0, 'HVOLT': 0.0, 'SR': 0.0}",ASMI;LVH;IVCD;NST_,CD;HYP;MI;STTC,True,True,abnormal_class_present,True,,0,1,1,1,1
+724,17445,1,train,records100/00000/00724_lr,"{'IRBBB': 100.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+737,7024,1,train,records100/00000/00737_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+739,3678,1,train,records100/00000/00739_lr,"{'NDT': 100.0, 'LVH': 15.0, 'VCLVH': 0.0, 'STD_': 0.0, 'SR': 0.0}",NDT;LVH,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+755,7142,1,train,records100/00000/00755_lr,"{'LAFB': 80.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+759,4296,1,train,records100/00000/00759_lr,"{'NORM': 50.0, 'AFIB': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+782,19618,1,train,records100/00000/00782_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+783,15838,1,train,records100/00000/00783_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+811,19607,1,train,records100/00000/00811_lr,"{'NST_': 50.0, 'SR': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+822,6708,1,train,records100/00000/00822_lr,"{'CLBBB': 100.0, '1AVB': 100.0}",CLBBB;1AVB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+855,7992,1,train,records100/00000/00855_lr,"{'SEHYP': 100.0, 'STACH': 0.0}",SEHYP,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+880,1638,1,train,records100/00000/00880_lr,"{'NDT': 100.0, 'IRBBB': 100.0, 'LVH': 100.0, 'LOWT': 0.0, 'STD_': 0.0, 'SR': 0.0}",NDT;IRBBB;LVH,CD;HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,1,1
+888,3092,1,train,records100/00000/00888_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+903,2586,1,train,records100/00000/00903_lr,"{'CRBBB': 100.0, 'SR': 0.0}",CRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+916,7887,1,train,records100/00000/00916_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+956,2681,1,train,records100/00000/00956_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+957,1613,1,train,records100/00000/00957_lr,"{'IMI': 100.0, 'CRBBB': 100.0, 'SR': 0.0}",IMI;CRBBB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+960,2411,1,train,records100/00000/00960_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+962,7414,1,train,records100/00000/00962_lr,"{'AMI': 100.0, 'NDT': 100.0, 'NT_': 0.0, 'QWAVE': 0.0, 'SR': 0.0}",AMI;NDT,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+969,5980,1,train,records100/00000/00969_lr,"{'NORM': 80.0, 'STACH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+974,3125,1,train,records100/00000/00974_lr,"{'NDT': 100.0, 'NT_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+979,5334,1,train,records100/00000/00979_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+984,7061,1,train,records100/00000/00984_lr,"{'LVH': 35.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+1002,982,1,train,records100/01000/01002_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1003,6494,1,train,records100/01000/01003_lr,"{'NORM': 80.0, 'PVC': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1011,7732,1,train,records100/01000/01011_lr,"{'NORM': 80.0, 'PAC': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1021,2446,1,train,records100/01000/01021_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1025,5578,1,train,records100/01000/01025_lr,"{'ASMI': 80.0, 'LVH': 100.0, 'ISC_': 100.0, 'IVCD': 100.0, 'QWAVE': 0.0, 'STD_': 0.0, 'SR': 0.0}",ASMI;LVH;ISC_;IVCD,CD;HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,1,1
+1047,826,1,train,records100/01000/01047_lr,"{'NORM': 80.0, 'QWAVE': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1052,637,1,train,records100/01000/01052_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'INVT': 0.0, 'STD_': 0.0, 'AFIB': 0.0}",LVH;ISC_,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+2,13243,2,train,records100/00000/00002_lr,"{'NORM': 80.0, 'SBRAD': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+13,19953,2,train,records100/00000/00013_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+46,13180,2,train,records100/00000/00046_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+55,20191,2,train,records100/00000/00055_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+58,19424,2,train,records100/00000/00058_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+78,14356,2,train,records100/00000/00078_lr,"{'NORM': 80.0, 'SBRAD': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+80,9339,2,train,records100/00000/00080_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+84,19197,2,train,records100/00000/00084_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+86,10366,2,train,records100/00000/00086_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+109,21312,2,train,records100/00000/00109_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+123,12603,2,train,records100/00000/00123_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+126,17462,2,train,records100/00000/00126_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+130,11656,2,train,records100/00000/00130_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+166,14033,2,train,records100/00000/00166_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+176,8172,2,train,records100/00000/00176_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+196,9374,2,train,records100/00000/00196_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+209,14751,2,train,records100/00000/00209_lr,"{'NDT': 100.0, '1AVB': 100.0, 'SR': 0.0}",NDT;1AVB,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+221,18264,2,train,records100/00000/00221_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+236,19277,2,train,records100/00000/00236_lr,"{'NORM': 80.0, 'IRBBB': 100.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+244,16481,2,train,records100/00000/00244_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+248,19067,2,train,records100/00000/00248_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+249,14355,2,train,records100/00000/00249_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+264,4441,2,train,records100/00000/00264_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+273,340,2,train,records100/00000/00273_lr,"{'ISC_': 100.0, 'LVH': 100.0, 'VCLVH': 0.0, 'STD_': 0.0, 'SR': 0.0}",ISC_;LVH,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+277,6211,2,train,records100/00000/00277_lr,"{'NORM': 100.0, 'VCLVH': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+283,4715,2,train,records100/00000/00283_lr,"{'NORM': 100.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+285,7744,2,train,records100/00000/00285_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+294,5818,2,train,records100/00000/00294_lr,"{'ASMI': 15.0, 'ISCIN': 100.0}",ASMI;ISCIN,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+301,3830,2,train,records100/00000/00301_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+302,2632,2,train,records100/00000/00302_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+309,6590,2,train,records100/00000/00309_lr,{'NORM': 100.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+315,1671,2,train,records100/00000/00315_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+319,1318,2,train,records100/00000/00319_lr,"{'ASMI': 35.0, 'NT_': 0.0, 'QWAVE': 0.0, 'SR': 0.0}",ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+323,3825,2,train,records100/00000/00323_lr,"{'IMI': 35.0, 'QWAVE': 0.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+340,15264,2,train,records100/00000/00340_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+359,17687,2,train,records100/00000/00359_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+362,13598,2,train,records100/00000/00362_lr,"{'NORM': 100.0, 'IRBBB': 100.0, 'SARRH': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+415,19748,2,train,records100/00000/00415_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+416,3596,2,train,records100/00000/00416_lr,{'ISCIL': 100.0},ISCIL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+428,4902,2,train,records100/00000/00428_lr,"{'CRBBB': 100.0, 'LAFB': 100.0, 'LPFB': 100.0, 'AFIB': 0.0}",CRBBB;LAFB;LPFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+429,5393,2,train,records100/00000/00429_lr,"{'IMI': 80.0, 'LVH': 100.0, 'ISC_': 100.0}",IMI;LVH;ISC_,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+442,3522,2,train,records100/00000/00442_lr,"{'IMI': 15.0, 'LVOLT': 0.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+467,6882,2,train,records100/00000/00467_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+474,5362,2,train,records100/00000/00474_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+481,7293,2,train,records100/00000/00481_lr,"{'NORM': 50.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+482,2709,2,train,records100/00000/00482_lr,"{'ASMI': 100.0, 'IMI': 50.0, 'IRBBB': 100.0, 'LAFB': 100.0, 'NST_': 0.0, 'AFIB': 0.0}",ASMI;IMI;IRBBB;LAFB;NST_,CD;MI;STTC,True,True,abnormal_class_present,True,,0,1,1,1,0
+488,5132,2,train,records100/00000/00488_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+490,13837,2,train,records100/00000/00490_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+506,8424,2,train,records100/00000/00506_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+518,17369,2,train,records100/00000/00518_lr,"{'ASMI': 100.0, 'SR': 0.0}",ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+538,13449,2,train,records100/00000/00538_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+555,20075,2,train,records100/00000/00555_lr,"{'NDT': 100.0, 'PVC': 100.0, '1AVB': 100.0, 'SR': 0.0}",NDT;1AVB,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+572,2061,2,train,records100/00000/00572_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+576,2555,2,train,records100/00000/00576_lr,"{'NST_': 100.0, 'LOWT': 0.0, 'SR': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+623,4563,2,train,records100/00000/00623_lr,"{'ALMI': 100.0, 'ASMI': 100.0}",ALMI;ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+629,3918,2,train,records100/00000/00629_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+632,1659,2,train,records100/00000/00632_lr,"{'NDT': 100.0, 'PVC': 100.0, 'PAC': 0.0, 'NT_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+639,1829,2,train,records100/00000/00639_lr,"{'NORM': 100.0, 'NT_': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+643,7613,2,train,records100/00000/00643_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+663,20470,2,train,records100/00000/00663_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+665,5217,2,train,records100/00000/00665_lr,"{'NDT': 100.0, 'PVC': 100.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+675,5124,2,train,records100/00000/00675_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+678,20166,2,train,records100/00000/00678_lr,"{'NDT': 100.0, 'IVCD': 100.0, 'SR': 0.0}",NDT;IVCD,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+684,3429,2,train,records100/00000/00684_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+701,4459,2,train,records100/00000/00701_lr,"{'ASMI': 50.0, 'LVH': 50.0, 'ISC_': 100.0, 'STD_': 0.0, 'SR': 0.0}",ASMI;LVH;ISC_,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+702,1508,2,train,records100/00000/00702_lr,"{'IRBBB': 80.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+703,4900,2,train,records100/00000/00703_lr,"{'ASMI': 50.0, 'AFIB': 0.0}",ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+731,6322,2,train,records100/00000/00731_lr,"{'IMI': 15.0, 'ISCAL': 100.0, 'DIG': 50.0, 'LAFB': 100.0, 'LOWT': 0.0, 'STD_': 0.0, 'AFIB': 0.0}",IMI;ISCAL;DIG;LAFB,CD;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,1,0
+745,6612,2,train,records100/00000/00745_lr,"{'IMI': 50.0, 'LPR': 0.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+778,18738,2,train,records100/00000/00778_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+803,18649,2,train,records100/00000/00803_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+833,4930,2,train,records100/00000/00833_lr,"{'ASMI': 50.0, 'ILMI': 50.0, 'CLBBB': 100.0, 'PVC': 100.0, '1AVB': 100.0, 'SR': 0.0}",ASMI;ILMI;CLBBB;1AVB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+841,1900,2,train,records100/00000/00841_lr,"{'NST_': 100.0, 'LVH': 35.0, 'PVC': 100.0, 'VCLVH': 0.0, 'LOWT': 0.0, 'SR': 0.0}",NST_;LVH,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+844,7917,2,train,records100/00000/00844_lr,"{'IMI': 15.0, 'QWAVE': 0.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+846,1923,2,train,records100/00000/00846_lr,"{'NDT': 100.0, 'DIG': 100.0, 'STD_': 0.0, 'AFIB': 0.0}",NDT;DIG,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+847,7911,2,train,records100/00000/00847_lr,"{'IMI': 15.0, 'ASMI': 15.0, 'IVCD': 100.0, 'LOWT': 0.0, 'STD_': 0.0, 'SR': 0.0}",IMI;ASMI;IVCD,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+864,7661,2,train,records100/00000/00864_lr,"{'ISCIN': 100.0, '1AVB': 100.0, 'PVC': 100.0, 'LPR': 0.0, 'SR': 0.0}",ISCIN;1AVB,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+882,3906,2,train,records100/00000/00882_lr,"{'NORM': 100.0, 'PAC': 0.0, 'NST_': 0.0, 'SR': 0.0}",NORM;NST_,NORM;STTC,True,True,mixed_normal_abnormal,True,,1,0,1,0,0
+905,18362,2,train,records100/00000/00905_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+920,1802,2,train,records100/00000/00920_lr,"{'NORM': 80.0, 'SBRAD': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+922,4888,2,train,records100/00000/00922_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+940,5187,2,train,records100/00000/00940_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+942,410,2,train,records100/00000/00942_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'NST_': 0.0, 'AFIB': 0.0}",LVH;ISC_;NST_,HYP;STTC,True,True,abnormal_class_present,True,,0,0,1,0,1
+964,4910,2,train,records100/00000/00964_lr,"{'ASMI': 100.0, 'ILBBB': 100.0, 'LVH': 100.0, 'ISC_': 100.0, 'PAC': 100.0, 'SR': 0.0}",ASMI;ILBBB;LVH;ISC_,CD;HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,1,1
+972,6140,2,train,records100/00000/00972_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+994,1119,2,train,records100/00000/00994_lr,"{'NDT': 100.0, 'NT_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+995,6672,2,train,records100/00000/00995_lr,"{'NORM': 100.0, 'STACH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1006,5926,2,train,records100/01000/01006_lr,"{'ASMI': 100.0, 'ANEUR': 50.0, 'LVH': 100.0, 'ISC_': 100.0, 'IVCD': 100.0, 'INVT': 0.0, 'STD_': 0.0}",ASMI;ANEUR;LVH;ISC_;IVCD,CD;HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,1,1
+1040,2946,2,train,records100/01000/01040_lr,"{'ILMI': 100.0, 'IVCD': 100.0, 'PVC': 100.0, 'QWAVE': 0.0, 'INVT': 0.0, 'SR': 0.0}",ILMI;IVCD,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+1050,1722,2,train,records100/01000/01050_lr,{'ISC_': 100.0},ISC_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+1053,3469,2,train,records100/01000/01053_lr,"{'IRBBB': 100.0, 'AFIB': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+1065,627,2,train,records100/01000/01065_lr,"{'DIG': 100.0, 'AFIB': 0.0}",DIG,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+1076,10171,2,train,records100/01000/01076_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1086,2172,2,train,records100/01000/01086_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1089,5284,2,train,records100/01000/01089_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1091,5726,2,train,records100/01000/01091_lr,"{'IMI': 50.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+1092,7367,2,train,records100/01000/01092_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1096,874,2,train,records100/01000/01096_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1097,2368,2,train,records100/01000/01097_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1118,19269,2,train,records100/01000/01118_lr,"{'NORM': 100.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1,15709,3,train,records100/00000/00001_lr,"{'NORM': 100.0, 'LVOLT': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+4,17014,3,train,records100/00000/00004_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+15,13375,3,train,records100/00000/00015_lr,"{'NORM': 100.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+24,9012,3,train,records100/00000/00024_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+33,20527,3,train,records100/00000/00033_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+64,12864,3,train,records100/00000/00064_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+105,18974,3,train,records100/00000/00105_lr,"{'NORM': 100.0, 'ABQRS': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+110,12715,3,train,records100/00000/00110_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+118,21192,3,train,records100/00000/00118_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+147,19638,3,train,records100/00000/00147_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+148,16944,3,train,records100/00000/00148_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+159,10669,3,train,records100/00000/00159_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+164,15095,3,train,records100/00000/00164_lr,{'ISCAL': 100.0},ISCAL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+179,14032,3,train,records100/00000/00179_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+191,10630,3,train,records100/00000/00191_lr,"{'LVH': 100.0, '1AVB': 100.0}",LVH;1AVB,CD;HYP,True,False,abnormal_class_present,True,,0,0,0,1,1
+211,18690,3,train,records100/00000/00211_lr,"{'AMI': 15.0, 'LVH': 50.0, 'SR': 0.0}",AMI;LVH,HYP;MI,True,False,abnormal_class_present,True,,0,1,0,0,1
+224,15572,3,train,records100/00000/00224_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+226,20431,3,train,records100/00000/00226_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+255,4867,3,train,records100/00000/00255_lr,"{'IRBBB': 100.0, 'PVC': 100.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+257,6078,3,train,records100/00000/00257_lr,"{'ASMI': 50.0, 'IMI': 100.0, 'PAC': 0.0, 'LOWT': 0.0, 'STD_': 0.0, 'SR': 0.0}",ASMI;IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+284,3192,3,train,records100/00000/00284_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'DIG': 100.0, 'VCLVH': 0.0, 'STD_': 0.0, 'SBRAD': 0.0, 'SARRH': 0.0}",LVH;ISC_;DIG,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+296,7614,3,train,records100/00000/00296_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'STD_': 0.0, 'SR': 0.0}",LVH;ISC_,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+341,5779,3,train,records100/00000/00341_lr,"{'NDT': 100.0, 'STD_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+355,15648,3,train,records100/00000/00355_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+381,15843,3,train,records100/00000/00381_lr,{'NORM': 80.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+389,8599,3,train,records100/00000/00389_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+395,13170,3,train,records100/00000/00395_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+396,14726,3,train,records100/00000/00396_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+410,1582,3,train,records100/00000/00410_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+436,2247,3,train,records100/00000/00436_lr,"{'NORM': 50.0, 'PVC': 100.0, 'VCLVH': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+453,9795,3,train,records100/00000/00453_lr,"{'IMI': 100.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+479,6798,3,train,records100/00000/00479_lr,{'LAFB': 100.0},LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+521,17234,3,train,records100/00000/00521_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+530,10672,3,train,records100/00000/00530_lr,"{'ASMI': 50.0, 'INJAL': 100.0, 'LAFB': 100.0, 'SR': 0.0}",ASMI;INJAL;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+548,21363,3,train,records100/00000/00548_lr,{'NORM': 80.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+550,9027,3,train,records100/00000/00550_lr,{'NST_': 100.0},NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+571,6099,3,train,records100/00000/00571_lr,"{'NST_': 100.0, 'STD_': 0.0, 'SR': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+577,5508,3,train,records100/00000/00577_lr,"{'ASMI': 100.0, 'LAFB': 100.0, 'SR': 0.0}",ASMI;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+591,13062,3,train,records100/00000/00591_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+592,2885,3,train,records100/00000/00592_lr,"{'ASMI': 15.0, 'IRBBB': 100.0, 'QWAVE': 0.0, 'SR': 0.0}",ASMI;IRBBB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+646,520,3,train,records100/00000/00646_lr,"{'ASMI': 100.0, 'IMI': 100.0, 'LAFB': 100.0, 'PAC': 0.0, 'NT_': 0.0, 'SR': 0.0}",ASMI;IMI;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+652,1449,3,train,records100/00000/00652_lr,"{'ASMI': 100.0, 'LVH': 80.0, 'ISC_': 100.0, 'LAO/LAE': 100.0, 'STD_': 0.0, 'STACH': 0.0}",ASMI;LVH;ISC_;LAO/LAE,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+654,4285,3,train,records100/00000/00654_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+655,4315,3,train,records100/00000/00655_lr,{'NORM': 100.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+661,4279,3,train,records100/00000/00661_lr,"{'IMI': 80.0, 'QWAVE': 0.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+671,3977,3,train,records100/00000/00671_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+686,3939,3,train,records100/00000/00686_lr,"{'NDT': 100.0, 'EL': 50.0, 'SR': 0.0}",NDT;EL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+693,381,3,train,records100/00000/00693_lr,"{'INJAS': 50.0, 'INJLA': 50.0, 'LOWT': 0.0, 'SR': 0.0}",INJAS;INJLA,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+695,6510,3,train,records100/00000/00695_lr,"{'NORM': 100.0, 'INVT': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+736,3998,3,train,records100/00000/00736_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+744,4445,3,train,records100/00000/00744_lr,"{'EL': 50.0, 'SR': 0.0}",EL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+746,927,3,train,records100/00000/00746_lr,"{'NDT': 100.0, 'NT_': 0.0, 'SR': 0.0, 'BIGU': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+754,4618,3,train,records100/00000/00754_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+777,17731,3,train,records100/00000/00777_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+793,18105,3,train,records100/00000/00793_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+801,15493,3,train,records100/00000/00801_lr,"{'NST_': 100.0, 'ABQRS': 0.0, 'SBRAD': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+826,1412,3,train,records100/00000/00826_lr,"{'IPLMI': 100.0, 'IVCD': 100.0, 'CRBBB': 100.0, 'LAFB': 100.0, 'PAC': 0.0, 'QWAVE': 0.0, 'SR': 0.0}",IPLMI;IVCD;CRBBB;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+829,6035,3,train,records100/00000/00829_lr,"{'IMI': 100.0, 'ISCAL': 100.0, 'PVC': 100.0, 'QWAVE': 0.0, 'INVT': 0.0, 'AFIB': 0.0}",IMI;ISCAL,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+857,484,3,train,records100/00000/00857_lr,"{'NST_': 100.0, 'RAO/RAE': 100.0, 'STD_': 0.0, 'STACH': 0.0}",NST_;RAO/RAE,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+867,20236,3,train,records100/00000/00867_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+876,6463,3,train,records100/00000/00876_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+899,4010,3,train,records100/00000/00899_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+912,5263,3,train,records100/00000/00912_lr,"{'INJAS': 100.0, 'INVT': 0.0, 'SR': 0.0}",INJAS,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+924,2610,3,train,records100/00000/00924_lr,"{'ALMI': 100.0, 'ASMI': 100.0, 'LAFB': 100.0, 'STACH': 0.0}",ALMI;ASMI;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+926,3577,3,train,records100/00000/00926_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+941,566,3,train,records100/00000/00941_lr,"{'ISCAS': 100.0, 'ISCAL': 100.0, 'INVT': 0.0, 'STD_': 0.0, 'SR': 0.0}",ISCAS;ISCAL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+971,763,3,train,records100/00000/00971_lr,"{'NORM': 100.0, 'LVOLT': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+977,6691,3,train,records100/00000/00977_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+986,2949,3,train,records100/00000/00986_lr,"{'EL': 50.0, 'STD_': 0.0, 'SR': 0.0}",EL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+993,2375,3,train,records100/00000/00993_lr,"{'NDT': 100.0, 'STD_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+1012,1342,3,train,records100/01000/01012_lr,"{'LMI': 100.0, 'ASMI': 50.0, 'NT_': 0.0, 'AFIB': 0.0}",LMI;ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+1018,11273,3,train,records100/01000/01018_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1028,6661,3,train,records100/01000/01028_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1029,3999,3,train,records100/01000/01029_lr,{'NORM': 100.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1037,20479,3,train,records100/01000/01037_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1043,16222,3,train,records100/01000/01043_lr,"{'IRBBB': 100.0, 'ABQRS': 0.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+1049,3014,3,train,records100/01000/01049_lr,"{'ASMI': 100.0, 'LMI': 100.0, 'CRBBB': 100.0}",ASMI;LMI;CRBBB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+1082,6738,3,train,records100/01000/01082_lr,"{'LVH': 15.0, 'VCLVH': 0.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+1083,5443,3,train,records100/01000/01083_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1106,7255,3,train,records100/01000/01106_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1112,16261,3,train,records100/01000/01112_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1129,6609,3,train,records100/01000/01129_lr,{'NORM': 100.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1137,2978,3,train,records100/01000/01137_lr,"{'NORM': 100.0, 'NST_': 0.0, 'SR': 0.0}",NORM;NST_,NORM;STTC,True,True,mixed_normal_abnormal,True,,1,0,1,0,0
+1148,870,3,train,records100/01000/01148_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+1155,2176,3,train,records100/01000/01155_lr,"{'IMI': 50.0, 'IVCD': 100.0}",IMI;IVCD,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+1194,7543,3,train,records100/01000/01194_lr,"{'NDT': 100.0, 'STD_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+1203,4568,3,train,records100/01000/01203_lr,"{'IMI': 80.0, 'AMI': 80.0, 'NDT': 100.0, 'QWAVE': 0.0, 'LOWT': 0.0, 'AFIB': 0.0}",IMI;AMI;NDT,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+1221,5268,3,train,records100/01000/01221_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1229,7112,3,train,records100/01000/01229_lr,"{'NST_': 100.0, 'DIG': 100.0, 'AFIB': 0.0}",NST_;DIG,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+1235,4966,3,train,records100/01000/01235_lr,"{'IMI': 100.0, 'LAFB': 100.0, 'LPR': 0.0, 'SR': 0.0}",IMI;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+1243,17213,3,train,records100/01000/01243_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1244,11302,3,train,records100/01000/01244_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1247,17556,3,train,records100/01000/01247_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1281,12612,3,train,records100/01000/01281_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1301,14598,3,train,records100/01000/01301_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1313,10860,3,train,records100/01000/01313_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1317,15358,3,train,records100/01000/01317_lr,"{'AMI': 15.0, 'IMI': 15.0, 'LAO/LAE': 50.0, 'ABQRS': 0.0, 'SR': 0.0}",AMI;IMI;LAO/LAE,HYP;MI,True,False,abnormal_class_present,True,,0,1,0,0,1
+1337,5303,3,train,records100/01000/01337_lr,"{'LAFB': 100.0, 'LVH': 50.0, 'ISC_': 50.0, 'VCLVH': 0.0, 'STD_': 0.0, 'SR': 0.0}",LAFB;LVH;ISC_,CD;HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,1,1
+1339,3648,3,train,records100/01000/01339_lr,"{'ASMI': 50.0, 'PVC': 100.0}",ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+5,17448,4,train,records100/00000/00005_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+6,19005,4,train,records100/00000/00006_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+22,20978,4,train,records100/00000/00022_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+25,10962,4,train,records100/00000/00025_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+29,14340,4,train,records100/00000/00029_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+44,19571,4,train,records100/00000/00044_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+67,8520,4,train,records100/00000/00067_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+83,11314,4,train,records100/00000/00083_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+89,12531,4,train,records100/00000/00089_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+99,18012,4,train,records100/00000/00099_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+101,9086,4,train,records100/00000/00101_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+103,13722,4,train,records100/00000/00103_lr,"{'IMI': 15.0, 'LAFB': 100.0, 'ABQRS': 0.0, 'STACH': 0.0}",IMI;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+104,19738,4,train,records100/00000/00104_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+114,14097,4,train,records100/00000/00114_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+120,11860,4,train,records100/00000/00120_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+133,13083,4,train,records100/00000/00133_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+158,8909,4,train,records100/00000/00158_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+177,21551,4,train,records100/00000/00177_lr,"{'ASMI': 100.0, 'SR': 0.0}",ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+197,14891,4,train,records100/00000/00197_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+206,12453,4,train,records100/00000/00206_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+212,17791,4,train,records100/00000/00212_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+213,10157,4,train,records100/00000/00213_lr,"{'NORM': 100.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+235,15405,4,train,records100/00000/00235_lr,"{'NORM': 100.0, 'LAFB': 100.0, 'SBRAD': 0.0}",NORM;LAFB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+270,1480,4,train,records100/00000/00270_lr,"{'ASMI': 100.0, 'IMI': 100.0, 'STACH': 0.0}",ASMI;IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+272,1027,4,train,records100/00000/00272_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+322,5115,4,train,records100/00000/00322_lr,"{'NORM': 100.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+329,3746,4,train,records100/00000/00329_lr,"{'NDT': 100.0, 'NT_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+333,4417,4,train,records100/00000/00333_lr,"{'LVH': 35.0, 'STD_': 0.0, 'VCLVH': 0.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+348,1848,4,train,records100/00000/00348_lr,"{'LAFB': 100.0, 'LVOLT': 0.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+351,5304,4,train,records100/00000/00351_lr,"{'AFIB': 100.0, 'NST_': 0.0}",NST_,STTC,False,True,abnormal_class_present,True,,0,0,1,0,0
+358,14469,4,train,records100/00000/00358_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+370,10213,4,train,records100/00000/00370_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+393,21724,4,train,records100/00000/00393_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+399,15234,4,train,records100/00000/00399_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+404,7438,4,train,records100/00000/00404_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+413,1631,4,train,records100/00000/00413_lr,"{'ISC_': 100.0, 'IVCD': 100.0, '1AVB': 100.0, 'LPR': 0.0, 'PVC': 0.0, 'LOWT': 0.0, 'SR': 0.0}",ISC_;IVCD;1AVB,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+434,19672,4,train,records100/00000/00434_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+443,3697,4,train,records100/00000/00443_lr,{'NORM': 100.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+444,6513,4,train,records100/00000/00444_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+480,5339,4,train,records100/00000/00480_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+492,4959,4,train,records100/00000/00492_lr,"{'ASMI': 100.0, 'SR': 0.0}",ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+501,6473,4,train,records100/00000/00501_lr,"{'NDT': 100.0, 'VCLVH': 0.0, 'STD_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+505,6512,4,train,records100/00000/00505_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+509,1007,4,train,records100/00000/00509_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+517,12006,4,train,records100/00000/00517_lr,{'CLBBB': 100.0},CLBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+528,15942,4,train,records100/00000/00528_lr,"{'ILMI': 100.0, 'IRBBB': 100.0, 'IVCD': 100.0, 'ISCAL': 100.0, 'ISCAS': 100.0, 'SR': 0.0}",ILMI;IRBBB;IVCD;ISCAL;ISCAS,CD;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,1,0
+540,8144,4,train,records100/00000/00540_lr,"{'IMI': 100.0, 'LVH': 100.0, 'INJAS': 100.0, 'SR': 0.0}",IMI;LVH;INJAS,HYP;MI,True,False,abnormal_class_present,True,,0,1,0,0,1
+543,15996,4,train,records100/00000/00543_lr,"{'NORM': 80.0, 'SBRAD': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+556,13531,4,train,records100/00000/00556_lr,"{'ASMI': 15.0, '1AVB': 100.0, 'SR': 0.0}",ASMI;1AVB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+557,16895,4,train,records100/00000/00557_lr,"{'ISCIN': 100.0, 'AFIB': 0.0}",ISCIN,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+562,17206,4,train,records100/00000/00562_lr,"{'NST_': 100.0, 'SR': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+568,1948,4,train,records100/00000/00568_lr,"{'NORM': 80.0, 'SBRAD': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+575,1357,4,train,records100/00000/00575_lr,"{'NDT': 100.0, 'PVC': 100.0, 'PAC': 0.0, 'LOWT': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+586,19924,4,train,records100/00000/00586_lr,"{'NORM': 80.0, 'IRBBB': 100.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+604,3725,4,train,records100/00000/00604_lr,"{'IMI': 50.0, 'NST_': 100.0, 'PAC': 0.0, 'STD_': 0.0, 'SR': 0.0}",IMI;NST_,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+605,5122,4,train,records100/00000/00605_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+606,4464,4,train,records100/00000/00606_lr,"{'NORM': 80.0, 'LPR': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+614,938,4,train,records100/00000/00614_lr,"{'NORM': 80.0, 'QWAVE': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+631,5043,4,train,records100/00000/00631_lr,"{'NORM': 80.0, 'PAC': 0.0, 'PVC': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+640,7565,4,train,records100/00000/00640_lr,"{'LVH': 80.0, 'SEHYP': 100.0, 'QWAVE': 0.0, 'SR': 0.0}",LVH;SEHYP,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+641,6851,4,train,records100/00000/00641_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+642,3672,4,train,records100/00000/00642_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+644,20487,4,train,records100/00000/00644_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+667,1377,4,train,records100/00000/00667_lr,"{'IRBBB': 100.0, '1AVB': 100.0, 'RVH': 50.0, 'LPR': 0.0, 'SR': 0.0}",IRBBB;1AVB;RVH,CD;HYP,True,False,abnormal_class_present,True,,0,0,0,1,1
+691,3076,4,train,records100/00000/00691_lr,"{'ASMI': 100.0, 'IMI': 100.0, 'QWAVE': 0.0, 'AFIB': 0.0}",ASMI;IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+708,7065,4,train,records100/00000/00708_lr,"{'IMI': 15.0, 'NDT': 100.0, 'QWAVE': 0.0, 'LOWT': 0.0, 'SR': 0.0}",IMI;NDT,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+709,681,4,train,records100/00000/00709_lr,"{'NORM': 50.0, 'IRBBB': 100.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+729,10919,4,train,records100/00000/00729_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+735,665,4,train,records100/00000/00735_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+753,8965,4,train,records100/00000/00753_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+790,17801,4,train,records100/00000/00790_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+797,9196,4,train,records100/00000/00797_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+808,17310,4,train,records100/00000/00808_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+810,13249,4,train,records100/00000/00810_lr,"{'IMI': 50.0, 'ABQRS': 0.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+815,14679,4,train,records100/00000/00815_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+835,1062,4,train,records100/00000/00835_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+837,4719,4,train,records100/00000/00837_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+840,15742,4,train,records100/00000/00840_lr,"{'NST_': 100.0, 'LNGQT': 100.0, 'EL': 50.0, 'SR': 0.0}",NST_;LNGQT;EL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+850,4221,4,train,records100/00000/00850_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+852,907,4,train,records100/00000/00852_lr,"{'NDT': 100.0, 'VCLVH': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+859,7318,4,train,records100/00000/00859_lr,"{'NDT': 100.0, 'IRBBB': 100.0, 'PVC': 100.0, 'LOWT': 0.0, 'STD_': 0.0, 'AFIB': 0.0}",NDT;IRBBB,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+863,2218,4,train,records100/00000/00863_lr,{'NORM': 100.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+871,5322,4,train,records100/00000/00871_lr,"{'CRBBB': 100.0, 'LAFB': 100.0, 'SR': 0.0}",CRBBB;LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+872,4865,4,train,records100/00000/00872_lr,"{'NDT': 100.0, 'AFIB': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+879,3079,4,train,records100/00000/00879_lr,"{'NORM': 100.0, 'NT_': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+893,3710,4,train,records100/00000/00893_lr,"{'NORM': 80.0, 'PVC': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+896,4782,4,train,records100/00000/00896_lr,"{'NORM': 80.0, 'PAC': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+897,4555,4,train,records100/00000/00897_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+914,1575,4,train,records100/00000/00914_lr,"{'ALMI': 100.0, 'PVC': 100.0, 'STD_': 0.0, 'SR': 0.0}",ALMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+918,1794,4,train,records100/00000/00918_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+951,4205,4,train,records100/00000/00951_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+955,1514,4,train,records100/00000/00955_lr,"{'ILMI': 100.0, 'ASMI': 100.0, 'ANEUR': 50.0, 'SARRH': 0.0}",ILMI;ASMI;ANEUR,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+976,4990,4,train,records100/00000/00976_lr,"{'NORM': 80.0, 'STACH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+988,5930,4,train,records100/00000/00988_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1035,2417,4,train,records100/01000/01035_lr,"{'IMI': 100.0, 'NDT': 100.0, 'QWAVE': 0.0, 'LOWT': 0.0, 'SR': 0.0}",IMI;NDT,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+1045,6352,4,train,records100/01000/01045_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1064,1524,4,train,records100/01000/01064_lr,"{'IVCD': 100.0, 'SR': 0.0}",IVCD,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+1066,1628,4,train,records100/01000/01066_lr,"{'CRBBB': 100.0, 'LPFB': 100.0, '1AVB': 100.0, 'LPR': 0.0, 'SR': 0.0}",CRBBB;LPFB;1AVB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+1070,6349,4,train,records100/01000/01070_lr,"{'NDT': 100.0, 'LVH': 35.0, 'PVC': 100.0, 'VCLVH': 0.0, 'STD_': 0.0, 'SR': 0.0}",NDT;LVH,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+1085,2014,4,train,records100/01000/01085_lr,"{'IMI': 50.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+3,20372,5,train,records100/00000/00003_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+11,11243,5,train,records100/00000/00011_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+54,16751,5,train,records100/00000/00054_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+66,11352,5,train,records100/00000/00066_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+73,19987,5,train,records100/00000/00073_lr,"{'NORM': 100.0, 'ABQRS': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+81,20961,5,train,records100/00000/00081_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+85,15904,5,train,records100/00000/00085_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+95,9243,5,train,records100/00000/00095_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+106,16066,5,train,records100/00000/00106_lr,"{'ASMI': 50.0, 'LVH': 15.0, 'ABQRS': 0.0, 'SR': 0.0}",ASMI;LVH,HYP;MI,True,False,abnormal_class_present,True,,0,1,0,0,1
+107,13453,5,train,records100/00000/00107_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+136,13445,5,train,records100/00000/00136_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+154,13617,5,train,records100/00000/00154_lr,"{'IRBBB': 100.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+161,10634,5,train,records100/00000/00161_lr,"{'IMI': 35.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+174,8595,5,train,records100/00000/00174_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+187,15678,5,train,records100/00000/00187_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+192,8340,5,train,records100/00000/00192_lr,"{'IRBBB': 100.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+220,21580,5,train,records100/00000/00220_lr,"{'LAFB': 100.0, 'ABQRS': 0.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+237,11651,5,train,records100/00000/00237_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+242,16654,5,train,records100/00000/00242_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+250,17940,5,train,records100/00000/00250_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+251,10359,5,train,records100/00000/00251_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+253,2096,5,train,records100/00000/00253_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+254,7415,5,train,records100/00000/00254_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+263,1595,5,train,records100/00000/00263_lr,"{'ASMI': 50.0, 'NST_': 0.0, 'STACH': 0.0}",ASMI;NST_,MI;STTC,True,True,abnormal_class_present,True,,0,1,1,0,0
+278,1202,5,train,records100/00000/00278_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+279,437,5,train,records100/00000/00279_lr,"{'CLBBB': 100.0, 'STACH': 0.0}",CLBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+304,2367,5,train,records100/00000/00304_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+313,1110,5,train,records100/00000/00313_lr,"{'LVH': 50.0, 'VCLVH': 0.0, 'STD_': 0.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+325,636,5,train,records100/00000/00325_lr,"{'IMI': 80.0, 'QWAVE': 0.0, 'LOWT': 0.0, 'STD_': 0.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+339,5945,5,train,records100/00000/00339_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+345,1431,5,train,records100/00000/00345_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+349,7592,5,train,records100/00000/00349_lr,"{'ISC_': 100.0, 'LVH': 100.0, 'IVCD': 100.0, 'PVC': 100.0, 'STD_': 0.0, 'SR': 0.0}",ISC_;LVH;IVCD,CD;HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,1,1
+380,19163,5,train,records100/00000/00380_lr,"{'IMI': 50.0, 'ASMI': 15.0, 'SR': 0.0}",IMI;ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+390,18420,5,train,records100/00000/00390_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+392,10720,5,train,records100/00000/00392_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+407,7393,5,train,records100/00000/00407_lr,"{'IMI': 15.0, 'LVOLT': 0.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+412,3336,5,train,records100/00000/00412_lr,"{'NDT': 100.0, 'NST_': 0.0, 'SR': 0.0}",NDT;NST_,STTC,False,True,abnormal_class_present,True,,0,0,1,0,0
+420,3406,5,train,records100/00000/00420_lr,"{'NORM': 100.0, 'IRBBB': 100.0, 'LOWT': 0.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+424,5026,5,train,records100/00000/00424_lr,"{'CRBBB': 100.0, 'LAFB': 100.0, 'SR': 0.0}",CRBBB;LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+460,19795,5,train,records100/00000/00460_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+469,9378,5,train,records100/00000/00469_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+470,4578,5,train,records100/00000/00470_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+489,7705,5,train,records100/00000/00489_lr,"{'CLBBB': 100.0, 'LAO/LAE': 100.0, 'SR': 0.0}",CLBBB;LAO/LAE,CD;HYP,True,False,abnormal_class_present,True,,0,0,0,1,1
+496,4160,5,train,records100/00000/00496_lr,"{'IMI': 100.0, 'NDT': 100.0, 'LOWT': 0.0, 'SR': 0.0}",IMI;NDT,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+497,5459,5,train,records100/00000/00497_lr,"{'NORM': 80.0, 'VCLVH': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+502,6683,5,train,records100/00000/00502_lr,"{'LVH': 50.0, 'NT_': 0.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+503,7535,5,train,records100/00000/00503_lr,"{'NDT': 100.0, 'NT_': 0.0, 'PVC': 0.0, 'SARRH': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+536,21123,5,train,records100/00000/00536_lr,"{'ASMI': 100.0, 'LAFB': 100.0, 'SR': 0.0}",ASMI;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+542,17649,5,train,records100/00000/00542_lr,"{'LVH': 100.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+585,5606,5,train,records100/00000/00585_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'STD_': 0.0, 'SR': 0.0}",LVH;ISC_,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+588,15114,5,train,records100/00000/00588_lr,"{'IRBBB': 100.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+593,382,5,train,records100/00000/00593_lr,"{'ISCAL': 50.0, 'INVT': 0.0, 'STD_': 0.0, 'SR': 0.0}",ISCAL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+600,4590,5,train,records100/00000/00600_lr,"{'IMI': 80.0, 'AMI': 100.0, 'IVCD': 100.0, 'QWAVE': 0.0, 'SR': 0.0}",IMI;AMI;IVCD,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+620,7477,5,train,records100/00000/00620_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+648,5031,5,train,records100/00000/00648_lr,"{'NORM': 80.0, 'IRBBB': 100.0, 'NT_': 0.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+649,1038,5,train,records100/00000/00649_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+650,1285,5,train,records100/00000/00650_lr,"{'EL': 50.0, 'SR': 0.0}",EL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+657,3426,5,train,records100/00000/00657_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+664,4480,5,train,records100/00000/00664_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+670,7637,5,train,records100/00000/00670_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+692,4569,5,train,records100/00000/00692_lr,"{'NDT': 100.0, 'IRBBB': 100.0, 'LOWT': 0.0, 'STD_': 0.0, 'SR': 0.0}",NDT;IRBBB,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+721,6866,5,train,records100/00000/00721_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+747,1832,5,train,records100/00000/00747_lr,"{'IMI': 15.0, 'LVH': 50.0, 'LPR': 0.0, 'QWAVE': 0.0, 'LOWT': 0.0, 'SR': 0.0}",IMI;LVH,HYP;MI,True,False,abnormal_class_present,True,,0,1,0,0,1
+774,16588,5,train,records100/00000/00774_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+784,19047,5,train,records100/00000/00784_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+786,15158,5,train,records100/00000/00786_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+804,10733,5,train,records100/00000/00804_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+807,15153,5,train,records100/00000/00807_lr,"{'NDT': 100.0, 'PVC': 100.0, 'STACH': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+817,3820,5,train,records100/00000/00817_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+831,5337,5,train,records100/00000/00831_lr,"{'IMI': 15.0, 'IVCD': 100.0, 'QWAVE': 0.0, 'SR': 0.0}",IMI;IVCD,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+851,2968,5,train,records100/00000/00851_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+858,4520,5,train,records100/00000/00858_lr,{'AFLT': 100.0},,,False,False,unclassified,True,,0,0,0,0,0
+869,6108,5,train,records100/00000/00869_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+883,7639,5,train,records100/00000/00883_lr,"{'ILBBB': 100.0, '1AVB': 100.0, 'SR': 0.0}",ILBBB;1AVB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+891,2288,5,train,records100/00000/00891_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+921,11064,5,train,records100/00000/00921_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+929,2051,5,train,records100/00000/00929_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+932,4887,5,train,records100/00000/00932_lr,"{'IRBBB': 100.0, 'LAFB': 100.0, 'SR': 0.0}",IRBBB;LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+934,7012,5,train,records100/00000/00934_lr,"{'ISC_': 80.0, 'DIG': 80.0, 'LVOLT': 0.0, 'LOWT': 0.0, 'STD_': 0.0, 'SR': 0.0}",ISC_;DIG,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+939,5257,5,train,records100/00000/00939_lr,"{'NDT': 100.0, 'DIG': 100.0, 'STD_': 0.0, 'AFIB': 0.0}",NDT;DIG,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+967,7342,5,train,records100/00000/00967_lr,"{'NORM': 100.0, 'NT_': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+982,5054,5,train,records100/00000/00982_lr,"{'ASMI': 15.0, 'LAFB': 100.0, 'QWAVE': 0.0, 'SR': 0.0}",ASMI;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+996,1010,5,train,records100/00000/00996_lr,"{'IMI': 15.0, 'NT_': 0.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+1001,5203,5,train,records100/01000/01001_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1010,5889,5,train,records100/01000/01010_lr,"{'NST_': 100.0, 'NT_': 0.0, 'SR': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+1023,7089,5,train,records100/01000/01023_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1024,10568,5,train,records100/01000/01024_lr,"{'CRBBB': 100.0, 'SR': 0.0}",CRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+1027,868,5,train,records100/01000/01027_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1044,1916,5,train,records100/01000/01044_lr,"{'LAFB': 100.0, 'IVCD': 100.0, 'PVC': 100.0, 'NST_': 0.0, 'SR': 0.0}",LAFB;IVCD;NST_,CD;STTC,True,True,abnormal_class_present,True,,0,0,1,1,0
+1059,3774,5,train,records100/01000/01059_lr,{'ILMI': 50.0},ILMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+1062,2769,5,train,records100/01000/01062_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1067,2913,5,train,records100/01000/01067_lr,"{'NORM': 100.0, 'LVOLT': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1069,1649,5,train,records100/01000/01069_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1081,4456,5,train,records100/01000/01081_lr,"{'IPLMI': 100.0, 'LPR': 0.0, 'SR': 0.0}",IPLMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+1105,5943,5,train,records100/01000/01105_lr,"{'ASMI': 100.0, 'LVH': 50.0, 'ISC_': 100.0}",ASMI;LVH;ISC_,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+1108,7629,5,train,records100/01000/01108_lr,"{'IMI': 15.0, 'IRBBB': 100.0, 'PVC': 100.0, 'LPR': 0.0, 'QWAVE': 0.0, 'SR': 0.0}",IMI;IRBBB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+1135,10745,5,train,records100/01000/01135_lr,"{'1AVB': 100.0, 'SR': 0.0}",1AVB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+1136,6279,5,train,records100/01000/01136_lr,"{'NDT': 100.0, 'NT_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+1154,1236,5,train,records100/01000/01154_lr,"{'LVH': 50.0, 'NT_': 0.0, 'VCLVH': 0.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+1160,6742,5,train,records100/01000/01160_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+16,10999,6,train,records100/00000/00016_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+21,17102,6,train,records100/00000/00021_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+27,10316,6,train,records100/00000/00027_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+31,15348,6,train,records100/00000/00031_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+42,8039,6,train,records100/00000/00042_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+61,14660,6,train,records100/00000/00061_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+70,19173,6,train,records100/00000/00070_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+77,8555,6,train,records100/00000/00077_lr,"{'AMI': 50.0, 'IRBBB': 100.0, 'SR': 0.0}",AMI;IRBBB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+97,12761,6,train,records100/00000/00097_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+111,13266,6,train,records100/00000/00111_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+135,19453,6,train,records100/00000/00135_lr,{'ISCAL': 100.0},ISCAL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+163,14851,6,train,records100/00000/00163_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+169,13688,6,train,records100/00000/00169_lr,"{'IRBBB': 100.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+182,12000,6,train,records100/00000/00182_lr,"{'ASMI': 35.0, 'LAFB': 100.0, '1AVB': 100.0, 'SR': 0.0}",ASMI;LAFB;1AVB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+214,12141,6,train,records100/00000/00214_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+215,7949,6,train,records100/00000/00215_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+222,10783,6,train,records100/00000/00222_lr,"{'RVH': 100.0, 'RAO/RAE': 100.0, 'IRBBB': 100.0, 'ABQRS': 0.0, 'SR': 0.0}",RVH;RAO/RAE;IRBBB,CD;HYP,True,False,abnormal_class_present,True,,0,0,0,1,1
+239,17862,6,train,records100/00000/00239_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+258,5750,6,train,records100/00000/00258_lr,"{'IMI': 50.0, 'NDT': 100.0}",IMI;NDT,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+276,5087,6,train,records100/00000/00276_lr,"{'NDT': 100.0, 'NT_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+286,6410,6,train,records100/00000/00286_lr,"{'CLBBB': 100.0, 'SR': 0.0}",CLBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+310,1316,6,train,records100/00000/00310_lr,"{'ASMI': 100.0, 'CRBBB': 100.0, 'QWAVE': 0.0, 'SR': 0.0}",ASMI;CRBBB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+314,4113,6,train,records100/00000/00314_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+332,2275,6,train,records100/00000/00332_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+342,7851,6,train,records100/00000/00342_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+350,5819,6,train,records100/00000/00350_lr,"{'LAFB': 100.0, 'SARRH': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+356,15203,6,train,records100/00000/00356_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+374,8032,6,train,records100/00000/00374_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+401,9367,6,train,records100/00000/00401_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+418,4206,6,train,records100/00000/00418_lr,"{'AMI': 50.0, 'SR': 0.0}",AMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+451,19697,6,train,records100/00000/00451_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+493,2821,6,train,records100/00000/00493_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+494,744,6,train,records100/00000/00494_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+546,8292,6,train,records100/00000/00546_lr,"{'NDT': 100.0, 'IVCD': 100.0, 'SR': 0.0}",NDT;IVCD,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+547,12171,6,train,records100/00000/00547_lr,"{'CRBBB': 100.0, 'LPFB': 100.0, 'ALMI': 100.0, 'PVC': 100.0, 'AFIB': 0.0}",CRBBB;LPFB;ALMI,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+561,21466,6,train,records100/00000/00561_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+578,8223,6,train,records100/00000/00578_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+579,5506,6,train,records100/00000/00579_lr,"{'IMI': 100.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+595,6146,6,train,records100/00000/00595_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+603,5090,6,train,records100/00000/00603_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+607,4843,6,train,records100/00000/00607_lr,"{'ASMI': 100.0, 'LAFB': 100.0, 'QWAVE': 0.0, 'SR': 0.0}",ASMI;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+610,441,6,train,records100/00000/00610_lr,"{'ASMI': 50.0, 'IMI': 50.0, 'NDT': 100.0, 'LOWT': 0.0, 'STD_': 0.0, 'AFIB': 0.0}",ASMI;IMI;NDT,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+617,7740,6,train,records100/00000/00617_lr,"{'ASMI': 15.0, 'SR': 0.0}",ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+625,7144,6,train,records100/00000/00625_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+626,2924,6,train,records100/00000/00626_lr,"{'ISCIL': 100.0, 'IRBBB': 100.0, 'RAO/RAE': 100.0, 'NST_': 0.0, 'STACH': 0.0}",ISCIL;IRBBB;RAO/RAE;NST_,CD;HYP;STTC,True,True,abnormal_class_present,True,,0,0,1,1,1
+656,718,6,train,records100/00000/00656_lr,"{'NDT': 100.0, 'DIG': 80.0, 'STD_': 0.0, 'AFIB': 0.0}",NDT;DIG,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+660,3990,6,train,records100/00000/00660_lr,{'NORM': 100.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+669,2229,6,train,records100/00000/00669_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+683,819,6,train,records100/00000/00683_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+689,3805,6,train,records100/00000/00689_lr,"{'IRBBB': 100.0, 'QWAVE': 0.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+715,7220,6,train,records100/00000/00715_lr,"{'NORM': 50.0, 'PVC': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+718,5700,6,train,records100/00000/00718_lr,"{'NDT': 100.0, 'NT_': 0.0, 'LPR': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+733,2391,6,train,records100/00000/00733_lr,"{'LAFB': 100.0, 'STD_': 0.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+738,3827,6,train,records100/00000/00738_lr,"{'AMI': 15.0, 'LVH': 100.0, 'ISC_': 100.0, 'IVCD': 100.0, 'PVC': 100.0, 'NST_': 0.0, 'STACH': 0.0, 'BIGU': 0.0}",AMI;LVH;ISC_;IVCD;NST_,CD;HYP;MI;STTC,True,True,abnormal_class_present,True,,0,1,1,1,1
+740,625,6,train,records100/00000/00740_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+749,11060,6,train,records100/00000/00749_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+750,2396,6,train,records100/00000/00750_lr,"{'LAO/LAE': 50.0, 'LVH': 50.0, 'PAC': 0.0, 'VCLVH': 0.0, 'SR': 0.0}",LAO/LAE;LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+760,5465,6,train,records100/00000/00760_lr,"{'IMI': 80.0, 'IRBBB': 100.0, 'QWAVE': 0.0, 'LOWT': 0.0, 'STD_': 0.0, 'SR': 0.0}",IMI;IRBBB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+781,14656,6,train,records100/00000/00781_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+802,18259,6,train,records100/00000/00802_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+816,4133,6,train,records100/00000/00816_lr,"{'LAFB': 100.0, 'PAC': 0.0, 'LPR': 0.0, 'SR': 0.0, 'TRIGU': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+827,2123,6,train,records100/00000/00827_lr,"{'ILMI': 100.0, 'QWAVE': 0.0, 'INVT': 0.0, 'SR': 0.0}",ILMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+832,7624,6,train,records100/00000/00832_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+836,6730,6,train,records100/00000/00836_lr,"{'IRBBB': 100.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+862,10798,6,train,records100/00000/00862_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+894,1193,6,train,records100/00000/00894_lr,"{'ISC_': 100.0, 'PAC': 0.0, 'SR': 0.0}",ISC_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+906,4531,6,train,records100/00000/00906_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+908,2853,6,train,records100/00000/00908_lr,"{'NDT': 100.0, 'AFIB': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+919,2764,6,train,records100/00000/00919_lr,"{'SEHYP': 50.0, 'ISCAS': 100.0, 'INVT': 0.0, 'SR': 0.0}",SEHYP;ISCAS,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+923,7408,6,train,records100/00000/00923_lr,"{'ASMI': 100.0, 'LMI': 50.0, 'ISCIL': 100.0, 'LOWT': 0.0, 'STD_': 0.0, 'AFIB': 0.0}",ASMI;LMI;ISCIL,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+930,687,6,train,records100/00000/00930_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'EL': 50.0, 'STD_': 0.0, 'SR': 0.0}",LVH;ISC_;EL,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+965,1542,6,train,records100/00000/00965_lr,"{'NDT': 100.0, 'LVH': 50.0, 'STD_': 0.0, 'SR': 0.0}",NDT;LVH,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+991,16772,6,train,records100/00000/00991_lr,"{'IMI': 50.0, 'LAFB': 100.0, 'ABQRS': 0.0, 'SR': 0.0}",IMI;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+992,6625,6,train,records100/00000/00992_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1004,458,6,train,records100/01000/01004_lr,"{'LVH': 50.0, 'PVC': 100.0, 'STD_': 0.0, 'LPR': 0.0, 'HVOLT': 0.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+1017,6304,6,train,records100/01000/01017_lr,"{'IRBBB': 100.0, 'PVC': 100.0, 'DIG': 100.0, 'STD_': 0.0, 'AFIB': 0.0}",IRBBB;DIG,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+1032,1706,6,train,records100/01000/01032_lr,"{'LVH': 35.0, 'VCLVH': 0.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+1036,557,6,train,records100/01000/01036_lr,"{'ISC_': 100.0, 'LVH': 100.0, 'PVC': 100.0, 'PAC': 0.0, 'VCLVH': 0.0, 'SR': 0.0}",ISC_;LVH,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+1042,499,6,train,records100/01000/01042_lr,"{'NORM': 80.0, 'IVCD': 100.0, 'SR': 0.0}",NORM;IVCD,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+1058,5502,6,train,records100/01000/01058_lr,{'NORM': 100.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1072,5552,6,train,records100/01000/01072_lr,"{'CLBBB': 100.0, 'SR': 0.0}",CLBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+1080,1310,6,train,records100/01000/01080_lr,"{'NST_': 100.0, 'SR': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+1088,7094,6,train,records100/01000/01088_lr,"{'LVH': 50.0, 'VCLVH': 0.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+1125,5611,6,train,records100/01000/01125_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1127,7067,6,train,records100/01000/01127_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1149,3867,6,train,records100/01000/01149_lr,"{'NORM': 100.0, 'IRBBB': 100.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+1174,6289,6,train,records100/01000/01174_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1178,6769,6,train,records100/01000/01178_lr,"{'NDT': 100.0, 'DIG': 80.0, 'PVC': 100.0, 'LOWT': 0.0, 'STD_': 0.0, 'AFIB': 0.0}",NDT;DIG,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+1182,5298,6,train,records100/01000/01182_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1187,5436,6,train,records100/01000/01187_lr,"{'1AVB': 100.0, 'ISC_': 15.0, 'STD_': 0.0, 'LPR': 0.0, 'SR': 0.0}",1AVB;ISC_,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+1192,4450,6,train,records100/01000/01192_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1198,966,6,train,records100/01000/01198_lr,"{'LVH': 100.0, 'VCLVH': 0.0, 'QWAVE': 0.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+1210,4684,6,train,records100/01000/01210_lr,"{'NDT': 100.0, 'LOWT': 0.0, 'STD_': 0.0, 'STACH': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+1216,1941,6,train,records100/01000/01216_lr,"{'INJAS': 100.0, 'ISCIL': 100.0, 'SBRAD': 0.0}",INJAS;ISCIL,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+1230,10909,6,train,records100/01000/01230_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1234,7564,6,train,records100/01000/01234_lr,"{'NORM': 35.0, 'HVOLT': 0.0, 'STACH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1239,3837,6,train,records100/01000/01239_lr,"{'ASMI': 100.0, 'ALMI': 100.0, 'LAFB': 100.0, '1AVB': 100.0, 'QWAVE': 0.0, 'INVT': 0.0, 'SR': 0.0}",ASMI;ALMI;LAFB;1AVB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+1263,16565,6,train,records100/01000/01263_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1267,21055,6,train,records100/01000/01267_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1283,14902,6,train,records100/01000/01283_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+7,16193,7,train,records100/00000/00007_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+14,12925,7,train,records100/00000/00014_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+19,11116,7,train,records100/00000/00019_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+50,16961,7,train,records100/00000/00050_lr,"{'LMI': 15.0, 'IVCD': 100.0, 'SR': 0.0}",LMI;IVCD,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+68,14101,7,train,records100/00000/00068_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+87,17293,7,train,records100/00000/00087_lr,"{'NDT': 100.0, 'IRBBB': 100.0, 'SR': 0.0}",NDT;IRBBB,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+88,15275,7,train,records100/00000/00088_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+124,9730,7,train,records100/00000/00124_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+125,18987,7,train,records100/00000/00125_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+146,13447,7,train,records100/00000/00146_lr,"{'IMI': 35.0, 'ISCLA': 100.0, 'SEHYP': 50.0, 'SR': 0.0}",IMI;ISCLA;SEHYP,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+150,8125,7,train,records100/00000/00150_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+156,19547,7,train,records100/00000/00156_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+168,16704,7,train,records100/00000/00168_lr,"{'ISCAL': 50.0, 'SR': 0.0}",ISCAL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+185,17272,7,train,records100/00000/00185_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+202,16322,7,train,records100/00000/00202_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+225,13163,7,train,records100/00000/00225_lr,"{'NORM': 100.0, 'SBRAD': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+230,15432,7,train,records100/00000/00230_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+256,565,7,train,records100/00000/00256_lr,"{'CLBBB': 100.0, 'PVC': 100.0, 'SR': 0.0}",CLBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+260,5471,7,train,records100/00000/00260_lr,"{'LNGQT': 100.0, 'LAFB': 100.0, 'SR': 0.0}",LNGQT;LAFB,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+280,2493,7,train,records100/00000/00280_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+288,6335,7,train,records100/00000/00288_lr,"{'NORM': 100.0, 'NT_': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+289,5489,7,train,records100/00000/00289_lr,"{'NORM': 80.0, 'VCLVH': 0.0, 'SBRAD': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+297,4845,7,train,records100/00000/00297_lr,"{'NORM': 80.0, 'PVC': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+300,3974,7,train,records100/00000/00300_lr,"{'NORM': 80.0, 'NT_': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+321,4188,7,train,records100/00000/00321_lr,"{'EL': 50.0, 'NST_': 0.0, 'AFIB': 0.0}",EL;NST_,STTC,False,True,abnormal_class_present,True,,0,0,1,0,0
+331,3023,7,train,records100/00000/00331_lr,"{'LAFB': 80.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+335,3268,7,train,records100/00000/00335_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+363,11126,7,train,records100/00000/00363_lr,"{'NDT': 100.0, 'PVC': 100.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+371,19098,7,train,records100/00000/00371_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+372,13339,7,train,records100/00000/00372_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+373,12708,7,train,records100/00000/00373_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+375,14700,7,train,records100/00000/00375_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+391,20129,7,train,records100/00000/00391_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+403,11090,7,train,records100/00000/00403_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+409,1457,7,train,records100/00000/00409_lr,"{'LMI': 15.0, 'IVCD': 100.0, 'NT_': 0.0, 'SR': 0.0}",LMI;IVCD,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+433,2973,7,train,records100/00000/00433_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+438,16026,7,train,records100/00000/00438_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+439,1419,7,train,records100/00000/00439_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+450,19497,7,train,records100/00000/00450_lr,"{'NST_': 100.0, 'SR': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+454,8113,7,train,records100/00000/00454_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+477,14794,7,train,records100/00000/00477_lr,"{'IMI': 100.0, 'CRBBB': 100.0, 'LAFB': 100.0}",IMI;CRBBB;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+511,21231,7,train,records100/00000/00511_lr,"{'ISCIN': 100.0, 'ISCAL': 50.0, 'SR': 0.0}",ISCIN;ISCAL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+531,16818,7,train,records100/00000/00531_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+533,10984,7,train,records100/00000/00533_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+539,19864,7,train,records100/00000/00539_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+541,11595,7,train,records100/00000/00541_lr,"{'ISCAS': 100.0, 'ISCAL': 100.0, 'SR': 0.0}",ISCAS;ISCAL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+565,21078,7,train,records100/00000/00565_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+566,7420,7,train,records100/00000/00566_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+583,18005,7,train,records100/00000/00583_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+594,4512,7,train,records100/00000/00594_lr,"{'ASMI': 100.0, 'ILMI': 50.0, 'AFIB': 0.0}",ASMI;ILMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+596,1721,7,train,records100/00000/00596_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+599,4389,7,train,records100/00000/00599_lr,"{'ASMI': 80.0, 'LPR': 0.0, 'SR': 0.0}",ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+602,14547,7,train,records100/00000/00602_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+624,6865,7,train,records100/00000/00624_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+645,667,7,train,records100/00000/00645_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+647,15636,7,train,records100/00000/00647_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+651,3691,7,train,records100/00000/00651_lr,"{'ASMI': 100.0, 'LMI': 100.0, 'LPFB': 100.0, 'QWAVE': 0.0, 'SR': 0.0}",ASMI;LMI;LPFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+653,2459,7,train,records100/00000/00653_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+666,1988,7,train,records100/00000/00666_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+674,5559,7,train,records100/00000/00674_lr,"{'ISC_': 100.0, 'INVT': 0.0, 'AFIB': 0.0}",ISC_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+679,1918,7,train,records100/00000/00679_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+680,3445,7,train,records100/00000/00680_lr,"{'CRBBB': 100.0, 'LAFB': 100.0, 'SR': 0.0}",CRBBB;LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+681,8704,7,train,records100/00000/00681_lr,"{'AMI': 15.0, 'IRBBB': 100.0, 'SR': 0.0}",AMI;IRBBB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+690,5355,7,train,records100/00000/00690_lr,"{'NDT': 100.0, 'IRBBB': 100.0, 'SR': 0.0}",NDT;IRBBB,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+700,7361,7,train,records100/00000/00700_lr,"{'IMI': 15.0, 'IRBBB': 100.0, 'QWAVE': 0.0, 'SR': 0.0}",IMI;IRBBB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+711,6903,7,train,records100/00000/00711_lr,"{'CLBBB': 100.0, 'LAO/LAE': 100.0, 'SR': 0.0}",CLBBB;LAO/LAE,CD;HYP,True,False,abnormal_class_present,True,,0,0,0,1,1
+714,3671,7,train,records100/00000/00714_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'IVCD': 100.0, 'INVT': 0.0, 'STD_': 0.0, 'SR': 0.0}",LVH;ISC_;IVCD,CD;HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,1,1
+719,2781,7,train,records100/00000/00719_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+720,5912,7,train,records100/00000/00720_lr,"{'AMI': 50.0, 'QWAVE': 0.0, 'SR': 0.0}",AMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+725,5428,7,train,records100/00000/00725_lr,"{'NORM': 100.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+734,4467,7,train,records100/00000/00734_lr,"{'IMI': 50.0, 'ASMI': 50.0, 'QWAVE': 0.0, 'LOWT': 0.0, 'STD_': 0.0, 'SR': 0.0}",IMI;ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+741,2132,7,train,records100/00000/00741_lr,"{'LVH': 35.0, 'VCLVH': 0.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+742,3911,7,train,records100/00000/00742_lr,"{'ILMI': 50.0, 'IVCD': 100.0, 'LOWT': 0.0, 'SR': 0.0}",ILMI;IVCD,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+767,7485,7,train,records100/00000/00767_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'VCLVH': 0.0, 'STD_': 0.0, 'SR': 0.0}",LVH;ISC_,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+773,10312,7,train,records100/00000/00773_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+788,10756,7,train,records100/00000/00788_lr,"{'CRBBB': 100.0, 'LPFB': 100.0, 'SR': 0.0}",CRBBB;LPFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+791,16221,7,train,records100/00000/00791_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+794,10287,7,train,records100/00000/00794_lr,"{'LAFB': 100.0, 'IRBBB': 100.0, 'SR': 0.0}",LAFB;IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+812,9386,7,train,records100/00000/00812_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+819,4577,7,train,records100/00000/00819_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+820,325,7,train,records100/00000/00820_lr,"{'LVH': 50.0, 'ISC_': 100.0, 'DIG': 100.0, 'LOWT': 0.0, 'STD_': 0.0, 'AFIB': 0.0}",LVH;ISC_;DIG,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+824,371,7,train,records100/00000/00824_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+830,5123,7,train,records100/00000/00830_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+834,6940,7,train,records100/00000/00834_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+838,17756,7,train,records100/00000/00838_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+842,6371,7,train,records100/00000/00842_lr,"{'ISC_': 100.0, 'LVH': 100.0, 'IVCD': 100.0, 'NST_': 0.0, 'SR': 0.0}",ISC_;LVH;IVCD;NST_,CD;HYP;STTC,True,True,abnormal_class_present,True,,0,0,1,1,1
+845,6438,7,train,records100/00000/00845_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+877,11920,7,train,records100/00000/00877_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+890,5008,7,train,records100/00000/00890_lr,"{'IMI': 15.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+900,4246,7,train,records100/00000/00900_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+915,1450,7,train,records100/00000/00915_lr,"{'IMI': 80.0, 'IVCD': 100.0, 'PVC': 0.0, 'QWAVE': 0.0, 'INVT': 0.0, 'SR': 0.0}",IMI;IVCD,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+933,4829,7,train,records100/00000/00933_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+937,4085,7,train,records100/00000/00937_lr,"{'NORM': 50.0, 'STD_': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+944,900,7,train,records100/00000/00944_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+945,7609,7,train,records100/00000/00945_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+978,1761,7,train,records100/00000/00978_lr,"{'IMI': 15.0, 'LVH': 80.0, 'ISC_': 100.0, 'PAC': 0.0, 'QWAVE': 0.0, 'LOWT': 0.0, 'STACH': 0.0}",IMI;LVH;ISC_,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+980,3407,7,train,records100/00000/00980_lr,"{'IMI': 15.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+981,4120,7,train,records100/00000/00981_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+998,6058,7,train,records100/00000/00998_lr,"{'LAFB': 100.0, 'LAO/LAE': 100.0, '1AVB': 100.0, 'PVC': 100.0, 'LPR': 0.0, 'SR': 0.0}",LAFB;LAO/LAE;1AVB,CD;HYP,True,False,abnormal_class_present,True,,0,0,0,1,1
+1000,4008,7,train,records100/01000/01000_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+12,11031,8,train,records100/00000/00012_lr,"{'NORM': 80.0, 'SBRAD': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+43,11315,8,train,records100/00000/00043_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+53,21409,8,train,records100/00000/00053_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+71,15551,8,train,records100/00000/00071_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+74,11671,8,train,records100/00000/00074_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+92,10239,8,train,records100/00000/00092_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+98,10804,8,train,records100/00000/00098_lr,"{'NORM': 100.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+108,11810,8,train,records100/00000/00108_lr,"{'NORM': 80.0, 'STACH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+113,13285,8,train,records100/00000/00113_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+131,13698,8,train,records100/00000/00131_lr,"{'ASMI': 50.0, 'ABQRS': 0.0, 'SR': 0.0}",ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+138,8727,8,train,records100/00000/00138_lr,"{'LVH': 100.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+194,20434,8,train,records100/00000/00194_lr,"{'NORM': 100.0, 'TAB_': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+199,10746,8,train,records100/00000/00199_lr,"{'AMI': 15.0, 'RAO/RAE': 100.0, 'ABQRS': 0.0, 'SR': 0.0}",AMI;RAO/RAE,HYP;MI,True,False,abnormal_class_present,True,,0,1,0,0,1
+207,17633,8,train,records100/00000/00207_lr,"{'NORM': 80.0, 'HVOLT': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+259,4776,8,train,records100/00000/00259_lr,"{'ISCIL': 100.0, 'SR': 0.0}",ISCIL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+261,3810,8,train,records100/00000/00261_lr,"{'NDT': 100.0, 'EL': 50.0, 'NT_': 0.0, 'SR': 0.0}",NDT;EL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+265,706,8,train,records100/00000/00265_lr,"{'NORM': 100.0, 'NT_': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+269,2282,8,train,records100/00000/00269_lr,"{'IMI': 100.0, 'CRBBB': 100.0, 'PAC': 0.0, 'LPR': 0.0, 'QWAVE': 0.0, 'SR': 0.0}",IMI;CRBBB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+290,2261,8,train,records100/00000/00290_lr,"{'IMI': 100.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+292,6581,8,train,records100/00000/00292_lr,{'NORM': 100.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+305,3713,8,train,records100/00000/00305_lr,"{'NDT': 100.0, 'LAFB': 100.0, 'NT_': 0.0, 'SARRH': 0.0}",NDT;LAFB,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+312,3516,8,train,records100/00000/00312_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+317,2046,8,train,records100/00000/00317_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+327,5017,8,train,records100/00000/00327_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+328,6519,8,train,records100/00000/00328_lr,"{'NDT': 100.0, 'SARRH': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+337,3498,8,train,records100/00000/00337_lr,"{'IMI': 15.0, 'NDT': 100.0, 'LOWT': 0.0, 'STD_': 0.0, 'AFIB': 0.0}",IMI;NDT,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+338,7479,8,train,records100/00000/00338_lr,"{'CLBBB': 100.0, 'SR': 0.0}",CLBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+353,13022,8,train,records100/00000/00353_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+357,17283,8,train,records100/00000/00357_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+367,17549,8,train,records100/00000/00367_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+376,11674,8,train,records100/00000/00376_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+394,9198,8,train,records100/00000/00394_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+408,6603,8,train,records100/00000/00408_lr,"{'NDT': 100.0, 'NT_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+423,1752,8,train,records100/00000/00423_lr,"{'IMI': 50.0, 'ILBBB': 100.0, 'LVH': 100.0, 'ISC_': 100.0}",IMI;ILBBB;LVH;ISC_,CD;HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,1,1
+426,2677,8,train,records100/00000/00426_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+435,13153,8,train,records100/00000/00435_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+447,20931,8,train,records100/00000/00447_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+455,13346,8,train,records100/00000/00455_lr,"{'ASMI': 50.0, 'CRBBB': 100.0, 'LAFB': 100.0, 'ISCAL': 50.0, 'SR': 0.0}",ASMI;CRBBB;LAFB;ISCAL,CD;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,1,0
+471,2951,8,train,records100/00000/00471_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+500,1168,8,train,records100/00000/00500_lr,"{'IMI': 50.0, 'LVH': 100.0, 'ISC_': 100.0, 'IVCD': 100.0, 'QWAVE': 0.0, 'STD_': 0.0, 'AFIB': 0.0}",IMI;LVH;ISC_;IVCD,CD;HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,1,1
+507,9982,8,train,records100/00000/00507_lr,"{'AMI': 50.0, 'LAFB': 100.0, 'IRBBB': 100.0}",AMI;LAFB;IRBBB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+523,14910,8,train,records100/00000/00523_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+567,2536,8,train,records100/00000/00567_lr,"{'IMI': 100.0, 'AFIB': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+590,9600,8,train,records100/00000/00590_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+609,6069,8,train,records100/00000/00609_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'LOWT': 0.0, 'STD_': 0.0, 'SR': 0.0}",LVH;ISC_,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+630,990,8,train,records100/00000/00630_lr,"{'NORM': 35.0, 'HVOLT': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+637,2145,8,train,records100/00000/00637_lr,"{'LAFB': 100.0, 'ISCAL': 100.0, 'AFIB': 0.0}",LAFB;ISCAL,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+659,7656,8,train,records100/00000/00659_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+668,1978,8,train,records100/00000/00668_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+672,3707,8,train,records100/00000/00672_lr,"{'ISCAL': 100.0, 'INVT': 0.0, 'SR': 0.0}",ISCAL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+677,7822,8,train,records100/00000/00677_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+682,11966,8,train,records100/00000/00682_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+697,3879,8,train,records100/00000/00697_lr,"{'LVH': 50.0, 'AFIB': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+698,6923,8,train,records100/00000/00698_lr,"{'NORM': 100.0, 'STACH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+706,5626,8,train,records100/00000/00706_lr,"{'ASMI': 100.0, 'IMI': 100.0, 'AFLT': 0.0}",ASMI;IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+713,1191,8,train,records100/00000/00713_lr,"{'ASMI': 100.0, 'LVH': 100.0, 'ISC_': 100.0, 'LAO/LAE': 100.0, 'PVC': 100.0, 'LPR': 0.0, 'STD_': 0.0, 'SR': 0.0}",ASMI;LVH;ISC_;LAO/LAE,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+743,639,8,train,records100/00000/00743_lr,"{'NST_': 100.0, 'LNGQT': 100.0, 'LOWT': 0.0, 'STD_': 0.0, 'SR': 0.0}",NST_;LNGQT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+752,7189,8,train,records100/00000/00752_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+768,7224,8,train,records100/00000/00768_lr,"{'ISC_': 100.0, 'IRBBB': 100.0, 'INVT': 0.0, 'STD_': 0.0, 'SR': 0.0}",ISC_;IRBBB,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+769,5830,8,train,records100/00000/00769_lr,"{'NORM': 100.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+770,12935,8,train,records100/00000/00770_lr,"{'NORM': 80.0, 'IRBBB': 100.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+780,15534,8,train,records100/00000/00780_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+785,14509,8,train,records100/00000/00785_lr,"{'IRBBB': 100.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+809,19396,8,train,records100/00000/00809_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+853,3750,8,train,records100/00000/00853_lr,"{'ILMI': 100.0, 'LAFB': 100.0, 'SR': 0.0}",ILMI;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+865,2161,8,train,records100/00000/00865_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+870,4369,8,train,records100/00000/00870_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+873,5335,8,train,records100/00000/00873_lr,"{'ASMI': 100.0, 'LVH': 100.0, 'NDT': 100.0, 'LPR': 0.0, 'SR': 0.0}",ASMI;LVH;NDT,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+874,352,8,train,records100/00000/00874_lr,"{'NORM': 50.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+875,1541,8,train,records100/00000/00875_lr,"{'NORM': 50.0, 'LPR': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+878,6518,8,train,records100/00000/00878_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+884,5604,8,train,records100/00000/00884_lr,"{'NORM': 100.0, 'LPR': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+898,1611,8,train,records100/00000/00898_lr,"{'NDT': 100.0, 'EL': 50.0, 'SR': 0.0}",NDT;EL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+909,3923,8,train,records100/00000/00909_lr,"{'NDT': 100.0, 'STD_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+938,2337,8,train,records100/00000/00938_lr,"{'IRBBB': 100.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+961,306,8,train,records100/00000/00961_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+970,3272,8,train,records100/00000/00970_lr,"{'IPLMI': 50.0, 'LAFB': 100.0, 'RAO/RAE': 50.0}",IPLMI;LAFB;RAO/RAE,CD;HYP;MI,True,False,abnormal_class_present,True,,0,1,0,1,1
+983,1233,8,train,records100/00000/00983_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+989,5316,8,train,records100/00000/00989_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1034,3221,8,train,records100/01000/01034_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1041,5796,8,train,records100/01000/01041_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1048,3943,8,train,records100/01000/01048_lr,"{'LVH': 100.0, 'ISC_': 100.0}",LVH;ISC_,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+1071,7743,8,train,records100/01000/01071_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1079,6143,8,train,records100/01000/01079_lr,"{'IMI': 15.0, 'IRBBB': 100.0}",IMI;IRBBB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+1122,15120,8,train,records100/01000/01122_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1140,7288,8,train,records100/01000/01140_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1161,2136,8,train,records100/01000/01161_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1167,2744,8,train,records100/01000/01167_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1176,2593,8,train,records100/01000/01176_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1180,5738,8,train,records100/01000/01180_lr,"{'ASMI': 100.0, 'ALMI': 50.0, 'LAFB': 100.0}",ASMI;ALMI;LAFB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+1181,1525,8,train,records100/01000/01181_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1214,7645,8,train,records100/01000/01214_lr,"{'NORM': 80.0, 'STACH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1232,421,8,train,records100/01000/01232_lr,"{'CRBBB': 100.0, '1AVB': 100.0, 'PAC': 0.0, 'LPR': 0.0, 'SBRAD': 0.0, 'BIGU': 0.0}",CRBBB;1AVB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+1250,9619,8,train,records100/01000/01250_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1254,16135,8,train,records100/01000/01254_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1257,18396,8,train,records100/01000/01257_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1269,11820,8,train,records100/01000/01269_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+1277,18925,8,train,records100/01000/01277_lr,{'LAFB': 100.0},LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+1278,12830,8,train,records100/01000/01278_lr,{'ASMI': 100.0},ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+1293,9859,8,train,records100/01000/01293_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+8,11275,9,validation,records100/00000/00008_lr,"{'IMI': 35.0, 'ABQRS': 0.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+10,9456,9,validation,records100/00000/00010_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+17,13619,9,validation,records100/00000/00017_lr,"{'AFLT': 100.0, 'ABQRS': 0.0, 'AFIB': 0.0}",,,False,False,unclassified,True,,0,0,0,0,0
+30,19053,9,validation,records100/00000/00030_lr,"{'LVH': 100.0, 'SR': 0.0}",LVH,HYP,False,False,abnormal_class_present,True,,0,0,0,0,1
+41,8420,9,validation,records100/00000/00041_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+47,8295,9,validation,records100/00000/00047_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+48,13672,9,validation,records100/00000/00048_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+49,13958,9,validation,records100/00000/00049_lr,"{'IVCD': 100.0, 'SR': 0.0}",IVCD,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+51,16750,9,validation,records100/00000/00051_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+62,21273,9,validation,records100/00000/00062_lr,"{'NORM': 100.0, 'ABQRS': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+69,8339,9,validation,records100/00000/00069_lr,"{'NORM': 100.0, 'SBRAD': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+72,14060,9,validation,records100/00000/00072_lr,"{'NORM': 100.0, 'ABQRS': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+91,8305,9,validation,records100/00000/00091_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+94,21731,9,validation,records100/00000/00094_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+127,11926,9,validation,records100/00000/00127_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+134,10784,9,validation,records100/00000/00134_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+144,16914,9,validation,records100/00000/00144_lr,{'PACE': 100.0},,,False,False,unclassified,True,,0,0,0,0,0
+151,12152,9,validation,records100/00000/00151_lr,{'NORM': 100.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+152,9796,9,validation,records100/00000/00152_lr,"{'LMI': 50.0, 'ISCIL': 100.0, 'AFIB': 0.0}",LMI;ISCIL,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+153,20254,9,validation,records100/00000/00153_lr,"{'IMI': 15.0, 'ABQRS': 0.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+155,12640,9,validation,records100/00000/00155_lr,"{'ILMI': 35.0, 'ABQRS': 0.0, 'SR': 0.0}",ILMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+165,9277,9,validation,records100/00000/00165_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+170,15691,9,validation,records100/00000/00170_lr,"{'NST_': 100.0, 'PVC': 100.0, 'SR': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+171,15591,9,validation,records100/00000/00171_lr,"{'ISCIL': 100.0, 'SR': 0.0}",ISCIL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+173,10676,9,validation,records100/00000/00173_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'SR': 0.0}",LVH;ISC_,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+178,20606,9,validation,records100/00000/00178_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+184,13112,9,validation,records100/00000/00184_lr,"{'ILMI': 100.0, 'ASMI': 100.0, 'SR': 0.0}",ILMI;ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+186,12396,9,validation,records100/00000/00186_lr,{'ISCAS': 100.0},ISCAS,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+190,10782,9,validation,records100/00000/00190_lr,{'PACE': 100.0},,,False,False,unclassified,True,,0,0,0,0,0
+193,17536,9,validation,records100/00000/00193_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+195,14472,9,validation,records100/00000/00195_lr,"{'CRBBB': 100.0, 'SR': 0.0}",CRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+198,21074,9,validation,records100/00000/00198_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+204,19408,9,validation,records100/00000/00204_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+205,21222,9,validation,records100/00000/00205_lr,"{'NORM': 100.0, 'ABQRS': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+216,18577,9,validation,records100/00000/00216_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+217,21519,9,validation,records100/00000/00217_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+223,16039,9,validation,records100/00000/00223_lr,"{'ASMI': 50.0, 'LVH': 100.0, 'ISC_': 100.0, 'SR': 0.0}",ASMI;LVH;ISC_,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+228,8608,9,validation,records100/00000/00228_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+233,20772,9,validation,records100/00000/00233_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+234,17115,9,validation,records100/00000/00234_lr,"{'ASMI': 100.0, 'IMI': 15.0, 'ANEUR': 100.0, '1AVB': 100.0, 'SR': 0.0}",ASMI;IMI;ANEUR;1AVB,CD;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,1,0
+262,6501,9,validation,records100/00000/00262_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+266,641,9,validation,records100/00000/00266_lr,"{'ALMI': 100.0, 'IMI': 80.0, 'LAFB': 100.0, 'PVC': 100.0, 'ANEUR': 50.0, 'QWAVE': 0.0, 'INVT': 0.0, 'SR': 0.0}",ALMI;IMI;LAFB;ANEUR,CD;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,1,0
+287,6437,9,validation,records100/00000/00287_lr,"{'ASMI': 50.0, 'CLBBB': 100.0, 'PVC': 100.0, 'SR': 0.0}",ASMI;CLBBB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+293,1689,9,validation,records100/00000/00293_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+295,603,9,validation,records100/00000/00295_lr,"{'NST_': 100.0, 'SR': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+303,3327,9,validation,records100/00000/00303_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+343,4004,9,validation,records100/00000/00343_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+352,20919,9,validation,records100/00000/00352_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+354,19088,9,validation,records100/00000/00354_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+360,9812,9,validation,records100/00000/00360_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+365,9158,9,validation,records100/00000/00365_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+368,16468,9,validation,records100/00000/00368_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+383,15446,9,validation,records100/00000/00383_lr,"{'IMI': 15.0, 'LVH': 100.0, 'ISC_': 100.0}",IMI;LVH;ISC_,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+386,11809,9,validation,records100/00000/00386_lr,"{'LVH': 100.0, 'ISC_': 100.0}",LVH;ISC_,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+387,14950,9,validation,records100/00000/00387_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+398,13146,9,validation,records100/00000/00398_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+406,11864,9,validation,records100/00000/00406_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+414,1620,9,validation,records100/00000/00414_lr,"{'INJAS': 100.0, 'INJAL': 100.0, 'LVH': 50.0, 'VCLVH': 0.0, 'STD_': 0.0, 'SR': 0.0}",INJAS;INJAL;LVH,HYP;MI,True,False,abnormal_class_present,True,,0,1,0,0,1
+419,1909,9,validation,records100/00000/00419_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+425,2440,9,validation,records100/00000/00425_lr,"{'IPMI': 100.0, 'LVH': 100.0, 'ISC_': 100.0, 'PVC': 100.0, 'QWAVE': 0.0, 'LOWT': 0.0, 'STD_': 0.0, 'SR': 0.0}",IPMI;LVH;ISC_,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+437,2990,9,validation,records100/00000/00437_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+441,6036,9,validation,records100/00000/00441_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+445,3996,9,validation,records100/00000/00445_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+483,19895,9,validation,records100/00000/00483_lr,"{'IMI': 15.0, 'IRBBB': 100.0, 'INJAS': 100.0}",IMI;IRBBB;INJAS,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+491,3731,9,validation,records100/00000/00491_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+498,16911,9,validation,records100/00000/00498_lr,{'PACE': 100.0},,,False,False,unclassified,True,,0,0,0,0,0
+515,12266,9,validation,records100/00000/00515_lr,"{'ASMI': 50.0, 'SR': 0.0}",ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+520,13351,9,validation,records100/00000/00520_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+524,20065,9,validation,records100/00000/00524_lr,"{'LVH': 100.0, 'ISC_': 100.0, '1AVB': 100.0, 'LAO/LAE': 100.0}",LVH;ISC_;1AVB;LAO/LAE,CD;HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,1,1
+529,13474,9,validation,records100/00000/00529_lr,"{'NST_': 100.0, 'SR': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+537,21127,9,validation,records100/00000/00537_lr,"{'ASMI': 100.0, 'LVH': 100.0, 'ISC_': 100.0, 'SR': 0.0}",ASMI;LVH;ISC_,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+544,13772,9,validation,records100/00000/00544_lr,"{'IMI': 100.0, 'LVH': 100.0, 'ISC_': 100.0}",IMI;LVH;ISC_,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+545,15734,9,validation,records100/00000/00545_lr,"{'IMI': 50.0, 'LVH': 100.0, 'ISC_': 100.0, 'CLBBB': 100.0, 'SR': 0.0}",IMI;LVH;ISC_;CLBBB,CD;HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,1,1
+553,10977,9,validation,records100/00000/00553_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+554,15180,9,validation,records100/00000/00554_lr,"{'IMI': 15.0, 'ISCAN': 100.0, 'SR': 0.0}",IMI;ISCAN,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+558,15279,9,validation,records100/00000/00558_lr,"{'IMI': 15.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+563,12015,9,validation,records100/00000/00563_lr,"{'IMI': 50.0, 'ASMI': 100.0, 'IVCD': 100.0, '1AVB': 100.0, 'SR': 0.0}",IMI;ASMI;IVCD;1AVB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+574,7510,9,validation,records100/00000/00574_lr,"{'NORM': 80.0, 'VCLVH': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+587,11694,9,validation,records100/00000/00587_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+601,4261,9,validation,records100/00000/00601_lr,"{'IMI': 80.0, 'NT_': 0.0, 'QWAVE': 0.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+612,6556,9,validation,records100/00000/00612_lr,"{'NDT': 100.0, 'LOWT': 0.0, 'SBRAD': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+615,7655,9,validation,records100/00000/00615_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+627,2819,9,validation,records100/00000/00627_lr,"{'IMI': 100.0, 'NDT': 100.0, 'QWAVE': 0.0, 'SR': 0.0}",IMI;NDT,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+633,709,9,validation,records100/00000/00633_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+662,8412,9,validation,records100/00000/00662_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+673,2745,9,validation,records100/00000/00673_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+705,4874,9,validation,records100/00000/00705_lr,"{'LAFB': 100.0, 'INJAS': 100.0, 'SR': 0.0}",LAFB;INJAS,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+716,3114,9,validation,records100/00000/00716_lr,"{'AMI': 50.0, 'NT_': 0.0, 'QWAVE': 0.0, 'SR': 0.0}",AMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+717,3795,9,validation,records100/00000/00717_lr,"{'ASMI': 50.0, 'NDT': 100.0, 'AFIB': 0.0}",ASMI;NDT,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+722,6446,9,validation,records100/00000/00722_lr,"{'ASMI': 50.0, 'LVH': 100.0, 'ISC_': 100.0, 'STD_': 0.0, 'AFIB': 0.0}",ASMI;LVH;ISC_,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+728,6623,9,validation,records100/00000/00728_lr,"{'ASMI': 100.0, 'IMI': 50.0, '1AVB': 100.0, 'NT_': 0.0, 'LPR': 0.0, 'SR': 0.0}",ASMI;IMI;1AVB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+748,7916,9,validation,records100/00000/00748_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+771,3063,9,validation,records100/00000/00771_lr,{'NORM': 100.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+772,18916,9,validation,records100/00000/00772_lr,"{'NORM': 100.0, 'ABQRS': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+776,15644,9,validation,records100/00000/00776_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+787,18804,9,validation,records100/00000/00787_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+792,14970,9,validation,records100/00000/00792_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+796,21542,9,validation,records100/00000/00796_lr,"{'CLBBB': 100.0, 'PVC': 100.0, 'LAO/LAE': 50.0, 'SR': 0.0}",CLBBB;LAO/LAE,CD;HYP,True,False,abnormal_class_present,True,,0,0,0,1,1
+800,13874,9,validation,records100/00000/00800_lr,"{'ASMI': 100.0, 'ALMI': 100.0, '1AVB': 100.0}",ASMI;ALMI;1AVB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+818,19662,9,validation,records100/00000/00818_lr,"{'NORM': 50.0, 'PVC': 100.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+9,18792,10,test,records100/00000/00009_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+38,17076,10,test,records100/00000/00038_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+40,19501,10,test,records100/00000/00040_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+57,16063,10,test,records100/00000/00057_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+59,19475,10,test,records100/00000/00059_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+63,15265,10,test,records100/00000/00063_lr,"{'ASMI': 15.0, 'ABQRS': 0.0, 'SR': 0.0}",ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+65,19170,10,test,records100/00000/00065_lr,"{'IRBBB': 100.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+75,18502,10,test,records100/00000/00075_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+76,21214,10,test,records100/00000/00076_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+79,17529,10,test,records100/00000/00079_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+93,10029,10,test,records100/00000/00093_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+100,21404,10,test,records100/00000/00100_lr,"{'NORM': 80.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+112,19832,10,test,records100/00000/00112_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+115,11591,10,test,records100/00000/00115_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+116,19695,10,test,records100/00000/00116_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+117,16747,10,test,records100/00000/00117_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+128,17735,10,test,records100/00000/00128_lr,{'NDT': 100.0},NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+129,16463,10,test,records100/00000/00129_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+157,8131,10,test,records100/00000/00157_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+160,13470,10,test,records100/00000/00160_lr,"{'NST_': 100.0, 'SR': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+162,9780,10,test,records100/00000/00162_lr,"{'ASMI': 50.0, 'LAFB': 100.0, 'LVH': 50.0, 'ISC_': 100.0, 'SR': 0.0}",ASMI;LAFB;LVH;ISC_,CD;HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,1,1
+167,16774,10,test,records100/00000/00167_lr,"{'ISCAL': 100.0, 'SR': 0.0}",ISCAL,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+172,20766,10,test,records100/00000/00172_lr,"{'CRBBB': 100.0, 'LAFB': 100.0, 'SR': 0.0}",CRBBB;LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+175,21114,10,test,records100/00000/00175_lr,"{'IMI': 15.0, 'ABQRS': 0.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+180,15592,10,test,records100/00000/00180_lr,"{'CLBBB': 100.0, 'SR': 0.0}",CLBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+201,19208,10,test,records100/00000/00201_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+203,11070,10,test,records100/00000/00203_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+208,8309,10,test,records100/00000/00208_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+210,16062,10,test,records100/00000/00210_lr,"{'IMI': 80.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+218,13925,10,test,records100/00000/00218_lr,"{'NORM': 80.0, '1AVB': 100.0, 'SR': 0.0}",NORM;1AVB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+240,9601,10,test,records100/00000/00240_lr,"{'IMI': 50.0, 'ABQRS': 0.0, 'SBRAD': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+241,14702,10,test,records100/00000/00241_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+243,11567,10,test,records100/00000/00243_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+245,8294,10,test,records100/00000/00245_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+252,20848,10,test,records100/00000/00252_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+271,449,10,test,records100/00000/00271_lr,"{'ASMI': 100.0, 'LVH': 100.0, 'ISC_': 100.0, 'PAC': 0.0, 'STD_': 0.0, 'SR': 0.0}",ASMI;LVH;ISC_,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+274,5662,10,test,records100/00000/00274_lr,"{'ASMI': 100.0, 'LVH': 100.0, 'ISC_': 100.0, 'LAO/LAE': 50.0, 'VCLVH': 0.0, 'INVT': 0.0, 'STD_': 0.0, 'SR': 0.0}",ASMI;LVH;ISC_;LAO/LAE,HYP;MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,1
+299,7852,10,test,records100/00000/00299_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'LAO/LAE': 50.0, 'SR': 0.0}",LVH;ISC_;LAO/LAE,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+318,2034,10,test,records100/00000/00318_lr,"{'NDT': 100.0, 'DIG': 80.0, 'STD_': 0.0, 'AFIB': 0.0}",NDT;DIG,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+334,2065,10,test,records100/00000/00334_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+361,13000,10,test,records100/00000/00361_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+364,15645,10,test,records100/00000/00364_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+377,11498,10,test,records100/00000/00377_lr,"{'LPFB': 100.0, 'SR': 0.0}",LPFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+382,10186,10,test,records100/00000/00382_lr,{'PACE': 100.0},,,False,False,unclassified,True,,0,0,0,0,0
+388,16023,10,test,records100/00000/00388_lr,"{'NST_': 100.0, 'SR': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+397,15768,10,test,records100/00000/00397_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+400,10987,10,test,records100/00000/00400_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+405,18087,10,test,records100/00000/00405_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+417,4938,10,test,records100/00000/00417_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+427,6476,10,test,records100/00000/00427_lr,"{'NDT': 100.0, 'PAC': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+430,1207,10,test,records100/00000/00430_lr,"{'ASMI': 15.0, 'SR': 0.0}",ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+440,2706,10,test,records100/00000/00440_lr,"{'NORM': 100.0, 'SARRH': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+448,12306,10,test,records100/00000/00448_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+449,20057,10,test,records100/00000/00449_lr,{'AFLT': 100.0},,,False,False,unclassified,True,,0,0,0,0,0
+452,13110,10,test,records100/00000/00452_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'PVC': 100.0, 'AFIB': 0.0}",LVH;ISC_,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+472,1360,10,test,records100/00000/00472_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+473,2398,10,test,records100/00000/00473_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+478,6312,10,test,records100/00000/00478_lr,"{'NORM': 80.0, 'IRBBB': 100.0, 'SARRH': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+499,2678,10,test,records100/00000/00499_lr,"{'NDT': 100.0, 'NT_': 0.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+504,3602,10,test,records100/00000/00504_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+512,16695,10,test,records100/00000/00512_lr,"{'CRBBB': 100.0, 'ASMI': 100.0}",CRBBB;ASMI,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+514,12005,10,test,records100/00000/00514_lr,"{'ILMI': 100.0, 'SR': 0.0}",ILMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+516,13237,10,test,records100/00000/00516_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'SR': 0.0}",LVH;ISC_,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+526,13769,10,test,records100/00000/00526_lr,"{'ASMI': 100.0, 'SR': 0.0}",ASMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+527,15828,10,test,records100/00000/00527_lr,"{'NDT': 100.0, 'IVCD': 100.0, 'SR': 0.0}",NDT;IVCD,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+534,20068,10,test,records100/00000/00534_lr,"{'ISC_': 100.0, 'LVH': 100.0}",ISC_;LVH,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+559,12042,10,test,records100/00000/00559_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+564,16912,10,test,records100/00000/00564_lr,"{'ASMI': 100.0, 'ANEUR': 50.0, 'ISCAL': 100.0, 'SR': 0.0}",ASMI;ANEUR;ISCAL,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+569,2936,10,test,records100/00000/00569_lr,"{'IRBBB': 100.0, 'LAFB': 100.0, 'NST_': 100.0, 'STD_': 0.0, 'AFIB': 0.0}",IRBBB;LAFB;NST_,CD;STTC,True,False,abnormal_class_present,True,,0,0,1,1,0
+570,7793,10,test,records100/00000/00570_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+573,5837,10,test,records100/00000/00573_lr,"{'NDT': 100.0, 'LAO/LAE': 100.0, 'PVC': 100.0, 'LOWT': 0.0, 'SR': 0.0}",NDT;LAO/LAE,HYP;STTC,True,False,abnormal_class_present,True,,0,0,1,0,1
+581,583,10,test,records100/00000/00581_lr,"{'ASMI': 100.0, 'IVCD': 100.0, 'NST_': 0.0, 'AFIB': 0.0}",ASMI;IVCD;NST_,CD;MI;STTC,True,True,abnormal_class_present,True,,0,1,1,1,0
+584,18236,10,test,records100/00000/00584_lr,"{'NORM': 80.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+611,4083,10,test,records100/00000/00611_lr,"{'NORM': 100.0, 'SBRAD': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+618,6417,10,test,records100/00000/00618_lr,"{'CLBBB': 100.0, 'SR': 0.0}",CLBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+619,1240,10,test,records100/00000/00619_lr,"{'NORM': 100.0, 'NT_': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+658,9050,10,test,records100/00000/00658_lr,"{'IVCD': 100.0, 'SBRAD': 0.0}",IVCD,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+685,362,10,test,records100/00000/00685_lr,"{'IMI': 15.0, 'ILBBB': 100.0, '1AVB': 100.0, 'LPR': 0.0, 'SR': 0.0}",IMI;ILBBB;1AVB,CD;MI,True,False,abnormal_class_present,True,,0,1,0,1,0
+687,7483,10,test,records100/00000/00687_lr,{'NORM': 100.0},NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+694,4203,10,test,records100/00000/00694_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+696,7153,10,test,records100/00000/00696_lr,"{'NORM': 80.0, 'QWAVE': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+707,962,10,test,records100/00000/00707_lr,"{'NDT': 100.0, 'SR': 0.0}",NDT,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+723,1290,10,test,records100/00000/00723_lr,"{'ASMI': 100.0, 'ISCIN': 100.0, 'SR': 0.0}",ASMI;ISCIN,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+726,3280,10,test,records100/00000/00726_lr,"{'NORM': 100.0, 'IRBBB': 100.0, 'LAFB': 100.0, 'SR': 0.0}",NORM;IRBBB;LAFB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+732,3289,10,test,records100/00000/00732_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+751,419,10,test,records100/00000/00751_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+756,4037,10,test,records100/00000/00756_lr,"{'NST_': 100.0, 'PAC': 0.0, 'STD_': 0.0, 'SR': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0
+764,7309,10,test,records100/00000/00764_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+765,3194,10,test,records100/00000/00765_lr,"{'IMI': 15.0, 'INJAS': 100.0, 'INVT': 0.0, 'SR': 0.0}",IMI;INJAS,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+775,20803,10,test,records100/00000/00775_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+779,20190,10,test,records100/00000/00779_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+789,8997,10,test,records100/00000/00789_lr,"{'LAFB': 100.0, 'SR': 0.0}",LAFB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+795,20029,10,test,records100/00000/00795_lr,"{'NORM': 100.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+799,18739,10,test,records100/00000/00799_lr,"{'IMI': 15.0, 'SR': 0.0}",IMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+805,14400,10,test,records100/00000/00805_lr,"{'NORM': 15.0, 'ABQRS': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+806,16040,10,test,records100/00000/00806_lr,"{'IRBBB': 80.0, 'SR': 0.0}",IRBBB,CD,False,False,abnormal_class_present,True,,0,0,0,1,0
+821,21490,10,test,records100/00000/00821_lr,"{'ILMI': 15.0, 'SR': 0.0}",ILMI,MI,False,False,abnormal_class_present,True,,0,1,0,0,0
+848,7516,10,test,records100/00000/00848_lr,"{'NORM': 100.0, 'NT_': 0.0, 'SR': 0.0}",NORM,NORM,False,False,normal_class_only,True,,1,0,0,0,0
+854,4319,10,test,records100/00000/00854_lr,"{'ASMI': 100.0, 'ISCAL': 100.0}",ASMI;ISCAL,MI;STTC,True,False,abnormal_class_present,True,,0,1,1,0,0
+861,1432,10,test,records100/00000/00861_lr,"{'NST_': 100.0, 'PAC': 0.0, 'STD_': 0.0, 'SR': 0.0}",NST_,STTC,False,False,abnormal_class_present,True,,0,0,1,0,0

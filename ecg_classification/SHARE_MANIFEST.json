@@ -1,0 +1,265 @@
+{
+  "label_criteria": "applied to this experiment",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 98,
+      "sha256": "a5caa06f4d914c212140b6e1b29492b94e8334ceda76ef127eb2d3c1c22511f7"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 172,
+      "sha256": "cda9b0365f16e825f43eafa749e7c27bdf1180622c29f41b20a1daa6bd4ca8d2"
+    },
+    {
+      "path": "analyze_disease_reconstruction.py",
+      "bytes": 34066,
+      "sha256": "3ce1d232f03653af81ac31baf704493edd274339aa663aad1e374bf5e5848db4"
+    },
+    {
+      "path": "CLASSIFICATION_FINAL_SUMMARY.md",
+      "bytes": 3775,
+      "sha256": "e2f165e417a1b7251c831e82c85eb2f1d874663594f677867bc1f5d96bfaaf1b"
+    },
+    {
+      "path": "classifier_inference.py",
+      "bytes": 11722,
+      "sha256": "b011e8dd9bbbffe75e591960ad95d27db30110a318a04834281f57f21e1600a7"
+    },
+    {
+      "path": "CLASSIFIER_INTERFACE.md",
+      "bytes": 6484,
+      "sha256": "6f6056e8f4d12ed9ec2fa461a1930bf38c684eacfd2c87ae6fba75c7416e9d36"
+    },
+    {
+      "path": "compare_validation_1000.py",
+      "bytes": 9250,
+      "sha256": "ce568da27a9e23f88747aa6167498f195984274ed0f97dd39b1d60ee45f18e56"
+    },
+    {
+      "path": "DATA_REQUIREMENTS.json",
+      "bytes": 803,
+      "sha256": "216c9b35dbae1a6e2cc2c2b3c8ae6e76bb9725ceb687ad8b4a5b0056132eb7b2"
+    },
+    {
+      "path": "docs/CLASSIFICATION_LABEL_CRITERIA.md",
+      "bytes": 5636,
+      "sha256": "09f647f9d985d7bfd1e68ce501621a024374eccb834a8d222ff632b7dcf4923c"
+    },
+    {
+      "path": "docs/CLASSIFICATION_TEMPORARY_LABEL_POLICY.md",
+      "bytes": 185,
+      "sha256": "523b3de6c6139491b5cc9ab4106503f415c7b7cf7ce9b60dd6ded858f45fd3bd"
+    },
+    {
+      "path": "docs/CLASSIFIER_INTERFACE.md",
+      "bytes": 6499,
+      "sha256": "37bfc39b28b0920c3bc7d5f3ea81925fd25e25a78e59418f3bc24ec8bb6745e2"
+    },
+    {
+      "path": "docs/DISEASE_RECONSTRUCTION_ANALYSIS.md",
+      "bytes": 10945,
+      "sha256": "995df8946fc5362f8c8f5f8fd071135d37370093015bd99f90574eaa4d60a672"
+    },
+    {
+      "path": "docs/ECG_CLASSIFICATION_EXPERIMENT.md",
+      "bytes": 12499,
+      "sha256": "ef4d58af4a96dfc4c60f05a0556ade3af480359b3677547d0e3f59258ec61490"
+    },
+    {
+      "path": "ENVIRONMENT.md",
+      "bytes": 1554,
+      "sha256": "9846d2209772e2d000da6a9e71c215e58d76c424877269aa0f0a97740a1281c2"
+    },
+    {
+      "path": "evaluate.py",
+      "bytes": 14454,
+      "sha256": "dd68aaa456bd5fe77106d6008c946d017531e829a8e79b56f6283d9f52522b14"
+    },
+    {
+      "path": "evaluate_1000.py",
+      "bytes": 6051,
+      "sha256": "7bef33fafe988aa4dc4e2864ad3caa2e6fb92a6ea5c7dac3d5123fb50f0d3300"
+    },
+    {
+      "path": "EXPERIMENT_PROTOCOL.json",
+      "bytes": 1941,
+      "sha256": "fbf54ffd37d5fd8fdbff01c2b4e371c292e5b3331d8ef800750d0d1e46d60132"
+    },
+    {
+      "path": "historical_source/summarize_ecg_classification.py",
+      "bytes": 20940,
+      "sha256": "f04f7bc43468e388c30552ef73c64639cca8d5c8375da7480516087a32eaa48f"
+    },
+    {
+      "path": "historical_source/train_ecg_classification.py",
+      "bytes": 29732,
+      "sha256": "ba6f63644195a3a179da4fda959855107a1aeb2542ad463c34848be5bd5d7e0e"
+    },
+    {
+      "path": "historical_source/verify_ecg_classification.py",
+      "bytes": 8694,
+      "sha256": "fe02d3699ccb980791030959da1387aa0f935791d81464401dabe5ca3846fcfd"
+    },
+    {
+      "path": "LABEL_CRITERIA.md",
+      "bytes": 5636,
+      "sha256": "09f647f9d985d7bfd1e68ce501621a024374eccb834a8d222ff632b7dcf4923c"
+    },
+    {
+      "path": "model.py",
+      "bytes": 941,
+      "sha256": "1c9da7a5c1ab60f4b4bd936bf450dda1fba43f6c2f38fca384d68c8d85d436be"
+    },
+    {
+      "path": "model_dilated.py",
+      "bytes": 673,
+      "sha256": "7bf38d264a8196bae019a2d7e037a7dbedbd0efa54527e3c1b2bb5ad11a09009"
+    },
+    {
+      "path": "package_paths.py",
+      "bytes": 2830,
+      "sha256": "de669d4c5938ca8cb6a348eaab1c2b289cd3d87f3322f84b1064bbfb7cede7e1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4218,
+      "sha256": "007019aa28b8251c96d1aded681b997cb425b76924842a7ba42114bcd274fb77"
+    },
+    {
+      "path": "reports/aggregate/abc_comparison_mean_sd.csv",
+      "bytes": 21583,
+      "sha256": "0c3f74deb0b511aa9b6ad2a635cf2931ad3aadb0565e7b531582830bacfd1631"
+    },
+    {
+      "path": "reports/aggregate/binary_confusion_matrices.csv",
+      "bytes": 768,
+      "sha256": "0ed526899e6e528000b5c1c8d1b930d2e736ece2c38352f7aabaec14c464bf29"
+    },
+    {
+      "path": "reports/aggregate/label_support.csv",
+      "bytes": 734,
+      "sha256": "81b456722c3ab9b8830c7bde0be040a7e7ed2ab1880fb5106c7c1b917b8dba48"
+    },
+    {
+      "path": "reports/aggregate/metric_na_reasons.csv",
+      "bytes": 46,
+      "sha256": "b1999c5c9e6383003c913cd7b7dab0ae5b28761e7972e8ef1f6b4d3cafb9c4e7"
+    },
+    {
+      "path": "reports/aggregate/metrics_by_seed.csv",
+      "bytes": 41165,
+      "sha256": "eaf1fcc9d8f59f3e912cc7453b596f818bd03b2915d0fd3253db8b764e7b8f44"
+    },
+    {
+      "path": "reports/aggregate/selected_models.csv",
+      "bytes": 4662,
+      "sha256": "fe9d9855898704c572a6de243510e52bd460256ae2964843ee5d6b9040aba07a"
+    },
+    {
+      "path": "reports/aggregate/test_binary_comparison.png",
+      "bytes": 77227,
+      "sha256": "d751f49f377a47a31b93d4293b2fc79064b4d5102baba1e978ded7a664efce85"
+    },
+    {
+      "path": "reports/aggregate/test_binary_confusion_matrices.png",
+      "bytes": 204035,
+      "sha256": "36835931a460b71abbadff9b49dc2232e394b31edb4e752a884032dc48567528"
+    },
+    {
+      "path": "reports/aggregate/test_multilabel_by_class_annotated.png",
+      "bytes": 63892,
+      "sha256": "a6fedf01a697bf43a5746016a18960c555fc8e25071bfea04de1eac17178a4a2"
+    },
+    {
+      "path": "reports/aggregate/test_multilabel_comparison.png",
+      "bytes": 78343,
+      "sha256": "ba95c3030cdc8d1b0b470a8c6a54c2d5eda76fa9bfceddf48492bd3a4adb9029"
+    },
+    {
+      "path": "reports/aggregate/test_paired_differences.csv",
+      "bytes": 8011,
+      "sha256": "11855accf346887468fbc0cf5febfaf769ef6a5cc0107747d8b5bb898d50ee94"
+    },
+    {
+      "path": "reports/aggregate/validation_learning_curves.png",
+      "bytes": 388042,
+      "sha256": "3157f3c9376f34fc24f3a95324c54aba0fb2a1a35ec62bf071e78652ee02b770"
+    },
+    {
+      "path": "REPRODUCTION.md",
+      "bytes": 5933,
+      "sha256": "9343bfd6918754fbac7f0063d0ef7c909ad752f660b709e79d22c443e4fc42d0"
+    },
+    {
+      "path": "requirements-classification.txt",
+      "bytes": 117,
+      "sha256": "95de8a21cfee544bd9d86899337f1c9afb95992a341cce764fa193f9644b9147"
+    },
+    {
+      "path": "requirements-inference.txt",
+      "bytes": 29,
+      "sha256": "d8cbd7f3281f9bad6538088172556712a964514bb90e80c978de90e863d3b8c9"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 313,
+      "sha256": "0c62c426f41016b7fd8a546de73c4a525933e4f01d5bb72ef4173107dc54de40"
+    },
+    {
+      "path": "RESULT_SUMMARY.md",
+      "bytes": 2755,
+      "sha256": "2025c86f81379ca64b0749df7ce45572d86d3564787064f62e9fb913fc8114d5"
+    },
+    {
+      "path": "ROLE_POLICY_CORRECTION.json",
+      "bytes": 1477,
+      "sha256": "977e42dd46ed88b79d70d1d69c1aba3b0ca8d046ee0b54a8bb99288f7447b7c6"
+    },
+    {
+      "path": "SHARE_FILES.txt",
+      "bytes": 1639,
+      "sha256": "3efde5d2fea5ca416e3c87d88498c8a48962fc810b873fd36f3666026d7c8f35"
+    },
+    {
+      "path": "summarize_ecg_classification.py",
+      "bytes": 3953,
+      "sha256": "cf42770a9c46787fa78d5be9178535032299e70485ef664790c49f258a5384e8"
+    },
+    {
+      "path": "tests/test_disease_reconstruction.py",
+      "bytes": 7331,
+      "sha256": "a0aa9d1a9f50efd5d680d5a4f3acee12f82c33dc6a6003f0fecacd94f05f2081"
+    },
+    {
+      "path": "tests/test_ecg_classification.py",
+      "bytes": 3145,
+      "sha256": "59eccbcf055d22ad3a5fc90eb3a2c4a3cf9cd63c6557f5753d57d5626e0d6a16"
+    },
+    {
+      "path": "train.py",
+      "bytes": 12388,
+      "sha256": "179c554baad3c077056f4092c4aa156b0b6f6dbf9f5fc774041c25e3ab1296d7"
+    },
+    {
+      "path": "train_1000.py",
+      "bytes": 12652,
+      "sha256": "b8a7ada6adf2feb43823349198698cdb71d3d5415985d6f52b36d984906257d5"
+    },
+    {
+      "path": "train_dilated_1000.py",
+      "bytes": 13278,
+      "sha256": "81f2762dda44294309385eeb22db8ae5d599431b8237a9e9a49043ddb1d02204"
+    },
+    {
+      "path": "train_ecg_classification.py",
+      "bytes": 29732,
+      "sha256": "ba6f63644195a3a179da4fda959855107a1aeb2542ad463c34848be5bd5d7e0e"
+    },
+    {
+      "path": "verify_ecg_classification.py",
+      "bytes": 9270,
+      "sha256": "d9fa114d80fabce59cf6f5a37713705f6cfebea60d781ebc8e89d22a35f01286"
+    }
+  ]
+}

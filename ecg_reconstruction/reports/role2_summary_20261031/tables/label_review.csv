@@ -1,0 +1,37 @@
+﻿ecg_id,patient_id,strat_fold,split,filename_lr,scp_codes,diagnostic_codes,diagnostic_classes,has_multiple_classes,has_unknown_diagnostic_likelihood,label_status,include_in_analysis,exclusion_reason,NORM,MI,STTC,CD,HYP
+291,4830,1,train,records100/00000/00291_lr,"{'NORM': 80.0, 'IRBBB': 100.0, 'HVOLT': 0.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+385,16064,1,train,records100/00000/00385_lr,{'PACE': 100.0},,,False,False,unclassified,True,,0,0,0,0,0
+704,2071,1,train,records100/00000/00704_lr,"{'ASMI': 50.0, 'LVH': 100.0, 'IVCD': 100.0, 'PAC': 0.0, 'NST_': 0.0, 'HVOLT': 0.0, 'SR': 0.0}",ASMI;LVH;IVCD;NST_,CD;HYP;MI;STTC,True,True,abnormal_class_present,True,,0,1,1,1,1
+236,19277,2,train,records100/00000/00236_lr,"{'NORM': 80.0, 'IRBBB': 100.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+362,13598,2,train,records100/00000/00362_lr,"{'NORM': 100.0, 'IRBBB': 100.0, 'SARRH': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+482,2709,2,train,records100/00000/00482_lr,"{'ASMI': 100.0, 'IMI': 50.0, 'IRBBB': 100.0, 'LAFB': 100.0, 'NST_': 0.0, 'AFIB': 0.0}",ASMI;IMI;IRBBB;LAFB;NST_,CD;MI;STTC,True,True,abnormal_class_present,True,,0,1,1,1,0
+882,3906,2,train,records100/00000/00882_lr,"{'NORM': 100.0, 'PAC': 0.0, 'NST_': 0.0, 'SR': 0.0}",NORM;NST_,NORM;STTC,True,True,mixed_normal_abnormal,True,,1,0,1,0,0
+942,410,2,train,records100/00000/00942_lr,"{'LVH': 100.0, 'ISC_': 100.0, 'NST_': 0.0, 'AFIB': 0.0}",LVH;ISC_;NST_,HYP;STTC,True,True,abnormal_class_present,True,,0,0,1,0,1
+1137,2978,3,train,records100/01000/01137_lr,"{'NORM': 100.0, 'NST_': 0.0, 'SR': 0.0}",NORM;NST_,NORM;STTC,True,True,mixed_normal_abnormal,True,,1,0,1,0,0
+235,15405,4,train,records100/00000/00235_lr,"{'NORM': 100.0, 'LAFB': 100.0, 'SBRAD': 0.0}",NORM;LAFB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+351,5304,4,train,records100/00000/00351_lr,"{'AFIB': 100.0, 'NST_': 0.0}",NST_,STTC,False,True,abnormal_class_present,True,,0,0,1,0,0
+586,19924,4,train,records100/00000/00586_lr,"{'NORM': 80.0, 'IRBBB': 100.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+709,681,4,train,records100/00000/00709_lr,"{'NORM': 50.0, 'IRBBB': 100.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+263,1595,5,train,records100/00000/00263_lr,"{'ASMI': 50.0, 'NST_': 0.0, 'STACH': 0.0}",ASMI;NST_,MI;STTC,True,True,abnormal_class_present,True,,0,1,1,0,0
+412,3336,5,train,records100/00000/00412_lr,"{'NDT': 100.0, 'NST_': 0.0, 'SR': 0.0}",NDT;NST_,STTC,False,True,abnormal_class_present,True,,0,0,1,0,0
+420,3406,5,train,records100/00000/00420_lr,"{'NORM': 100.0, 'IRBBB': 100.0, 'LOWT': 0.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+648,5031,5,train,records100/00000/00648_lr,"{'NORM': 80.0, 'IRBBB': 100.0, 'NT_': 0.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+858,4520,5,train,records100/00000/00858_lr,{'AFLT': 100.0},,,False,False,unclassified,True,,0,0,0,0,0
+1044,1916,5,train,records100/01000/01044_lr,"{'LAFB': 100.0, 'IVCD': 100.0, 'PVC': 100.0, 'NST_': 0.0, 'SR': 0.0}",LAFB;IVCD;NST_,CD;STTC,True,True,abnormal_class_present,True,,0,0,1,1,0
+626,2924,6,train,records100/00000/00626_lr,"{'ISCIL': 100.0, 'IRBBB': 100.0, 'RAO/RAE': 100.0, 'NST_': 0.0, 'STACH': 0.0}",ISCIL;IRBBB;RAO/RAE;NST_,CD;HYP;STTC,True,True,abnormal_class_present,True,,0,0,1,1,1
+738,3827,6,train,records100/00000/00738_lr,"{'AMI': 15.0, 'LVH': 100.0, 'ISC_': 100.0, 'IVCD': 100.0, 'PVC': 100.0, 'NST_': 0.0, 'STACH': 0.0, 'BIGU': 0.0}",AMI;LVH;ISC_;IVCD;NST_,CD;HYP;MI;STTC,True,True,abnormal_class_present,True,,0,1,1,1,1
+1042,499,6,train,records100/01000/01042_lr,"{'NORM': 80.0, 'IVCD': 100.0, 'SR': 0.0}",NORM;IVCD,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+1149,3867,6,train,records100/01000/01149_lr,"{'NORM': 100.0, 'IRBBB': 100.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+321,4188,7,train,records100/00000/00321_lr,"{'EL': 50.0, 'NST_': 0.0, 'AFIB': 0.0}",EL;NST_,STTC,False,True,abnormal_class_present,True,,0,0,1,0,0
+842,6371,7,train,records100/00000/00842_lr,"{'ISC_': 100.0, 'LVH': 100.0, 'IVCD': 100.0, 'NST_': 0.0, 'SR': 0.0}",ISC_;LVH;IVCD;NST_,CD;HYP;STTC,True,True,abnormal_class_present,True,,0,0,1,1,1
+770,12935,8,train,records100/00000/00770_lr,"{'NORM': 80.0, 'IRBBB': 100.0, 'SR': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+17,13619,9,validation,records100/00000/00017_lr,"{'AFLT': 100.0, 'ABQRS': 0.0, 'AFIB': 0.0}",,,False,False,unclassified,True,,0,0,0,0,0
+144,16914,9,validation,records100/00000/00144_lr,{'PACE': 100.0},,,False,False,unclassified,True,,0,0,0,0,0
+190,10782,9,validation,records100/00000/00190_lr,{'PACE': 100.0},,,False,False,unclassified,True,,0,0,0,0,0
+498,16911,9,validation,records100/00000/00498_lr,{'PACE': 100.0},,,False,False,unclassified,True,,0,0,0,0,0
+218,13925,10,test,records100/00000/00218_lr,"{'NORM': 80.0, '1AVB': 100.0, 'SR': 0.0}",NORM;1AVB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+382,10186,10,test,records100/00000/00382_lr,{'PACE': 100.0},,,False,False,unclassified,True,,0,0,0,0,0
+449,20057,10,test,records100/00000/00449_lr,{'AFLT': 100.0},,,False,False,unclassified,True,,0,0,0,0,0
+478,6312,10,test,records100/00000/00478_lr,"{'NORM': 80.0, 'IRBBB': 100.0, 'SARRH': 0.0}",NORM;IRBBB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0
+581,583,10,test,records100/00000/00581_lr,"{'ASMI': 100.0, 'IVCD': 100.0, 'NST_': 0.0, 'AFIB': 0.0}",ASMI;IVCD;NST_,CD;MI;STTC,True,True,abnormal_class_present,True,,0,1,1,1,0
+726,3280,10,test,records100/00000/00726_lr,"{'NORM': 100.0, 'IRBBB': 100.0, 'LAFB': 100.0, 'SR': 0.0}",NORM;IRBBB;LAFB,CD;NORM,True,False,mixed_normal_abnormal,True,,1,0,0,1,0

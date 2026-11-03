@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-31",
+  "model": "Dilated CNN / dilated_1000",
+  "seed": 42,
+  "checkpoint_epoch": 28,
+  "inference_device": "cpu",
+  "inference_batch_size": 16,
+  "source_git_commit": "0e55935eb55b6b8361cf548332c99a52630833c8",
+  "files": {
+    "best_model.pth": "e6cfd066ab8c88f1e37d5635beff7df2c3606509d0e1455392dab6642d8c6a64",
+    "ptbxl_100hz_1000records.npz": "2828f1949a6c5205de243cf304afc47faabc52d55021c7b9120f19d6309662d6",
+    "ecg_for_classification.npz": "a92b050d4cac82df58e0f8e2217caf4cd3df8aa25a25eea4eeceed2bfdb724ed"
+  },
+  "array_shapes": {
+    "lead_i": [
+      998,
+      1000,
+      1
+    ],
+    "actual_12lead": [
+      998,
+      1000,
+      12
+    ],
+    "reconstructed_12lead": [
+      998,
+      1000,
+      12
+    ],
+    "ecg_id": [
+      998
+    ],
+    "patient_id": [
+      998
+    ],
+    "split": [
+      998
+    ],
+    "lead_names": [
+      12
+    ],
+    "sampling_rate_hz": [],
+    "voltage_unit": []
+  },
+  "split_counts": {
+    "test": 100,
+    "train": 798,
+    "validation": 100
+  },
+  "cross_split_patient_overlap": {
+    "train/validation": 0,
+    "train/test": 0,
+    "validation/test": 0
+  },
+  "finite_arrays": true,
+  "original_data_and_labels_matched": true,
+  "validation_11lead_MAE_mV": 0.09395702928304672,
+  "validation_11lead_MSE_mV2": 0.03842027112841606,
+  "excluded_train_ecg_ids": [
+    421,
+    710
+  ],
+  "sampling_rate_hz": 100,
+  "unit": "mV",
+  "lead_names": [
+    "I",
+    "II",
+    "III",
+    "AVR",
+    "AVL",
+    "AVF",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "note": "Classification labels remain exploratory; review flags and final target rules must be handled before classifier training."
+}

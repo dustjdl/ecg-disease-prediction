@@ -1,0 +1,41 @@
+﻿cohort,split,class,name_ko,record_count,total_records,percent
+all_1000,all,NORM,정상 진단군,547,1000,54.7
+all_1000,all,MI,심근경색 진단군,183,1000,18.3
+all_1000,all,STTC,ST-T 변화 진단군,217,1000,21.7
+all_1000,all,CD,전도장애 진단군,195,1000,19.5
+all_1000,all,HYP,비대 진단군,98,1000,9.8
+all_1000,train,NORM,정상 진단군,449,800,56.12
+all_1000,train,MI,심근경색 진단군,136,800,17.0
+all_1000,train,STTC,ST-T 변화 진단군,165,800,20.62
+all_1000,train,CD,전도장애 진단군,160,800,20.0
+all_1000,train,HYP,비대 진단군,77,800,9.62
+all_1000,validation,NORM,정상 진단군,48,100,48.0
+all_1000,validation,MI,심근경색 진단군,28,100,28.0
+all_1000,validation,STTC,ST-T 변화 진단군,26,100,26.0
+all_1000,validation,CD,전도장애 진단군,16,100,16.0
+all_1000,validation,HYP,비대 진단군,13,100,13.0
+all_1000,test,NORM,정상 진단군,50,100,50.0
+all_1000,test,MI,심근경색 진단군,19,100,19.0
+all_1000,test,STTC,ST-T 변화 진단군,26,100,26.0
+all_1000,test,CD,전도장애 진단군,19,100,19.0
+all_1000,test,HYP,비대 진단군,8,100,8.0
+analysis_998,all,NORM,정상 진단군,545,998,54.61
+analysis_998,all,MI,심근경색 진단군,183,998,18.34
+analysis_998,all,STTC,ST-T 변화 진단군,217,998,21.74
+analysis_998,all,CD,전도장애 진단군,195,998,19.54
+analysis_998,all,HYP,비대 진단군,98,998,9.82
+analysis_998,train,NORM,정상 진단군,447,798,56.02
+analysis_998,train,MI,심근경색 진단군,136,798,17.04
+analysis_998,train,STTC,ST-T 변화 진단군,165,798,20.68
+analysis_998,train,CD,전도장애 진단군,160,798,20.05
+analysis_998,train,HYP,비대 진단군,77,798,9.65
+analysis_998,validation,NORM,정상 진단군,48,100,48.0
+analysis_998,validation,MI,심근경색 진단군,28,100,28.0
+analysis_998,validation,STTC,ST-T 변화 진단군,26,100,26.0
+analysis_998,validation,CD,전도장애 진단군,16,100,16.0
+analysis_998,validation,HYP,비대 진단군,13,100,13.0
+analysis_998,test,NORM,정상 진단군,50,100,50.0
+analysis_998,test,MI,심근경색 진단군,19,100,19.0
+analysis_998,test,STTC,ST-T 변화 진단군,26,100,26.0
+analysis_998,test,CD,전도장애 진단군,19,100,19.0
+analysis_998,test,HYP,비대 진단군,8,100,8.0
