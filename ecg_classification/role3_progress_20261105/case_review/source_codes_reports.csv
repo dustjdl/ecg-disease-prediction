@@ -1,0 +1,6 @@
+ecg_id,scp_codes,report
+234,"{'ASMI': 100.0, 'IMI': 15.0, 'ANEUR': 100.0, '1AVB': 100.0, 'SR': 0.0}",sinusrhythmus a-v block i steillage    anteriorer infarkt  mit vorderwandaneurysma    inferiorer infarkt pathologische repolarisation
+520,"{'LAFB': 100.0, 'SR': 0.0}",sinusrytm extrem vÄnster el-axel vÄnster anteriort hemiblock
+633,"{'LAFB': 100.0, 'SR': 0.0}",sinus rhythm. left axis deviation. left anterior fascicular block.
+524,"{'LVH': 100.0, 'ISC_': 100.0, '1AVB': 100.0, 'LAO/LAE': 100.0}",sinustachykardi a-v block i misstÄnkt vÄnster kammarhypertrofi
+544,"{'IMI': 100.0, 'LVH': 100.0, 'ISC_': 100.0}",sinustachykardi hypertrofi av vÄnster fÖrmak vÄnster el-axel ospecifikt skÄnkelblock vÄnster kammarhypertrofi
