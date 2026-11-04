@@ -1,0 +1,10 @@
+task,input,seed,split,ecg_id,patient_id,label,eligible,target,probability,predicted_label,threshold
+multilabel,A,42,validation,544,13772,CD,True,0.0,0.633678197861,1,0.38
+multilabel,B,42,validation,544,13772,CD,True,0.0,0.921829283237,1,0.65
+multilabel,C,42,validation,544,13772,CD,True,0.0,0.72051692009,1,0.69
+multilabel,A,43,validation,544,13772,CD,True,0.0,0.706395626068,1,0.44
+multilabel,B,43,validation,544,13772,CD,True,0.0,0.983861863613,1,0.67
+multilabel,C,43,validation,544,13772,CD,True,0.0,0.764712810516,1,0.5
+multilabel,A,44,validation,544,13772,CD,True,0.0,0.800637722015,1,0.54
+multilabel,B,44,validation,544,13772,CD,True,0.0,0.991040289402,1,0.81
+multilabel,C,44,validation,544,13772,CD,True,0.0,0.741005599499,1,0.46
