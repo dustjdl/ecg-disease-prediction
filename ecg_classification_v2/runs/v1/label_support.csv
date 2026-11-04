@@ -1,0 +1,16 @@
+﻿split,label,n_eligible,positive
+train,NORM,796,447
+train,MI,796,136
+train,STTC,796,165
+train,CD,796,160
+train,HYP,796,77
+validation,NORM,96,48
+validation,MI,96,28
+validation,STTC,96,26
+validation,CD,96,16
+validation,HYP,96,13
+test,NORM,98,50
+test,MI,98,19
+test,STTC,98,26
+test,CD,98,19
+test,HYP,98,8

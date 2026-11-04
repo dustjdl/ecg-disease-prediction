@@ -1,0 +1,16 @@
+split,label,all_records,supervised,v1_positive,v2_positive
+train,NORM,798,796,447,434
+train,MI,798,796,136,136
+train,STTC,798,796,165,165
+train,CD,798,796,160,160
+train,HYP,798,796,77,77
+validation,NORM,100,96,48,48
+validation,MI,100,96,28,28
+validation,STTC,100,96,26,26
+validation,CD,100,96,16,16
+validation,HYP,100,96,13,13
+test,NORM,100,98,50,47
+test,MI,100,98,19,19
+test,STTC,100,98,26,26
+test,CD,100,98,19,19
+test,HYP,100,98,8,8

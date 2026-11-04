@@ -1,0 +1,9 @@
+# CPU build; same public versions as historical saved environment.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.13.0+cpu
+numpy==2.5.3
+pandas==3.0.6
+matplotlib==3.11.2
+scikit-learn==1.9.1
+wfdb==4.3.1
+requests==2.34.2

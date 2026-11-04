@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "paired_models": 18,
+  "same_architecture_hyperparameters_ids_normalizers_training_order": true,
+  "differing_training_factor": "label policy only; resulting class weights/checkpoints/thresholds may change"
+}

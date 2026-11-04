@@ -1,0 +1,312 @@
+{
+  "frozen_at_kst": "2026-11-05T06:58:56.509238+09:00",
+  "config_sha256": "20639581e358b975b87bff9dcdb23ca78e1e2ebc32772e30b31d1d61c1aa4242",
+  "models": [
+    {
+      "task": "multilabel",
+      "input": "A",
+      "seed": 42,
+      "best_epoch": 23,
+      "best_validation_loss": 0.7840856909751892,
+      "thresholds": [
+        0.27,
+        0.54,
+        0.59,
+        0.44,
+        0.73
+      ],
+      "checkpoint_sha256": "481b924f6b106e0673c8ad0778ba29b44f441fd83e996b2f488254565cd63e77",
+      "thresholds_sha256": "de52390cd5ea14ec686445e751e5927e168707ebe67d6de9e717a67dd9f29412",
+      "training_seconds": 13.228775118999692,
+      "path": "models/multilabel/A/seed_42",
+      "selected_at_kst": "2026-11-05T06:55:02.406604+09:00"
+    },
+    {
+      "task": "multilabel",
+      "input": "B",
+      "seed": 42,
+      "best_epoch": 12,
+      "best_validation_loss": 0.6143643856048584,
+      "thresholds": [
+        0.65,
+        0.55,
+        0.44,
+        0.59,
+        0.87
+      ],
+      "checkpoint_sha256": "b93fcf90d89ddaa2d12987597d59d07b3933e53ef06da37247ed165f15541b82",
+      "thresholds_sha256": "4111ad3c128a285e6c15ddf3ba124ad30099c419858704c23bd93c19613196c9",
+      "training_seconds": 13.58744677499999,
+      "path": "models/multilabel/B/seed_42",
+      "selected_at_kst": "2026-11-05T06:55:16.092106+09:00"
+    },
+    {
+      "task": "multilabel",
+      "input": "C",
+      "seed": 42,
+      "best_epoch": 13,
+      "best_validation_loss": 0.7591846585273743,
+      "thresholds": [
+        0.26,
+        0.52,
+        0.61,
+        0.72,
+        0.83
+      ],
+      "checkpoint_sha256": "844a5d1399cdcb07f085be6395dfde43ad58fa150e4a5d21f63e0de979a4c5b9",
+      "thresholds_sha256": "8d457f861964928846659d24f56fddfc918cc98fef3ec101b8648142821a32eb",
+      "training_seconds": 12.931153794999773,
+      "path": "models/multilabel/C/seed_42",
+      "selected_at_kst": "2026-11-05T06:55:29.115288+09:00"
+    },
+    {
+      "task": "multilabel",
+      "input": "A",
+      "seed": 43,
+      "best_epoch": 12,
+      "best_validation_loss": 0.7937583923339844,
+      "thresholds": [
+        0.36,
+        0.47,
+        0.58,
+        0.59,
+        0.72
+      ],
+      "checkpoint_sha256": "b7e869e58a6e30441eba541947a83562c1f9c7e800a0245059b980681fc544a8",
+      "thresholds_sha256": "5c0d4282f2bdf3208d47a0720f686eb4dd896e2da202e2fa864656cf19453ea9",
+      "training_seconds": 11.911041753999598,
+      "path": "models/multilabel/A/seed_43",
+      "selected_at_kst": "2026-11-05T06:55:41.033424+09:00"
+    },
+    {
+      "task": "multilabel",
+      "input": "B",
+      "seed": 43,
+      "best_epoch": 11,
+      "best_validation_loss": 0.6778749823570251,
+      "thresholds": [
+        0.36,
+        0.68,
+        0.45,
+        0.48,
+        0.75
+      ],
+      "checkpoint_sha256": "52c9a1cbe7f19075e417745748f4ccd97f5f08aad82c12d1d42beb289a41acda",
+      "thresholds_sha256": "48a1e2b3b062c703ab3c63b8bcbec92d32c4489206e7d5fdf3a55bafbdb89dc8",
+      "training_seconds": 13.416907324999556,
+      "path": "models/multilabel/B/seed_43",
+      "selected_at_kst": "2026-11-05T06:55:54.534969+09:00"
+    },
+    {
+      "task": "multilabel",
+      "input": "C",
+      "seed": 43,
+      "best_epoch": 10,
+      "best_validation_loss": 0.7410311102867126,
+      "thresholds": [
+        0.42,
+        0.46,
+        0.35,
+        0.69,
+        0.8
+      ],
+      "checkpoint_sha256": "c73f86bea2e3c0aba87e9857c751180e4d94f647d14e040eb5223882bc1aa011",
+      "thresholds_sha256": "b9ebdadf67b4714524988e9810c54f014c7c7b46f41b4bedbbc14795bd8d05fc",
+      "training_seconds": 13.876911578000545,
+      "path": "models/multilabel/C/seed_43",
+      "selected_at_kst": "2026-11-05T06:56:08.497035+09:00"
+    },
+    {
+      "task": "multilabel",
+      "input": "A",
+      "seed": 44,
+      "best_epoch": 19,
+      "best_validation_loss": 0.7847615480422974,
+      "thresholds": [
+        0.27,
+        0.52,
+        0.54,
+        0.5,
+        0.67
+      ],
+      "checkpoint_sha256": "bf00e9a4d7bc01e38a7cdfbf59c3a26947e03cd8f60ce291c1b437e37f8becd0",
+      "thresholds_sha256": "10b6e8c57abc1cfeb889368ff95cbe82e40a0bce23f9fac74edaa69a53c34263",
+      "training_seconds": 11.963633797000512,
+      "path": "models/multilabel/A/seed_44",
+      "selected_at_kst": "2026-11-05T06:56:20.468450+09:00"
+    },
+    {
+      "task": "multilabel",
+      "input": "B",
+      "seed": 44,
+      "best_epoch": 10,
+      "best_validation_loss": 0.5906067490577698,
+      "thresholds": [
+        0.49,
+        0.57,
+        0.6,
+        0.81,
+        0.83
+      ],
+      "checkpoint_sha256": "5714722a29d0397fe037b5bd5a7d5bad8d78130f26f1a96f640d61bba493a120",
+      "thresholds_sha256": "9b3538d617e708fdf5d054cc43e1453c6f315b0f7bebd3a5ef5d558753fae733",
+      "training_seconds": 14.504837851000048,
+      "path": "models/multilabel/B/seed_44",
+      "selected_at_kst": "2026-11-05T06:56:35.074524+09:00"
+    },
+    {
+      "task": "multilabel",
+      "input": "C",
+      "seed": 44,
+      "best_epoch": 13,
+      "best_validation_loss": 0.7644321322441101,
+      "thresholds": [
+        0.68,
+        0.5,
+        0.5,
+        0.5,
+        0.67
+      ],
+      "checkpoint_sha256": "8fa31b48973bcb224afc3d0210f2ac546977f45f850707daf15c74f9f9873f45",
+      "thresholds_sha256": "d42de32156d709c8ec69728ccc505313c0b2318874a913df3026142aa9c50f3b",
+      "training_seconds": 14.207342138000058,
+      "path": "models/multilabel/C/seed_44",
+      "selected_at_kst": "2026-11-05T06:56:49.368298+09:00"
+    },
+    {
+      "task": "binary",
+      "input": "A",
+      "seed": 42,
+      "best_epoch": 15,
+      "best_validation_loss": 0.4902336895465851,
+      "thresholds": [
+        0.26
+      ],
+      "checkpoint_sha256": "3f7c8847c1facea995e324f55240c3b9a92bee6deae96d334556e51c8ab5cb07",
+      "thresholds_sha256": "1cf2c320f30efef3f02327a9f87edc305504db7b19ba7f6239263ae69e967d8f",
+      "training_seconds": 12.718875444999867,
+      "path": "models/binary/A/seed_42",
+      "selected_at_kst": "2026-11-05T06:57:02.094261+09:00"
+    },
+    {
+      "task": "binary",
+      "input": "B",
+      "seed": 42,
+      "best_epoch": 7,
+      "best_validation_loss": 0.36317527294158936,
+      "thresholds": [
+        0.53
+      ],
+      "checkpoint_sha256": "05df7af6f21e54382291f06e4296c2b32d9f0620c4fc8082c9571504a76cffd4",
+      "thresholds_sha256": "8acf0c370e037adba756993fcea7e1b03b131912389424f5af712e8f32f5aa2d",
+      "training_seconds": 15.324793049000618,
+      "path": "models/binary/B/seed_42",
+      "selected_at_kst": "2026-11-05T06:57:17.524171+09:00"
+    },
+    {
+      "task": "binary",
+      "input": "C",
+      "seed": 42,
+      "best_epoch": 13,
+      "best_validation_loss": 0.42162010073661804,
+      "thresholds": [
+        0.22
+      ],
+      "checkpoint_sha256": "e54ed539fb69c48623eac58ccc14f6b137f37e5a03d03d28c4d6ef5922210209",
+      "thresholds_sha256": "70ceb03898aa5adc8f6cd770008ae27700e9ec41c55c1e6722e12c2e962f2f03",
+      "training_seconds": 14.740730588000588,
+      "path": "models/binary/C/seed_42",
+      "selected_at_kst": "2026-11-05T06:57:32.349352+09:00"
+    },
+    {
+      "task": "binary",
+      "input": "A",
+      "seed": 43,
+      "best_epoch": 16,
+      "best_validation_loss": 0.46090057492256165,
+      "thresholds": [
+        0.34
+      ],
+      "checkpoint_sha256": "870f686c59bd4e4e900745acaacdbf60b00fcb07807ffa36f29ed63e96d8c93c",
+      "thresholds_sha256": "33fe881515f48e6870200c46b1e7be48b154de2adc4c4954d065d0edf7c98ba9",
+      "training_seconds": 13.331585522999376,
+      "path": "models/binary/A/seed_43",
+      "selected_at_kst": "2026-11-05T06:57:45.688339+09:00"
+    },
+    {
+      "task": "binary",
+      "input": "B",
+      "seed": 43,
+      "best_epoch": 10,
+      "best_validation_loss": 0.33973661065101624,
+      "thresholds": [
+        0.47
+      ],
+      "checkpoint_sha256": "7f76b3abc5fee870f34d6bf3776fc875934c713c2ca2a60865b292cebf5d5107",
+      "thresholds_sha256": "a7a51e4373b298b57f3ed2cd58be70fd93ec04f285f2cee8887c440986720e52",
+      "training_seconds": 15.250316612999995,
+      "path": "models/binary/B/seed_43",
+      "selected_at_kst": "2026-11-05T06:58:01.039283+09:00"
+    },
+    {
+      "task": "binary",
+      "input": "C",
+      "seed": 43,
+      "best_epoch": 11,
+      "best_validation_loss": 0.39386168122291565,
+      "thresholds": [
+        0.47
+      ],
+      "checkpoint_sha256": "98fb5b8c7e50a1e422d91cba04b93e8e92fc87d2cb0778f3092701d9539e45c0",
+      "thresholds_sha256": "422c1b4689e2351d73e481773274b410f7c4fe8471c0155422d3a7e63cd44389",
+      "training_seconds": 13.475317870000254,
+      "path": "models/binary/C/seed_43",
+      "selected_at_kst": "2026-11-05T06:58:14.599344+09:00"
+    },
+    {
+      "task": "binary",
+      "input": "A",
+      "seed": 44,
+      "best_epoch": 16,
+      "best_validation_loss": 0.4970787465572357,
+      "thresholds": [
+        0.38
+      ],
+      "checkpoint_sha256": "40e40751c7749f6af5f1acb1eb1da06721717a3e2ea8269dbae541bde5fdd81f",
+      "thresholds_sha256": "4cec72502f786834abfd240d0c84a54c8b11aafbbbd5874530cef3bc44b1d26b",
+      "training_seconds": 12.795186749000095,
+      "path": "models/binary/A/seed_44",
+      "selected_at_kst": "2026-11-05T06:58:27.402331+09:00"
+    },
+    {
+      "task": "binary",
+      "input": "B",
+      "seed": 44,
+      "best_epoch": 9,
+      "best_validation_loss": 0.366080641746521,
+      "thresholds": [
+        0.44
+      ],
+      "checkpoint_sha256": "be3332fea3943415c103099b87086255654313d00fe7f116fe37576f8fb269de",
+      "thresholds_sha256": "b6e1bcb853b196765879803ea018bc27d08b5ea591b796c8cda027937ce4ae58",
+      "training_seconds": 14.183480911000515,
+      "path": "models/binary/B/seed_44",
+      "selected_at_kst": "2026-11-05T06:58:41.670189+09:00"
+    },
+    {
+      "task": "binary",
+      "input": "C",
+      "seed": 44,
+      "best_epoch": 13,
+      "best_validation_loss": 0.4394359290599823,
+      "thresholds": [
+        0.45
+      ],
+      "checkpoint_sha256": "6d005d22d308847fda9f781d31a2d09f8bb376a25c5128c9ba9ba59d4220bcb7",
+      "thresholds_sha256": "9bacd79baac070684fcb387db1587f4eab25b7b5b3f6c66b5e250ced53f85133",
+      "training_seconds": 14.756452008999986,
+      "path": "models/binary/C/seed_44",
+      "selected_at_kst": "2026-11-05T06:58:56.508843+09:00"
+    }
+  ]
+}

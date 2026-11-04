@@ -1,0 +1,41 @@
+{
+  "started_at_kst": "2026-11-05T06:54:49.108525+09:00",
+  "protocol": {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs": 40,
+    "batch_size": 32,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.2,
+    "loss": "BCEWithLogitsLoss with train-only neg/pos weights",
+    "checkpoint_selection": "first strictly lowest weighted validation BCE in 40 fixed epochs",
+    "threshold_selection": "per output maximize validation F1 on 0.05..0.95 step .01; ties closest to .5, then higher",
+    "normalization": "per-input/per-channel train-eligible population mean and SD over records/time; no record centering/filtering",
+    "unclassified": "exclude from supervised loss and metrics; preserve split and save predictions with NA targets",
+    "multilabel_mixed": "v2 disease positive forces NORM=0; disease labels unchanged",
+    "binary": "any disease MI/STTC/CD/HYP positive, NORM-only negative; mixed positive; unclassified excluded",
+    "test_policy": "finish all 18 models and lock all thresholds/checkpoints before any test probability/metric calculation",
+    "architecture": "Conv1d(C,32,7,stride=2,pad=3)-ReLU-Conv1d(32,64,5,2,2)-ReLU-Conv1d(64,128,5,2,2)-ReLU; global mean+max; Linear(256,64)-ReLU-Dropout(.2)-Linear(64,outputs)",
+    "AP_definition": "AUPRC = non-interpolated average precision (sklearn.average_precision_score), not trapezoidal PR area",
+    "seed_interpretation": "same records/splits/reconstruction NPZ repeated; SD ddof=1, not independent cohorts"
+  },
+  "policy": "v2",
+  "device": "cpu",
+  "versions": {
+    "torch": "2.13.0+cpu",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "sklearn": "1.9.1"
+  },
+  "code_sha256": "ba6f63644195a3a179da4fda959855107a1aeb2542ad463c34848be5bd5d7e0e",
+  "adapter_sha256": "5778ba1abb0e4de42de7399b86d13405057e6109d7ccbe93f54654f2080e30c2",
+  "recovered_data_sha256": "0043d2452b4a7fa9eaa80a723b6066505b267075b0c4d78f683ce851d0166b31",
+  "reference_sha256": "c8b1ffe2cffd5e851e71d5c2ee4619206beb0cd6367024b5667e1cd0944072e9",
+  "v2_label_sha256": "edd4a7ba103ef89e8b805f61b73d6fbf77289dca3b868b871dbc6446e240738b",
+  "historical_config_unchanged": true
+}

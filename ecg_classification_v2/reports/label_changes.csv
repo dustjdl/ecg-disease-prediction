@@ -1,0 +1,17 @@
+ecg_id,patient_id,split,label,v1,v2
+291,4830,train,NORM,1,0
+236,19277,train,NORM,1,0
+362,13598,train,NORM,1,0
+882,3906,train,NORM,1,0
+1137,2978,train,NORM,1,0
+235,15405,train,NORM,1,0
+586,19924,train,NORM,1,0
+709,681,train,NORM,1,0
+420,3406,train,NORM,1,0
+648,5031,train,NORM,1,0
+1042,499,train,NORM,1,0
+1149,3867,train,NORM,1,0
+770,12935,train,NORM,1,0
+218,13925,test,NORM,1,0
+478,6312,test,NORM,1,0
+726,3280,test,NORM,1,0

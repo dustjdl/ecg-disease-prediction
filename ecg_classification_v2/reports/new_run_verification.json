@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "trained_models": 18,
+  "epochs_each": 40,
+  "verified_per_label_metric_rows": 162,
+  "checkpoint_and_threshold_hashes_match_lock": true,
+  "first_minimum_validation_checkpoint": true,
+  "excluded_records_targets_NA": true,
+  "training_order_shared_by_inputs": true
+}
