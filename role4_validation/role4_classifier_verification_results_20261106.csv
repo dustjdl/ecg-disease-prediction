@@ -1,0 +1,13 @@
+task,kind,ecg_id,max_abs_prob_diff,decision_match,old_metadata_differences
+multilabel,A,9,2.98023223877e-08,True,label_policy_status;input_file_sha256
+multilabel,A,65,0,True,label_policy_status;input_file_sha256
+multilabel,B,9,1.86264514923e-08,True,label_policy_status;input_file_sha256
+multilabel,B,65,1.19209289551e-07,True,label_policy_status;input_file_sha256
+multilabel,C,9,2.98023223877e-08,True,label_policy_status;input_file_sha256
+multilabel,C,65,3.72529029846e-08,True,label_policy_status;input_file_sha256
+binary,A,9,5.96046447754e-08,True,label_policy_status;input_file_sha256
+binary,A,65,1.49011611938e-08,True,label_policy_status;input_file_sha256
+binary,B,9,0,True,label_policy_status;input_file_sha256
+binary,B,65,2.98023223877e-08,True,label_policy_status;input_file_sha256
+binary,C,9,2.23517417908e-08,True,label_policy_status;input_file_sha256
+binary,C,65,2.23517417908e-08,True,label_policy_status;input_file_sha256
