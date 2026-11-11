@@ -1,0 +1,12 @@
+{
+  "prediction_metrics_independently_recomputed": true,
+  "packaged_actual_data_equals_source": true,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "validation_records": 100,
+  "test_evaluated": false,
+  "packaged_npz_sha256": "3a5cb021db8d420a4c8a64c068d7f90222a120af91a110fcda85a408ba73700e"
+}
