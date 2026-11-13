@@ -1,0 +1,17 @@
+[
+  {
+    "seed": 42,
+    "checkpoint_predictions_exact": true,
+    "source_hashes_match_checkpoint": true
+  },
+  {
+    "seed": 43,
+    "checkpoint_predictions_exact": true,
+    "source_hashes_match_checkpoint": true
+  },
+  {
+    "seed": 44,
+    "checkpoint_predictions_exact": true,
+    "source_hashes_match_checkpoint": true
+  }
+]

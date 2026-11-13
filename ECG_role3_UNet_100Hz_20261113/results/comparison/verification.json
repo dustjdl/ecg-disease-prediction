@@ -1,0 +1,51 @@
+{
+  "checks": [
+    {
+      "model": "CNN",
+      "seed": 42,
+      "predictions_aligned": true,
+      "metrics_recomputed": true,
+      "best_epoch_checked": true
+    },
+    {
+      "model": "CNN",
+      "seed": 43,
+      "predictions_aligned": true,
+      "metrics_recomputed": true,
+      "best_epoch_checked": true
+    },
+    {
+      "model": "CNN",
+      "seed": 44,
+      "predictions_aligned": true,
+      "metrics_recomputed": true,
+      "best_epoch_checked": true
+    },
+    {
+      "model": "UNet",
+      "seed": 42,
+      "predictions_aligned": true,
+      "metrics_recomputed": true,
+      "best_epoch_checked": true
+    },
+    {
+      "model": "UNet",
+      "seed": 43,
+      "predictions_aligned": true,
+      "metrics_recomputed": true,
+      "best_epoch_checked": true
+    },
+    {
+      "model": "UNet",
+      "seed": 44,
+      "predictions_aligned": true,
+      "metrics_recomputed": true,
+      "best_epoch_checked": true
+    }
+  ],
+  "identical_protocol": true,
+  "identical_cohort": true,
+  "test_evaluated": false,
+  "waveforms_not_cherry_picked": true,
+  "records_improved_mse": 30
+}

@@ -1,0 +1,13 @@
+{
+  "npz_sha256": {
+    "actual": "3a5cb021db8d420a4c8a64c068d7f90222a120af91a110fcda85a408ba73700e",
+    "expected": "3a5cb021db8d420a4c8a64c068d7f90222a120af91a110fcda85a408ba73700e",
+    "match": true
+  },
+  "labels_sha256": {
+    "actual": "f5473ca876afe181c7a2df754a39f8f7a1fd4a1053d7e1c783e67f92de5a9515",
+    "expected": "f5473ca876afe181c7a2df754a39f8f7a1fd4a1053d7e1c783e67f92de5a9515",
+    "match": true
+  },
+  "note": "NPZ matches packaged actual-data hash, not original larger classification archive hash; see original baseline verification.json."
+}

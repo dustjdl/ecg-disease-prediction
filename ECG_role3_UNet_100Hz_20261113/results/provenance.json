@@ -1,0 +1,16 @@
+{
+  "team_repository": "https://github.com/dustjdl/ecg-disease-prediction",
+  "team_commit": "92872ee581917dda5221d4a229e5af8ecd69e60f",
+  "paper_repository": "https://github.com/simulamet-host/ecg_1_to_8",
+  "paper_commit": "e58de3b6ef63c7bb9ea9e6216a872840079e284c",
+  "checked_date_kst": "2026-11-13",
+  "python": "3.12.14",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "matplotlib": "3.10.8",
+  "device": "cpu",
+  "cuda_available": false,
+  "scope": "100Hz only; validation evaluation; no test inference",
+  "team_source_worktree_unchanged": true
+}

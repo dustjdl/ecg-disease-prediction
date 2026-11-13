@@ -1,0 +1,30 @@
+{
+  "package": "GitHub evidence subset",
+  "full_package": "ECG_role3_UNet_100Hz_20261113.zip",
+  "excluded_from_git": [
+    "MANIFEST_SHA256.json",
+    "data/ecg_actual_100hz_998.npz",
+    "results/cnn_control.log",
+    "results/cnn_control/seed_43/validation_predictions.npz",
+    "results/cnn_control/seed_43/best_model.pth",
+    "results/cnn_control/seed_42/validation_predictions.npz",
+    "results/cnn_control/seed_42/best_model.pth",
+    "results/cnn_control/seed_44/validation_predictions.npz",
+    "results/cnn_control/seed_44/best_model.pth",
+    "results/unet/seed_43/validation_predictions.npz",
+    "results/unet/seed_43/best_model.pth",
+    "results/unet/seed_42/validation_predictions.npz",
+    "results/unet/seed_42/best_model.pth",
+    "results/unet/seed_44/validation_predictions.npz",
+    "results/unet/seed_44/best_model.pth",
+    "code/__pycache__/compare_results.cpython-312.pyc",
+    "code/__pycache__/model.cpython-312.pyc",
+    "reference/__pycache__/model.cpython-312.pyc",
+    "reference/cnn_baseline/seed_43/validation_predictions.npz",
+    "reference/cnn_baseline/seed_43/best_model.pth",
+    "reference/cnn_baseline/seed_42/validation_predictions.npz",
+    "reference/cnn_baseline/seed_42/best_model.pth",
+    "reference/cnn_baseline/seed_44/validation_predictions.npz",
+    "reference/cnn_baseline/seed_44/best_model.pth"
+  ]
+}

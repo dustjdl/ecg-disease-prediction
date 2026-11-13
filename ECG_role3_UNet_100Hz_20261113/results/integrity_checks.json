@@ -1,0 +1,30 @@
+{
+  "packaged_data_labels_and_original_cnn_code_hashes_match": true,
+  "patient_split_disjoint_and_actual_targets_valid": true,
+  "forward_backward_and_input_guard": true,
+  "unet_parameters": 5237067,
+  "metric_known_answer": true,
+  "cnn_parameters": 31819,
+  "cnn_reproduction": [
+    {
+      "seed": 42,
+      "archived_checkpoint_forward_max_abs_diff": 0.0,
+      "retrained_prediction_max_abs_diff": 0.0,
+      "training_history_max_abs_diff": 0.0
+    },
+    {
+      "seed": 43,
+      "archived_checkpoint_forward_max_abs_diff": 0.0,
+      "retrained_prediction_max_abs_diff": 0.0,
+      "training_history_max_abs_diff": 0.0
+    },
+    {
+      "seed": 44,
+      "archived_checkpoint_forward_max_abs_diff": 0.0,
+      "retrained_prediction_max_abs_diff": 0.0,
+      "training_history_max_abs_diff": 0.0
+    }
+  ],
+  "test_evaluated": false,
+  "status": "passed"
+}

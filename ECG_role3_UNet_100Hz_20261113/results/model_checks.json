@@ -1,0 +1,8 @@
+{
+  "parameters": 5237067,
+  "forward_backward_finite": true,
+  "wrong_length_rejected": true,
+  "test_evaluated": false,
+  "torch": "2.15.0+cpu",
+  "cuda_available": false
+}

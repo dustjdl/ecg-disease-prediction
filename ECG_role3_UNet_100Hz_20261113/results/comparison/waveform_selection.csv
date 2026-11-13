@@ -1,0 +1,4 @@
+ecg_id,seed,selection
+8,42,three smallest validation ECG IDs; no performance selection
+10,42,three smallest validation ECG IDs; no performance selection
+17,42,three smallest validation ECG IDs; no performance selection

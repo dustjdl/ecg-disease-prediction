@@ -1,0 +1,32 @@
+{
+  "model": "model.ECGModel (original basic CNN, not Dilated)",
+  "sampling_rate_hz": 100,
+  "duration_seconds": 10,
+  "train": 798,
+  "validation": 100,
+  "test": 100,
+  "test_evaluated": false,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 30,
+  "batch_size": 8,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "loss": "mean MSE, all 11 estimated leads",
+  "preprocessing": "none; mV; no filtering, clipping, normalization or augmentation",
+  "checkpoint_selection": "lowest validation MSE, strict improvement",
+  "label_role": "v3 diagnosis groups for validation analysis only; no diagnostic labels in reconstruction loss",
+  "npz_sha256": "3a5cb021db8d420a4c8a64c068d7f90222a120af91a110fcda85a408ba73700e",
+  "labels_sha256": "f5473ca876afe181c7a2df754a39f8f7a1fd4a1053d7e1c783e67f92de5a9515",
+  "model_sha256": "1c9da7a5c1ab60f4b4bd936bf450dda1fba43f6c2f38fca384d68c8d85d436be",
+  "script_sha256": "7b30bf240449f86219db0d9cd702ffbdecd3f77b8288687f0052e21402ed4a97",
+  "python": "3.12.14",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.3.5",
+  "device": "cpu",
+  "threads": 4,
+  "note": "Exploratory 100Hz baseline for future matched U-Net / 500Hz comparisons; shared protocol not yet confirmed. No claimed improvement from v3 labels."
+}

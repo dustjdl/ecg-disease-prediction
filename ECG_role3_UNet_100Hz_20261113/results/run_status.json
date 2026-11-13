@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "actual_data_training": true,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs_each": 30,
+  "device": "cpu",
+  "evaluation_split": "validation",
+  "test_evaluated": false,
+  "sampling_rate_hz": 100,
+  "overall_unet_improved": false
+}

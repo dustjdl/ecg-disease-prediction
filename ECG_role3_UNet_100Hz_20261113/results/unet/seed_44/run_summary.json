@@ -1,0 +1,7 @@
+{
+  "seed": 44,
+  "best_epoch": 19,
+  "seconds": 135.4657397609999,
+  "validation_mse": 0.039904044248138454,
+  "test_evaluated": false
+}
