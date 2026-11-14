@@ -1,0 +1,47 @@
+RUN: /opt/pyvenv/bin/python /mnt/data/role4_100hz_final_submission/verify_saved_metrics.py /mnt/data/ecg-disease-prediction-main (8)(1).zip --output /mnt/data/role4_100hz_final_submission/independent_seed_metrics.csv
+      model  seed  n_ecg  n_rows  leads_ok  duplicate_rows  all_11_leads  rmse_sq_error      mae      mse  pooled_rmse
+cnn_control    42    100    1100      True               0          True   8.881784e-16 0.096458 0.039456     0.198634
+cnn_control    43    100    1100      True               0          True   8.881784e-16 0.096035 0.039195     0.197978
+cnn_control    44    100    1100      True               0          True   2.220446e-16 0.096521 0.039191     0.197967
+       unet    42    100    1100      True               0          True   4.440892e-16 0.097499 0.039726     0.199313
+       unet    43    100    1100      True               0          True   2.220446e-16 0.099217 0.041244     0.203087
+       unet    44    100    1100      True               0          True   4.440892e-16 0.097701 0.039904     0.199760
+PASS: same ECG IDs and lead keys across models
+RUN: /opt/pyvenv/bin/python /mnt/data/role4_100hz_final_submission/verify_cohort.py /mnt/data/ecg-disease-prediction-main (8)(1).zip
+PASS: identical 998-row cohort, no duplicated ECG IDs, no patient-level split overlap
+PASS: 798 train / 100 validation / 100 test; metrics IDs match validation split
+RUN: /opt/pyvenv/bin/python /mnt/data/role4_100hz_final_submission/verify_detailed.py
+columns metrics CNN ['seed', 'lead', 'n', 'best_epoch', 'mse_mV2', 'mae_mV', 'pooled_rmse_mV']
+columns metrics U-Net ['seed', 'lead', 'n', 'best_epoch', 'mse_mV2', 'mae_mV', 'pooled_rmse_mV']
+label cols ['ecg_id', 'patient_id', 'strat_fold', 'split', 'filename_lr', 'scp_codes', 'v3_supervised_eligible', 'v3_reconstruction_eligible', 'v3_review_required', 'v3_review_reasons', 'v3_optional_strict_STTC_mask', 'v3_label_status', 'source_NORM', 'source_MI', 'source_STTC', 'source_CD', 'source_HYP', 'target_v3_NORM', 'target_v3_MI', 'target_v3_STTC', 'target_v3_CD', 'target_v3_HYP', 'binary_target_v3', 'label_policy_version', 'sampling_rate_hz', 'duration_seconds', 'sample_count_per_lead', 'channels', 'unit', 'lead_names', 'wfdb_record_relative_path']
+group rows {'CD': 16, 'HYP': 13, 'MI': 28, 'NORM': 48, 'STTC': 26, 'UNCLASSIFIED': 4}
+lead winners lead MAE_winner
+ AVF        CNN
+ AVL        CNN
+ AVR        CNN
+  II        CNN
+ III        CNN
+  V1        CNN
+  V2      U-Net
+  V3      U-Net
+  V4        CNN
+  V5        CNN
+  V6        CNN
+groups        group  mae_mV_CNN  mae_mV_U-Net  mse_mV2_CNN  mse_mV2_U-Net MAE_winner
+          CD    0.115075      0.116039     0.043426       0.044672        CNN
+         HYP    0.145407      0.147867     0.088534       0.090898        CNN
+          MI    0.119399      0.121156     0.065853       0.066790        CNN
+        NORM    0.070152      0.071913     0.016114       0.017173        CNN
+        STTC    0.108492      0.111179     0.053203       0.054897        CNN
+UNCLASSIFIED    0.237052      0.238194     0.169593       0.167784        CNN
+max diff table                                     metric        
+independent v3 disease group calculation  mae_mV            8.326673e-17
+                                          mse_mV2           8.326673e-17
+                                          pooled_rmse_mV    5.065393e-16
+validation_groups_by_seed ALL_11          mae_mV            8.326673e-17
+                                          mse_mV2           6.245005e-17
+validation_metrics_by_seed                mae_mV            5.551115e-17
+                                          mse_mV2           5.551115e-17
+                                          pooled_rmse_mV    2.914335e-16
+PASS: All three saved-result audits completed. No raw-waveform inference or held-out test evaluation was performed.
+

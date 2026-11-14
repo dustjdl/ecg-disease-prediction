@@ -1,0 +1,82 @@
+model,table,metric,max_abs_difference,matched_rows
+CNN,validation_metrics_by_seed,mae_mV,5.551115123125783e-17,33
+CNN,validation_metrics_by_seed,mse_mV2,5.551115123125783e-17,33
+CNN,validation_metrics_by_seed,pooled_rmse_mV,2.914335439641036e-16,33
+U-Net,validation_metrics_by_seed,mae_mV,5.551115123125783e-17,33
+U-Net,validation_metrics_by_seed,mse_mV2,5.551115123125783e-17,33
+U-Net,validation_metrics_by_seed,pooled_rmse_mV,2.7755575615628914e-16,33
+CNN,validation_groups_by_seed ALL_11,mae_mV,2.7755575615628914e-17,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,2.0816681711721685e-17,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,0.0,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,0.0,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,0.0,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,4.163336342344337e-17,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,2.7755575615628914e-17,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,1.734723475976807e-17,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,4.163336342344337e-17,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,6.245004513516506e-17,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,2.7755575615628914e-17,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,0.0,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,5.551115123125783e-17,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,3.469446951953614e-17,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,2.7755575615628914e-17,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,2.7755575615628914e-17,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,4.163336342344337e-17,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,0.0,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,1.3877787807814457e-17,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,2.7755575615628914e-17,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,8.326672684688674e-17,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,6.938893903907228e-18,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,8.326672684688674e-17,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,2.7755575615628914e-17,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,2.7755575615628914e-17,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,3.469446951953614e-17,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,0.0,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,4.163336342344337e-17,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,6.938893903907228e-17,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,0.0,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,2.7755575615628914e-17,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,6.245004513516506e-17,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,0.0,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,2.7755575615628914e-17,11
+CNN,validation_groups_by_seed ALL_11,mae_mV,2.7755575615628914e-17,11
+CNN,validation_groups_by_seed ALL_11,mse_mV2,2.7755575615628914e-17,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,0.0,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,4.163336342344337e-17,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,0.0,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,1.3877787807814457e-17,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,1.3877787807814457e-17,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,2.7755575615628914e-17,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,1.3877787807814457e-17,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,6.938893903907228e-18,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,4.163336342344337e-17,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,4.163336342344337e-17,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,2.7755575615628914e-17,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,2.7755575615628914e-17,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,0.0,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,4.163336342344337e-17,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,5.551115123125783e-17,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,4.163336342344337e-17,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,2.7755575615628914e-17,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,4.163336342344337e-17,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,0.0,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,4.163336342344337e-17,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,4.163336342344337e-17,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,6.938893903907228e-18,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,5.551115123125783e-17,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,5.551115123125783e-17,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,4.163336342344337e-17,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,0.0,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,5.551115123125783e-17,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,1.3877787807814457e-17,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,1.3877787807814457e-17,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,1.3877787807814457e-17,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,4.163336342344337e-17,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,1.734723475976807e-17,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,0.0,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,6.938893903907228e-18,11
+U-Net,validation_groups_by_seed ALL_11,mae_mV,5.551115123125783e-17,11
+U-Net,validation_groups_by_seed ALL_11,mse_mV2,2.7755575615628914e-17,11
+CNN and U-Net,independent v3 disease group calculation,mae_mV,8.326672684688674e-17,432
+CNN and U-Net,independent v3 disease group calculation,mse_mV2,8.326672684688674e-17,432
+CNN and U-Net,independent v3 disease group calculation,pooled_rmse_mV,5.065392549852277e-16,432
